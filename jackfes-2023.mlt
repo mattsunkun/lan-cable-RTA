@@ -4949,6 +4949,7 @@
   <playlist id="background">
     <entry producer="black" in="00:00:00.000" out="00:14:45.240"/>
   </playlist>
+
   <producer id="producer25" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>

@@ -60,7 +60,7 @@
 
 
 def subtitle(strPlotPath:str, intSt:int)->None:
-    cstrOUT = "00:00:17.560"
+    cstrOUT = "00:00:5.000"
     with open(strPlotPath, "r") as fp:
         lsBox = []
         lsTimeline = []
@@ -74,6 +74,7 @@ def subtitle(strPlotPath:str, intSt:int)->None:
             if(line == "<EOF>"):
                 break
             elif(line == "<>"):
+                message = "\n".join(lsMessage)
                 lsBox.append(f"""
 <producer id="producer{intSt}" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
@@ -88,7 +89,7 @@ def subtitle(strPlotPath:str, intSt:int)->None:
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
     <filter id="filter{intSt}" out="{cstrOUT}">
-      <property name="argument">{"n".join(lsMessage)}</property>
+      <property name="argument">{message}</property>
       <property name="geometry">371 834 1505 211 1</property>
       <property name="family">Hiragino Sans</property>
       <property name="size">144</property>
