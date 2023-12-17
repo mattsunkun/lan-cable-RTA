@@ -4937,8 +4937,8 @@
     <entry producer="chain193" in="00:00:00.000" out="00:00:00.840"/>
     <entry producer="chain194" in="00:00:00.000" out="00:00:01.840"/>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:15:54.400">
-    <property name="length">00:15:54.440</property>
+  <producer id="black" in="00:00:00.000" out="00:15:45.760">
+    <property name="length">00:15:45.800</property>
     <property name="eof">pause</property>
     <property name="resource">0</property>
     <property name="aspect_ratio">1</property>
@@ -4947,7 +4947,7 @@
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:15:54.400"/>
+    <entry producer="black" in="00:00:00.000" out="00:15:45.760"/>
   </playlist>
   <producer id="producer100" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
@@ -4961,7 +4961,7 @@
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter100" out="00:00:05.000">
+    <filter id="filter100" out="00:00:05.560">
       <property name="argument">みんな大好きランケーブル作成RTA
 はっじまっるよー
 </property>
@@ -4987,7 +4987,7 @@
   <producer id="producer101" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -4996,7 +4996,7 @@
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter101" out="00:00:05.000">
+    <filter id="filter101" out="00:00:06.640">
       <property name="argument">まずは軽く自己紹介．
 うｐ主はまっつんくんという名前で活動しています．
 </property>
@@ -5022,7 +5022,7 @@
   <producer id="producer102" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5031,7 +5031,7 @@
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter102" out="00:00:05.000">
+    <filter id="filter102" out="00:00:17.640">
       <property name="argument">名古屋大学の小さな非公式サークル「アプリ開発団体jack」の
 大きな公式イベント，jackFes2023に参加できなく申し訳ありません．
 そのため，この動画を提供することで償いをしようと考えました．</property>
@@ -5057,7 +5057,7 @@
   <producer id="producer103" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5066,7 +5066,7 @@
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter103" out="00:00:05.000">
+    <filter id="filter103" out="00:00:05.360">
       <property name="argument">さて,最初に断っておくべきことが5つございます．
 
 </property>
@@ -5092,7 +5092,7 @@
   <producer id="producer104" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5101,7 +5101,7 @@
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter104" out="00:00:05.000">
+    <filter id="filter104" out="00:00:09.480">
       <property name="argument">1つ目に，
 この音声は“VOICEVOX:雨晴はう“を利用しています．
 製作者様に感謝です．</property>
@@ -5127,7 +5127,7 @@
   <producer id="producer105" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5136,7 +5136,7 @@
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter105" out="00:00:05.000">
+    <filter id="filter105" out="00:00:09.040">
       <property name="argument">2つ目に，
 うｐ主は動画編集が初めてなので，
 雑な部分が多いかもしれませんがご了承下さい．</property>
@@ -5162,7 +5162,7 @@
   <producer id="producer106" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5171,7 +5171,7 @@
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter106" out="00:00:05.000">
+    <filter id="filter106" out="00:00:09.080">
       <property name="argument">3つ目に，
 本RTAはガバガバレギュレーションの下，
 ガバガバに走っていますが，ご了承下さい．</property>
@@ -5206,7 +5206,7 @@
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter107" out="00:00:05.000">
+    <filter id="filter107" out="00:00:10.360">
       <property name="argument">4つ目に，
 専門知識において間違った点があるかもしれませんが，
 その際はコメント欄にてご指摘いただけるとありがたいです．</property>
@@ -5232,7 +5232,7 @@
   <producer id="producer108" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5241,7 +5241,7 @@
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter108" out="00:00:05.000">
+    <filter id="filter108" out="00:00:13.160">
       <property name="argument">5つ目に，
 本動画は，LANケーブルを作成するという，細々してて何やってるか
 分かりにくい動画になっていますが，その分解説でカバーするように努めます．</property>
@@ -5267,7 +5267,7 @@
   <producer id="producer109" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5276,7 +5276,7 @@
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter109" out="00:00:05.000">
+    <filter id="filter109" out="00:00:05.760">
       <property name="argument">さて，本編を始める前に少々時間がございますので，
 
 </property>
@@ -5302,7 +5302,7 @@
   <producer id="producer110" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5311,7 +5311,7 @@
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter110" out="00:00:05.000">
+    <filter id="filter110" out="00:00:15.640">
       <property name="argument">本動画において重要な言葉，「RTA」と「LANケーブル」について，
 視聴者兄貴姉貴たちの中には馴染のない方もいるかと思われるので，
 先にざっくり解説したいと思います．</property>
@@ -5337,7 +5337,7 @@
   <producer id="producer111" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5346,7 +5346,7 @@
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter111" out="00:00:05.000">
+    <filter id="filter111" out="00:00:05.320">
       <property name="argument">まず，RTAから．以下Wikipediaより引用
 
 </property>
@@ -5372,7 +5372,7 @@
   <producer id="producer112" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5381,7 +5381,7 @@
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter112" out="00:00:05.000">
+    <filter id="filter112" out="00:00:09.160">
       <property name="argument">コンピュータゲームにおけるやり込みの一種，「リアルタイムアタック」 (Real Time Attack)．
 ゲーム内部時間ではなく実際のプレイ時間で計測する．「RTA in Japan」など，
 集団運営によるイベントが実施されることもある．</property>
@@ -5407,7 +5407,7 @@
   <producer id="producer113" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5416,7 +5416,7 @@
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter113" out="00:00:05.000">
+    <filter id="filter113" out="00:00:07.400">
       <property name="argument">まあ，
 要は素早く何かを成功させるという意味です．
 （クソガバ解説）</property>
@@ -5451,7 +5451,7 @@
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter114" out="00:00:05.000">
+    <filter id="filter114" out="00:00:07.400">
       <property name="argument">今回はゲームではありませんが，
 LANケーブル(次に解説)を素早く作成する動画となっております．
 </property>
@@ -5477,7 +5477,7 @@ LANケーブル(次に解説)を素早く作成する動画となっておりま
   <producer id="producer115" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5486,7 +5486,7 @@ LANケーブル(次に解説)を素早く作成する動画となっておりま
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter115" out="00:00:05.000">
+    <filter id="filter115" out="00:00:05.760">
       <property name="argument">次に，LANケーブルという言葉
 以下Wikipediaより引用
 </property>
@@ -5512,7 +5512,7 @@ LANケーブル(次に解説)を素早く作成する動画となっておりま
   <producer id="producer116" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5521,10 +5521,12 @@ LANケーブル(次に解説)を素早く作成する動画となっておりま
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter116" out="00:00:05.000">
+    <filter id="filter116" out="00:00:15.520">
       <property name="argument">撚り対線（よりついせん）による平衡接続で100Ωの特性インピーダンスを持つ銅線ケーブル．
-特に4対8線で両端にオス型8P8C（通称RJ(Registered Jack)-45）コネクタのついたものが最も多く使用され，一般に「LANケーブル」と呼ばれる．
-圧接工具を使えば容易に任意の長さのケーブルにコネクタを接続することもできる．ケーブルには配線構成によっていくつかの種類がある．</property>
+特に4対8線で両端にオス型8P8C（通称RJ(Registered Jack)-45）コネクタのついたものが
+最も多く使用され，一般に「LANケーブル」と呼ばれる．
+圧接工具を使えば容易に任意の長さのケーブルにコネクタを接続することもできる．
+ケーブルには配線構成によっていくつかの種類がある．</property>
       <property name="geometry">371 834 1505 211 1</property>
       <property name="family">Hiragino Sans</property>
       <property name="size">144</property>
@@ -5547,7 +5549,7 @@ LANケーブル(次に解説)を素早く作成する動画となっておりま
   <producer id="producer117" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5556,7 +5558,7 @@ LANケーブル(次に解説)を素早く作成する動画となっておりま
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter117" out="00:00:05.000">
+    <filter id="filter117" out="00:00:06.600">
       <property name="argument">要は，WIFIの有線バージョンってことです
 （クソガバ解説）．
 </property>
@@ -5582,7 +5584,7 @@ LANケーブル(次に解説)を素早く作成する動画となっておりま
   <producer id="producer118" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5591,7 +5593,7 @@ LANケーブル(次に解説)を素早く作成する動画となっておりま
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter118" out="00:00:05.000">
+    <filter id="filter118" out="00:00:07.520">
       <property name="argument">また今回は，LANケーブルにRJ-45という規格を
 両端に作成するものとなっております．
 </property>
@@ -5617,7 +5619,7 @@ LANケーブル(次に解説)を素早く作成する動画となっておりま
   <producer id="producer119" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5626,7 +5628,7 @@ LANケーブル(次に解説)を素早く作成する動画となっておりま
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter119" out="00:00:05.000">
+    <filter id="filter119" out="00:00:09.320">
       <property name="argument">そして，配線はストレートケーブルとクロスケーブルの2種類ありますが
 今回はストレートケーブルを作成します．
 </property>
@@ -5652,7 +5654,7 @@ LANケーブル(次に解説)を素早く作成する動画となっておりま
   <producer id="producer120" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5661,7 +5663,7 @@ LANケーブル(次に解説)を素早く作成する動画となっておりま
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter120" out="00:00:05.000">
+    <filter id="filter120" out="00:00:09.240">
       <property name="argument">まだまだ，RTAを開始するまで時間がありそうなので，
 RTAの下準備について解説していきます．
 </property>
@@ -5687,7 +5689,7 @@ RTAの下準備について解説していきます．
   <producer id="producer121" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5696,7 +5698,7 @@ RTAの下準備について解説していきます．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter121" out="00:00:05.000">
+    <filter id="filter121" out="00:00:08.000">
       <property name="argument">このRTAでのタイマーストップはLANケーブルが
 正常に動作していることを確認できたタイミングです．
 </property>
@@ -5722,7 +5724,7 @@ RTAの下準備について解説していきます．
   <producer id="producer122" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5731,7 +5733,7 @@ RTAの下準備について解説していきます．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter122" out="00:00:05.000">
+    <filter id="filter122" out="00:00:07.600">
       <property name="argument">従って，LANケーブルの動作確認のため，
 LANケーブルのテスターを用意してください．
 </property>
@@ -5757,7 +5759,7 @@ LANケーブルのテスターを用意してください．
   <producer id="producer123" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5766,7 +5768,7 @@ LANケーブルのテスターを用意してください．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter123" out="00:00:05.000">
+    <filter id="filter123" out="00:00:11.000">
       <property name="argument">このテスターについて少し紹介．
 視聴者兄貴姉貴の中には当然のことのように知っている方も
 おられるかもしれませんが一応解説します，</property>
@@ -5792,7 +5794,7 @@ LANケーブルのテスターを用意してください．
   <producer id="producer124" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5801,7 +5803,7 @@ LANケーブルのテスターを用意してください．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter124" out="00:00:05.000">
+    <filter id="filter124" out="00:00:10.120">
       <property name="argument">実は我々がよく目にするLANケーブルには，
 先ほども少し触れたように，
 ストレートケーブルとクロスケーブルの2種類あります．</property>
@@ -5827,7 +5829,7 @@ LANケーブルのテスターを用意してください．
   <producer id="producer125" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5836,7 +5838,7 @@ LANケーブルのテスターを用意してください．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter125" out="00:00:05.000">
+    <filter id="filter125" out="00:00:11.400">
       <property name="argument">一見素人には同じに見えますが，モジュールの部分をよーく見てみると，
 両端の順番が同じものと，少し順番が違うものがあります．
 </property>
@@ -5862,7 +5864,7 @@ LANケーブルのテスターを用意してください．
   <producer id="producer126" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5871,7 +5873,7 @@ LANケーブルのテスターを用意してください．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter126" out="00:00:05.000">
+    <filter id="filter126" out="00:00:08.600">
       <property name="argument">ざっくり説明すると，
 順番が同じものがストレートケーブル，
 違うものがクロスケーブルとなります．</property>
@@ -5897,7 +5899,7 @@ LANケーブルのテスターを用意してください．
   <producer id="producer127" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5906,7 +5908,7 @@ LANケーブルのテスターを用意してください．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter127" out="00:00:05.000">
+    <filter id="filter127" out="00:00:09.040">
       <property name="argument">なので，このテスターにおいて，
 ストレートケーブルであればここが光り
 クロスケーブルであればここが光ります．</property>
@@ -5932,7 +5934,7 @@ LANケーブルのテスターを用意してください．
   <producer id="producer128" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5941,7 +5943,7 @@ LANケーブルのテスターを用意してください．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter128" out="00:00:05.000">
+    <filter id="filter128" out="00:00:09.680">
       <property name="argument">断線や，正しい配線がされていなければ，ここが光ります．
 今回はこの部分が光ったらタイマーストップします．
 </property>
@@ -5967,7 +5969,7 @@ LANケーブルのテスターを用意してください．
   <producer id="producer129" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -5976,7 +5978,7 @@ LANケーブルのテスターを用意してください．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter129" out="00:00:05.000">
+    <filter id="filter129" out="00:00:14.360">
       <property name="argument">さて，当然LANケーブル作成RTAなので，
 通常のUTPのLANケーブルの両端を切り落としといて下さい．
 UTPという単語については本編に入ったらまた解説します．</property>
@@ -6002,7 +6004,7 @@ UTPという単語については本編に入ったらまた解説します．</
   <producer id="producer130" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -6011,7 +6013,7 @@ UTPという単語については本編に入ったらまた解説します．</
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter130" out="00:00:05.000">
+    <filter id="filter130" out="00:00:12.240">
       <property name="argument">そして，RJ-45モジュールを両端につけるため，
 それを二つ用意してください．
 あと，ニッパーのようなものとかしめ工具のようなものも必要です．</property>
@@ -6037,7 +6039,7 @@ UTPという単語については本編に入ったらまた解説します．</
   <producer id="producer131" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -6046,7 +6048,7 @@ UTPという単語については本編に入ったらまた解説します．</
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter131" out="00:00:05.000">
+    <filter id="filter131" out="00:00:14.280">
       <property name="argument">これにて準備完了です．用意するものはこの通りです．
 テスター，切り落とされたLANケーブル，RJ-45モジュールｘ２，
 ニッパーのようなもの，かしめ工具のようなもの，だけです．</property>
@@ -6072,7 +6074,7 @@ UTPという単語については本編に入ったらまた解説します．</
   <producer id="producer132" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -6081,7 +6083,7 @@ UTPという単語については本編に入ったらまた解説します．</
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter132" out="00:00:05.000">
+    <filter id="filter132" out="00:00:14.360">
       <property name="argument">RTAのマイルストーンは簡単です．
 配線→長さを整える→モジュール取り付け→かしめる
 を両端で行い，最後にテストをするだけです．</property>
@@ -6107,7 +6109,7 @@ UTPという単語については本編に入ったらまた解説します．</
   <producer id="producer133" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -6142,7 +6144,7 @@ UTPという単語については本編に入ったらまた解説します．</
   <producer id="producer134" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -6177,7 +6179,7 @@ LANケーブルを手で触れた瞬間からタイマースタートです．
   <producer id="producer135" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -8746,39 +8748,40 @@ RTAの下準備について解説していきます．</property>
   <playlist id="playlist0">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">Transcript</property>
-    <entry producer="producer100" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer101" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer102" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer103" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer104" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer105" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer106" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer107" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer108" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer109" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer110" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer111" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer112" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer113" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer114" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer115" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer116" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer117" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer118" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer119" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer120" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer121" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer122" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer123" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer124" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer125" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer126" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer127" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer128" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer129" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer130" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer131" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer132" in="00:00:00.960" out="00:00:05.000"/>
+    <entry producer="producer100" in="00:00:00.960" out="00:00:05.560"/>
+    <entry producer="producer101" in="00:00:00.960" out="00:00:06.640"/>
+    <entry producer="producer102" in="00:00:00.960" out="00:00:17.640"/>
+    <entry producer="producer103" in="00:00:00.960" out="00:00:05.360"/>
+    <entry producer="producer104" in="00:00:00.960" out="00:00:09.480"/>
+    <entry producer="producer105" in="00:00:00.960" out="00:00:09.040"/>
+    <entry producer="producer106" in="00:00:00.960" out="00:00:09.080"/>
+    <entry producer="producer107" in="00:00:00.960" out="00:00:10.360"/>
+    <entry producer="producer108" in="00:00:00.960" out="00:00:13.160"/>
+    <entry producer="producer109" in="00:00:00.960" out="00:00:05.760"/>
+    <entry producer="producer110" in="00:00:00.960" out="00:00:15.640"/>
+    <entry producer="producer111" in="00:00:00.960" out="00:00:05.320"/>
+    <entry producer="producer112" in="00:00:00.960" out="00:00:09.160"/>
+    <entry producer="producer113" in="00:00:00.960" out="00:00:07.400"/>
+    <entry producer="producer114" in="00:00:00.960" out="00:00:07.400"/>
+    <entry producer="producer115" in="00:00:00.960" out="00:00:05.760"/>
+    <entry producer="producer116" in="00:00:00.960" out="00:00:15.520"/>
+    <blank length="00:00:00.040"/>
+    <entry producer="producer117" in="00:00:00.960" out="00:00:06.600"/>
+    <entry producer="producer118" in="00:00:00.960" out="00:00:07.520"/>
+    <entry producer="producer119" in="00:00:00.960" out="00:00:09.320"/>
+    <entry producer="producer120" in="00:00:00.960" out="00:00:09.240"/>
+    <entry producer="producer121" in="00:00:00.960" out="00:00:08.000"/>
+    <entry producer="producer122" in="00:00:00.960" out="00:00:07.600"/>
+    <entry producer="producer123" in="00:00:00.960" out="00:00:11.000"/>
+    <entry producer="producer124" in="00:00:00.960" out="00:00:10.120"/>
+    <entry producer="producer125" in="00:00:00.960" out="00:00:11.400"/>
+    <entry producer="producer126" in="00:00:00.960" out="00:00:08.600"/>
+    <entry producer="producer127" in="00:00:00.960" out="00:00:09.040"/>
+    <entry producer="producer128" in="00:00:00.960" out="00:00:09.680"/>
+    <entry producer="producer129" in="00:00:00.960" out="00:00:14.360"/>
+    <entry producer="producer130" in="00:00:00.960" out="00:00:12.240"/>
+    <entry producer="producer131" in="00:00:00.960" out="00:00:14.280"/>
+    <entry producer="producer132" in="00:00:00.960" out="00:00:14.360"/>
     <entry producer="producer133" in="00:00:00.960" out="00:00:05.000"/>
     <entry producer="producer134" in="00:00:00.960" out="00:00:05.000"/>
     <entry producer="producer135" in="00:00:00.960" out="00:00:05.000"/>
@@ -9134,6 +9137,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">503152b2dacedbee44c905375b126c37</property>
+    <property name="shotcut:caption">aaa_003_はっじまっるよー.wav</property>
   </chain>
   <chain id="chain198" out="00:00:01.800">
     <property name="length">00:00:01.840</property>
@@ -9178,6 +9182,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">3a67b1c5fff0c8c7ade7364ccf04baa1</property>
+    <property name="shotcut:caption">aaa_005_うぷぬしはまっつん….wav</property>
   </chain>
   <chain id="chain200" out="00:00:11.280">
     <property name="length">00:00:11.320</property>
@@ -9223,6 +9228,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">9e44d46f1c4e69c4af3bd121e8b9443d</property>
+    <property name="shotcut:caption">aaa_007_そのため，この動画….wav</property>
   </chain>
   <chain id="chain202" out="00:00:04.000">
     <property name="length">00:00:04.040</property>
@@ -9356,50 +9362,6 @@ RTAの下準備について解説していきます．</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">3083086c82841beffeee3c59bef31478</property>
   </chain>
-  <chain id="chain208" out="00:00:01.440">
-    <property name="length">00:00:01.480</property>
-    <property name="eof">pause</property>
-    <property name="resource">voice/aaa/aaa_014_intro.wav</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="meta.media.nb_streams">1</property>
-    <property name="meta.media.0.stream.type">audio</property>
-    <property name="meta.media.0.codec.sample_fmt">s16</property>
-    <property name="meta.media.0.codec.sample_rate">24000</property>
-    <property name="meta.media.0.codec.channels">1</property>
-    <property name="meta.media.0.codec.name">pcm_s16le</property>
-    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
-    <property name="meta.media.0.codec.bit_rate">384000</property>
-    <property name="seekable">1</property>
-    <property name="audio_index">0</property>
-    <property name="video_index">-1</property>
-    <property name="creation_time">2023-12-15T03:26:36</property>
-    <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">49ff71f39909e9407df2741a89c48ecb</property>
-  </chain>
-  <chain id="chain209" out="00:00:03.280">
-    <property name="length">00:00:03.320</property>
-    <property name="eof">pause</property>
-    <property name="resource">voice/aaa/aaa_015_アールティーエー-….wav</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="meta.media.nb_streams">1</property>
-    <property name="meta.media.0.stream.type">audio</property>
-    <property name="meta.media.0.codec.sample_fmt">s16</property>
-    <property name="meta.media.0.codec.sample_rate">24000</property>
-    <property name="meta.media.0.codec.channels">1</property>
-    <property name="meta.media.0.codec.name">pcm_s16le</property>
-    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
-    <property name="meta.media.0.codec.bit_rate">384000</property>
-    <property name="seekable">1</property>
-    <property name="audio_index">0</property>
-    <property name="video_index">-1</property>
-    <property name="creation_time">2023-12-15T03:26:36</property>
-    <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">65489741bd741111ae89a498d8bccc6e</property>
-  </chain>
   <chain id="chain210" out="00:00:04.400">
     <property name="length">00:00:04.440</property>
     <property name="eof">pause</property>
@@ -9421,6 +9383,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">d8edc67baac4ef45f9a7f205152fbd85</property>
+    <property name="shotcut:caption">aaa_016_さて，本編を始める….wav</property>
   </chain>
   <chain id="chain211" out="00:00:06.480">
     <property name="length">00:00:06.520</property>
@@ -9465,6 +9428,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">c0564ee04a3f44273b1a0edd4d6858d8</property>
+    <property name="shotcut:caption">aaa_018_しちょうもの兄貴姉….wav</property>
   </chain>
   <chain id="chain213" out="00:00:03.960">
     <property name="length">00:00:04.000</property>
@@ -9488,11 +9452,11 @@ RTAの下準備について解説していきます．</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">e22eab8ea878bfc2d929be38c167ba7c</property>
   </chain>
-  <chain id="chain214" out="00:00:04.480">
-    <property name="length">00:00:04.520</property>
+  <producer id="producer4" in="00:00:00.000" out="00:00:02.240">
+    <property name="length">00:00:02.280</property>
     <property name="eof">pause</property>
-    <property name="resource">voice/aaa/aaa_020_コンピュータゲーム….wav</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="resource">2:voice/aaa/aaa_020_コンピュータゲーム….wav</property>
+    <property name="aspect_ratio">1</property>
     <property name="meta.media.nb_streams">1</property>
     <property name="meta.media.0.stream.type">audio</property>
     <property name="meta.media.0.codec.sample_fmt">s16</property>
@@ -9504,17 +9468,22 @@ RTAの下準備について解説していきます．</property>
     <property name="seekable">1</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
-    <property name="creation_time">2023-12-15T03:26:36</property>
+    <property name="warp_speed">2</property>
+    <property name="warp_resource">voice/aaa/aaa_020_コンピュータゲーム….wav</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
     <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="xml">was here</property>
     <property name="shotcut:hash">05d80e8640f7de6b61155662caa6f2e0</property>
-  </chain>
-  <chain id="chain215" out="00:00:04.000">
-    <property name="length">00:00:04.040</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">aaa_020_コンピュータゲーム….wav (2x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="00:00:02.000">
+    <property name="length">00:00:02.040</property>
     <property name="eof">pause</property>
-    <property name="resource">voice/aaa/aaa_021_ゲーム内部時間では….wav</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="resource">2:voice/aaa/aaa_021_ゲーム内部時間では….wav</property>
+    <property name="aspect_ratio">1</property>
     <property name="meta.media.nb_streams">1</property>
     <property name="meta.media.0.stream.type">audio</property>
     <property name="meta.media.0.codec.sample_fmt">s16</property>
@@ -9526,17 +9495,22 @@ RTAの下準備について解説していきます．</property>
     <property name="seekable">1</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
-    <property name="creation_time">2023-12-15T03:26:36</property>
+    <property name="warp_speed">2</property>
+    <property name="warp_resource">voice/aaa/aaa_021_ゲーム内部時間では….wav</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
     <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="xml">was here</property>
     <property name="shotcut:hash">3b8779b28f63e060ae6b1f82c11890c5</property>
-  </chain>
-  <chain id="chain216" out="00:00:07.000">
-    <property name="length">00:00:07.040</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">aaa_021_ゲーム内部時間では….wav (2x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer6" in="00:00:00.000" out="00:00:03.480">
+    <property name="length">00:00:03.520</property>
     <property name="eof">pause</property>
-    <property name="resource">voice/aaa/aaa_022_「アールティーエー….wav</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="resource">2:voice/aaa/aaa_022_「アールティーエー….wav</property>
+    <property name="aspect_ratio">1</property>
     <property name="meta.media.nb_streams">1</property>
     <property name="meta.media.0.stream.type">audio</property>
     <property name="meta.media.0.codec.sample_fmt">s16</property>
@@ -9548,12 +9522,17 @@ RTAの下準備について解説していきます．</property>
     <property name="seekable">1</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
-    <property name="creation_time">2023-12-15T03:27:10</property>
+    <property name="warp_speed">2</property>
+    <property name="warp_resource">voice/aaa/aaa_022_「アールティーエー….wav</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
     <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="xml">was here</property>
     <property name="shotcut:hash">fd1509f0cedd836fe30284e2f5da3614</property>
-  </chain>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">aaa_022_「アールティーエー….wav (2x)</property>
+    <property name="xml">was here</property>
+  </producer>
   <chain id="chain217" out="00:00:06.040">
     <property name="length">00:00:06.080</property>
     <property name="eof">pause</property>
@@ -9575,6 +9554,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">2113b3f82fb264fceb164fe9688f87f9</property>
+    <property name="shotcut:caption">aaa_023_まあ，要は素早く何….wav</property>
   </chain>
   <chain id="chain218" out="00:00:06.040">
     <property name="length">00:00:06.080</property>
@@ -9641,12 +9621,13 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">4c4203394dfb95b93d2890bcc5e04e26</property>
+    <property name="shotcut:caption">aaa_026_以下Wikiped….wav</property>
   </chain>
-  <chain id="chain221" out="00:00:06.280">
-    <property name="length">00:00:06.320</property>
+  <producer id="producer7" in="00:00:00.000" out="00:00:03.120">
+    <property name="length">00:00:03.160</property>
     <property name="eof">pause</property>
-    <property name="resource">voice/aaa/aaa_027_（よりついせん）に….wav</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="resource">2:voice/aaa/aaa_027_（よりついせん）に….wav</property>
+    <property name="aspect_ratio">1</property>
     <property name="meta.media.nb_streams">1</property>
     <property name="meta.media.0.stream.type">audio</property>
     <property name="meta.media.0.codec.sample_fmt">s16</property>
@@ -9658,17 +9639,22 @@ RTAの下準備について解説していきます．</property>
     <property name="seekable">1</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
-    <property name="creation_time">2023-12-15T03:27:23</property>
+    <property name="warp_speed">2</property>
+    <property name="warp_resource">voice/aaa/aaa_027_（よりついせん）に….wav</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
     <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="xml">was here</property>
     <property name="shotcut:hash">44f1af362f7623e0af3c735e64933e8f</property>
-  </chain>
-  <chain id="chain222" out="00:00:12.320">
-    <property name="length">00:00:12.360</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">aaa_027_（よりついせん）に….wav (2x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer8" in="00:00:00.000" out="00:00:06.160">
+    <property name="length">00:00:06.200</property>
     <property name="eof">pause</property>
-    <property name="resource">voice/aaa/aaa_028_特に4対8線で両端….wav</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="resource">2:voice/aaa/aaa_028_特に4対8線で両端….wav</property>
+    <property name="aspect_ratio">1</property>
     <property name="meta.media.nb_streams">1</property>
     <property name="meta.media.0.stream.type">audio</property>
     <property name="meta.media.0.codec.sample_fmt">s16</property>
@@ -9680,17 +9666,22 @@ RTAの下準備について解説していきます．</property>
     <property name="seekable">1</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
-    <property name="creation_time">2023-12-15T03:27:32</property>
+    <property name="warp_speed">2</property>
+    <property name="warp_resource">voice/aaa/aaa_028_特に4対8線で両端….wav</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
     <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="xml">was here</property>
     <property name="shotcut:hash">f867ea90be642965597cece2dcedc434</property>
-  </chain>
-  <chain id="chain223" out="00:00:05.840">
-    <property name="length">00:00:05.880</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">aaa_028_特に4対8線で両端….wav (2x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer9" in="00:00:00.000" out="00:00:02.920">
+    <property name="length">00:00:02.960</property>
     <property name="eof">pause</property>
-    <property name="resource">voice/aaa/aaa_029_圧接工具を使えば容….wav</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="resource">2:voice/aaa/aaa_029_圧接工具を使えば容….wav</property>
+    <property name="aspect_ratio">1</property>
     <property name="meta.media.nb_streams">1</property>
     <property name="meta.media.0.stream.type">audio</property>
     <property name="meta.media.0.codec.sample_fmt">s16</property>
@@ -9702,17 +9693,22 @@ RTAの下準備について解説していきます．</property>
     <property name="seekable">1</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
-    <property name="creation_time">2023-12-15T03:27:24</property>
+    <property name="warp_speed">2</property>
+    <property name="warp_resource">voice/aaa/aaa_029_圧接工具を使えば容….wav</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
     <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="xml">was here</property>
     <property name="shotcut:hash">58f06f8e54447f41ed4504b84403b8ed</property>
-  </chain>
-  <chain id="chain224" out="00:00:03.760">
-    <property name="length">00:00:03.800</property>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">aaa_029_圧接工具を使えば容….wav (2x)</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer10" in="00:00:00.000" out="00:00:01.880">
+    <property name="length">00:00:01.920</property>
     <property name="eof">pause</property>
-    <property name="resource">voice/aaa/aaa_030_ケーブルには配線構….wav</property>
-    <property name="mlt_service">avformat-novalidate</property>
+    <property name="resource">2:voice/aaa/aaa_030_ケーブルには配線構….wav</property>
+    <property name="aspect_ratio">1</property>
     <property name="meta.media.nb_streams">1</property>
     <property name="meta.media.0.stream.type">audio</property>
     <property name="meta.media.0.codec.sample_fmt">s16</property>
@@ -9724,12 +9720,17 @@ RTAの下準備について解説していきます．</property>
     <property name="seekable">1</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
-    <property name="creation_time">2023-12-15T03:27:23</property>
+    <property name="warp_speed">2</property>
+    <property name="warp_resource">voice/aaa/aaa_030_ケーブルには配線構….wav</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
     <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="xml">was here</property>
     <property name="shotcut:hash">67aa18516153f987b2b4e895dd6fbd3e</property>
-  </chain>
+    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:caption">aaa_030_ケーブルには配線構….wav (2x)</property>
+    <property name="xml">was here</property>
+  </producer>
   <chain id="chain225" out="00:00:05.280">
     <property name="length">00:00:05.320</property>
     <property name="eof">pause</property>
@@ -9817,28 +9818,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">c10f66a41057b51b1b666f5822658fb9</property>
-  </chain>
-  <chain id="chain229" out="00:00:02.080">
-    <property name="length">00:00:02.120</property>
-    <property name="eof">pause</property>
-    <property name="resource">voice/aaa/aaa_035_アールティーエー-….wav</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="meta.media.nb_streams">1</property>
-    <property name="meta.media.0.stream.type">audio</property>
-    <property name="meta.media.0.codec.sample_fmt">s16</property>
-    <property name="meta.media.0.codec.sample_rate">24000</property>
-    <property name="meta.media.0.codec.channels">1</property>
-    <property name="meta.media.0.codec.name">pcm_s16le</property>
-    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
-    <property name="meta.media.0.codec.bit_rate">384000</property>
-    <property name="seekable">1</property>
-    <property name="audio_index">0</property>
-    <property name="video_index">-1</property>
-    <property name="creation_time">2023-12-15T03:27:32</property>
-    <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">7231692f9547599a580a770951377d3c</property>
+    <property name="shotcut:caption">aaa_034_今回はストレートケ….wav</property>
   </chain>
   <chain id="chain230" out="00:00:07.880">
     <property name="length">00:00:07.920</property>
@@ -9861,6 +9841,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">f53d59c16ef734eac7af8aa0f722f1db</property>
+    <property name="shotcut:caption">aaa_037_まだまだ，アールテ….wav</property>
   </chain>
   <chain id="chain231" out="00:00:06.640">
     <property name="length">00:00:06.680</property>
@@ -9949,6 +9930,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">208a5bf5a376aa88e6ecb6c92abde924</property>
+    <property name="shotcut:caption">aaa_041_視聴者兄貴姉貴の中….wav</property>
   </chain>
   <chain id="chain235" out="00:00:08.720">
     <property name="length">00:00:08.760</property>
@@ -10081,28 +10063,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">699d88ce6b3d682a198b333a43ce0a7b</property>
-  </chain>
-  <chain id="chain241" out="00:00:01.520">
-    <property name="length">00:00:01.560</property>
-    <property name="eof">pause</property>
-    <property name="resource">voice/aaa/aaa_048_tester.wav</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="meta.media.nb_streams">1</property>
-    <property name="meta.media.0.stream.type">audio</property>
-    <property name="meta.media.0.codec.sample_fmt">s16</property>
-    <property name="meta.media.0.codec.sample_rate">24000</property>
-    <property name="meta.media.0.codec.channels">1</property>
-    <property name="meta.media.0.codec.name">pcm_s16le</property>
-    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
-    <property name="meta.media.0.codec.bit_rate">384000</property>
-    <property name="seekable">1</property>
-    <property name="audio_index">0</property>
-    <property name="video_index">-1</property>
-    <property name="creation_time">2023-12-15T03:28:00</property>
-    <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">3764bdc7c9ce768c4aa37039b4d7fd11</property>
+    <property name="shotcut:caption">aaa_047_今回はこの部分が光….wav</property>
   </chain>
   <chain id="chain242" out="00:00:08.360">
     <property name="length">00:00:08.400</property>
@@ -10125,6 +10086,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">77ea091a406798afdfe0be000bcfcc40</property>
+    <property name="shotcut:caption">aaa_050_さて，当然LANケ….wav</property>
   </chain>
   <chain id="chain243" out="00:00:04.560">
     <property name="length">00:00:04.600</property>
@@ -10147,6 +10109,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">c5ca33a57f87aa153d0a57c1c3f38937</property>
+    <property name="shotcut:caption">aaa_051_ゆーてぃーぴーとい….wav</property>
   </chain>
   <chain id="chain244" out="00:00:06.200">
     <property name="length">00:00:06.240</property>
@@ -10169,28 +10132,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">5e0fbfd927145830b5c7684a835e2192</property>
-  </chain>
-  <chain id="chain245" out="00:00:01.000">
-    <property name="length">00:00:01.040</property>
-    <property name="eof">pause</property>
-    <property name="resource">voice/aaa/aaa_053_cut.wav</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="meta.media.nb_streams">1</property>
-    <property name="meta.media.0.stream.type">audio</property>
-    <property name="meta.media.0.codec.sample_fmt">s16</property>
-    <property name="meta.media.0.codec.sample_rate">24000</property>
-    <property name="meta.media.0.codec.channels">1</property>
-    <property name="meta.media.0.codec.name">pcm_s16le</property>
-    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
-    <property name="meta.media.0.codec.bit_rate">384000</property>
-    <property name="seekable">1</property>
-    <property name="audio_index">0</property>
-    <property name="video_index">-1</property>
-    <property name="creation_time">2023-12-15T03:28:09</property>
-    <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">a5ce62c382d61d0b0df78db74d685cc2</property>
+    <property name="shotcut:caption">aaa_052_そして，あーるじぇ….wav</property>
   </chain>
   <chain id="chain246" out="00:00:04.640">
     <property name="length">00:00:04.680</property>
@@ -10213,6 +10155,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">7afdc698d09ca829f7c45bab0530652f</property>
+    <property name="shotcut:caption">aaa_055_あと，ニッパーのよ….wav</property>
   </chain>
   <chain id="chain247" out="00:00:01.840">
     <property name="length">00:00:01.880</property>
@@ -10257,6 +10200,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">92de0f3642ffd019926bfab45fa97465</property>
+    <property name="shotcut:caption">aaa_057_用意するものはこの….wav</property>
   </chain>
   <chain id="chain249" out="00:00:00.720">
     <property name="length">00:00:00.760</property>
@@ -10279,6 +10223,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">52cada10a339388da531b10f5bd3e5b0</property>
+    <property name="shotcut:caption">aaa_058_テスター.wav</property>
   </chain>
   <chain id="chain250" out="00:00:01.800">
     <property name="length">00:00:01.840</property>
@@ -10301,6 +10246,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">cfc90225c92ed45fe609783c3fa3bf0e</property>
+    <property name="shotcut:caption">aaa_059_切り落とされたLA….wav</property>
   </chain>
   <chain id="chain251" out="00:00:02.280">
     <property name="length">00:00:02.320</property>
@@ -10323,6 +10269,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">efa65dc32ce9a92a1b1edf4810ce6202</property>
+    <property name="shotcut:caption">aaa_060_あーるじぇーヨンゴ….wav</property>
   </chain>
   <chain id="chain252" out="00:00:01.440">
     <property name="length">00:00:01.480</property>
@@ -10345,6 +10292,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">241d3333fb781d2f33cca3b6994cf818</property>
+    <property name="shotcut:caption">aaa_061_ニッパーのようなもの.wav</property>
   </chain>
   <chain id="chain253" out="00:00:01.760">
     <property name="length">00:00:01.800</property>
@@ -10367,6 +10315,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">6b1405d3759305a63f1219af5d8bb5a7</property>
+    <property name="shotcut:caption">aaa_062_かしめ工具のような….wav</property>
   </chain>
   <chain id="chain254" out="00:00:00.760">
     <property name="length">00:00:00.800</property>
@@ -10389,6 +10338,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">d8b730f9a7cb5e0a87a0137e74b18c16</property>
+    <property name="shotcut:caption">aaa_063_だけです．.wav</property>
   </chain>
   <chain id="chain255" out="00:00:01.920">
     <property name="length">00:00:01.960</property>
@@ -10411,6 +10361,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">1e576be92bb44fd7a6249be14533f241</property>
+    <property name="shotcut:caption">aaa_064_prepare.wav</property>
   </chain>
   <chain id="chain256" out="00:00:02.720">
     <property name="length">00:00:02.760</property>
@@ -10433,6 +10384,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">3fc09f960168ae5ada75784c674ad4eb</property>
+    <property name="shotcut:caption">aaa_066_アールティーエーの….wav</property>
   </chain>
   <chain id="chain257" out="00:00:04.720">
     <property name="length">00:00:04.760</property>
@@ -10455,6 +10407,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">3611ea107044a7868fd5c81535e15706</property>
+    <property name="shotcut:caption">aaa_067_配線，長さを整える….wav</property>
   </chain>
   <chain id="chain258" out="00:00:03.520">
     <property name="length">00:00:03.560</property>
@@ -10477,6 +10430,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">e6640792e01fb210a5e078839ce23104</property>
+    <property name="shotcut:caption">aaa_068_を両端で行い，最後….wav</property>
   </chain>
   <chain id="chain259" out="00:00:02.840">
     <property name="length">00:00:02.880</property>
@@ -13188,15 +13142,12 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">Audio</property>
     <entry producer="chain196" in="00:00:00.000" out="00:00:02.960"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain197" in="00:00:00.000" out="00:00:01.200"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain198" in="00:00:00.000" out="00:00:01.800"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain199" in="00:00:00.000" out="00:00:03.440"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain200" in="00:00:00.000" out="00:00:11.280"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain201" in="00:00:00.000" out="00:00:04.960"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain202" in="00:00:00.000" out="00:00:04.000"/>
@@ -13211,49 +13162,35 @@ RTAの下準備について解説していきます．</property>
     <blank length="00:00:00.400"/>
     <entry producer="chain207" in="00:00:00.000" out="00:00:11.800"/>
     <blank length="00:00:00.400"/>
-    <entry producer="chain208" in="00:00:00.000" out="00:00:01.440"/>
-    <blank length="00:00:00.400"/>
-    <entry producer="chain209" in="00:00:00.000" out="00:00:03.280"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain210" in="00:00:00.000" out="00:00:04.400"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain211" in="00:00:00.000" out="00:00:06.480"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain212" in="00:00:00.000" out="00:00:07.760"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain213" in="00:00:00.000" out="00:00:03.960"/>
     <blank length="00:00:00.400"/>
-    <entry producer="chain214" in="00:00:00.000" out="00:00:04.480"/>
-    <blank length="00:00:00.400"/>
-    <entry producer="chain215" in="00:00:00.000" out="00:00:04.000"/>
-    <blank length="00:00:00.400"/>
-    <entry producer="chain216" in="00:00:00.000" out="00:00:07.000"/>
+    <entry producer="producer4" in="00:00:00.000" out="00:00:02.240"/>
+    <entry producer="producer5" in="00:00:00.000" out="00:00:02.000"/>
+    <entry producer="producer6" in="00:00:00.000" out="00:00:03.480"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain217" in="00:00:00.000" out="00:00:06.040"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain218" in="00:00:00.000" out="00:00:06.040"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain219" in="00:00:00.000" out="00:00:02.640"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain220" in="00:00:00.000" out="00:00:01.720"/>
     <blank length="00:00:00.400"/>
-    <entry producer="chain221" in="00:00:00.000" out="00:00:06.280"/>
-    <blank length="00:00:00.400"/>
-    <entry producer="chain222" in="00:00:00.000" out="00:00:12.320"/>
-    <blank length="00:00:00.400"/>
-    <entry producer="chain223" in="00:00:00.000" out="00:00:05.840"/>
-    <blank length="00:00:00.400"/>
-    <entry producer="chain224" in="00:00:00.000" out="00:00:03.760"/>
+    <entry producer="producer7" in="00:00:00.000" out="00:00:03.120"/>
+    <entry producer="producer8" in="00:00:00.000" out="00:00:06.160"/>
+    <entry producer="producer9" in="00:00:00.000" out="00:00:02.920"/>
+    <entry producer="producer10" in="00:00:00.000" out="00:00:01.880"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain225" in="00:00:00.000" out="00:00:05.280"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain226" in="00:00:00.000" out="00:00:06.120"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain227" in="00:00:00.000" out="00:00:05.040"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain228" in="00:00:00.000" out="00:00:02.880"/>
-    <blank length="00:00:00.400"/>
-    <entry producer="chain229" in="00:00:00.000" out="00:00:02.080"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain230" in="00:00:00.000" out="00:00:07.880"/>
     <blank length="00:00:00.400"/>
@@ -13262,7 +13199,6 @@ RTAの下準備について解説していきます．</property>
     <entry producer="chain232" in="00:00:00.000" out="00:00:06.280"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain233" in="00:00:00.000" out="00:00:02.360"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain234" in="00:00:00.000" out="00:00:07.200"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain235" in="00:00:00.000" out="00:00:08.720"/>
@@ -13274,43 +13210,26 @@ RTAの下準備について解説していきます．</property>
     <entry producer="chain238" in="00:00:00.000" out="00:00:07.720"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain239" in="00:00:00.000" out="00:00:04.880"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain240" in="00:00:00.000" out="00:00:03.400"/>
     <blank length="00:00:00.400"/>
-    <entry producer="chain241" in="00:00:00.000" out="00:00:01.520"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain242" in="00:00:00.000" out="00:00:08.360"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain243" in="00:00:00.000" out="00:00:04.560"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain244" in="00:00:00.000" out="00:00:06.200"/>
-    <blank length="00:00:00.400"/>
-    <entry producer="chain245" in="00:00:00.000" out="00:00:01.000"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain246" in="00:00:00.000" out="00:00:04.640"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain247" in="00:00:00.000" out="00:00:01.840"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain248" in="00:00:00.000" out="00:00:02.080"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain249" in="00:00:00.000" out="00:00:00.720"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain250" in="00:00:00.000" out="00:00:01.800"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain251" in="00:00:00.000" out="00:00:02.280"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain252" in="00:00:00.000" out="00:00:01.440"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain253" in="00:00:00.000" out="00:00:01.760"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain254" in="00:00:00.000" out="00:00:00.760"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain255" in="00:00:00.000" out="00:00:01.920"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain256" in="00:00:00.000" out="00:00:02.720"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain257" in="00:00:00.000" out="00:00:04.720"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain258" in="00:00:00.000" out="00:00:03.520"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain259" in="00:00:00.000" out="00:00:02.840"/>
@@ -13559,7 +13478,7 @@ RTAの下準備について解説していきます．</property>
     <blank length="00:00:00.400"/>
     <entry producer="chain381" in="00:00:00.000" out="00:00:01.840"/>
   </playlist>
-  <tractor id="tractor3" title="Shotcut version 23.11.29" in="00:00:00.000" out="00:15:54.400">
+  <tractor id="tractor3" title="Shotcut version 23.11.29" in="00:00:00.000" out="00:15:45.760">
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
