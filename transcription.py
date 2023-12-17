@@ -31,10 +31,10 @@ class Transcription():
         print(modified_html)
 
     def putSubtitle(self, strSubtitlePath:str, intStartNum: int, intEndNum: int) -> None:
-
+        pass
 
 if __name__ == "__main__":
-    strMlt = "./experiment_jackfes-2023.mlt"
-    strDst = "./test.mlt"
+    strMlt = "./default_jackfes-2023.mlt"
+    strDst = "./jackfes-2023.mlt"
     t = Transcription(strMlt, strDst)
     t.marginPlayList("playlist5", "00:00:00.400")

@@ -5672,6 +5672,7 @@ RTAの下準備について解説していきます．</property>
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">1e39495d95b5767514867c193654fff0</property>
+    <property name="shotcut:caption">aaa_006_名古屋大学の小さな….wav</property>
   </chain>
   <chain id="chain201" out="00:00:04.960">
     <property name="length">00:00:05.000</property>
@@ -9662,7 +9663,6 @@ RTAの下準備について解説していきます．</property>
     <entry producer="chain197" in="00:00:00.000" out="00:00:01.200"/>
     <entry producer="chain198" in="00:00:00.000" out="00:00:01.800"/>
     <entry producer="chain199" in="00:00:00.000" out="00:00:03.440"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain200" in="00:00:00.000" out="00:00:11.280"/>
     <entry producer="chain201" in="00:00:00.000" out="00:00:04.960"/>
     <entry producer="chain202" in="00:00:00.000" out="00:00:04.000"/>
