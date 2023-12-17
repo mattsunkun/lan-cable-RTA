@@ -2531,9 +2531,11 @@
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">917540bb9aa8785037e3c3dbfaca99c3</property>
+    <property name="ignore_points">1</property>
+    <property name="shotcut:caption">bbb_002_そういえばみなさん….wav</property>
   </chain>
-  <chain id="chain95" out="00:00:04.760">
-    <property name="length">00:00:04.800</property>
+  <chain id="chain95" out="00:00:04.400">
+    <property name="length">00:00:04.440</property>
     <property name="eof">pause</property>
     <property name="resource">voice/bbb/bbb_003_もしカテゴリという….wav</property>
     <property name="mlt_service">avformat-novalidate</property>
@@ -2548,11 +2550,13 @@
     <property name="seekable">1</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
-    <property name="creation_time">2023-12-15T04:05:04</property>
+    <property name="creation_time">2023-12-17T09:07:28</property>
     <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:hash">be49c7e50925041ec25a4e203a27ff10</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">bbb_003_もしカテゴリという….wav</property>
     <property name="xml">was here</property>
-    <property name="shotcut:hash">092a402abd9b6b1e650f98fe2524b81d</property>
   </chain>
   <chain id="chain96" out="00:00:03.400">
     <property name="length">00:00:03.440</property>
@@ -4836,7 +4840,7 @@
     <entry producer="chain92" in="00:00:00.000" out="00:00:02.640"/>
     <entry producer="chain93" in="00:00:00.000" out="00:00:00.160"/>
     <entry producer="chain94" in="00:00:00.000" out="00:00:07.120"/>
-    <entry producer="chain95" in="00:00:00.000" out="00:00:04.760"/>
+    <entry producer="chain95" in="00:00:00.000" out="00:00:04.400"/>
     <entry producer="chain96" in="00:00:00.000" out="00:00:03.400"/>
     <entry producer="chain97" in="00:00:00.000" out="00:00:04.640"/>
     <entry producer="chain98" in="00:00:00.000" out="00:00:05.640"/>
@@ -6363,7 +6367,7 @@ UTP(UNshielded twisted pair)とは断面図が
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter140" out="00:00:05.000">
+    <filter id="filter140" out="00:00:09.440">
       <property name="argument">今回はUTPケーブルです．
 頑張ってうp主が線を並べている様子をご覧ください．
 (見難い(醜い)けどごめんね．)</property>
@@ -6398,7 +6402,7 @@ UTP(UNshielded twisted pair)とは断面図が
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter141" out="00:00:05.000">
+    <filter id="filter141" out="00:00:09.760">
       <property name="argument">やはりハトなので，配線を確認していますね．
 配線にまだまだ時間がかかりそうなので
 皆さんに聞きたいことがあります．</property>
@@ -6433,7 +6437,7 @@ UTP(UNshielded twisted pair)とは断面図が
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter142" out="00:00:05.000">
+    <filter id="filter142" out="00:00:08.480">
       <property name="argument">そういえばみなさん
 LANケーブルを買うときに何を気にしていますか？
 LANケーブルの長さ？高級感？</property>
@@ -6468,7 +6472,7 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter143" out="00:00:05.000">
+    <filter id="filter143" out="00:00:09.160">
       <property name="argument">もしCat(カテゴリ)というという規格を初めて聞く
 視聴者兄貴姉貴がいたら是非次からは
 意識していただけると良いかと思います．</property>
@@ -6494,7 +6498,7 @@ LANケーブルの長さ？高級感？</property>
   <producer id="producer144" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">/Users/mattsunkun/Library/Application Support/Meltytech/Shotcut/autosave/#00000000</property>
+    <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgba</property>
@@ -8425,10 +8429,10 @@ UTPやSTPはこれに関わっている．
     <entry producer="producer137" in="00:00:00.960" out="00:00:07.760"/>
     <entry producer="producer138" in="00:00:00.960" out="00:00:14.320"/>
     <entry producer="producer139" in="00:00:00.960" out="00:00:16.880"/>
-    <entry producer="producer140" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer141" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer142" in="00:00:00.960" out="00:00:05.000"/>
-    <entry producer="producer143" in="00:00:00.960" out="00:00:05.000"/>
+    <entry producer="producer140" in="00:00:00.960" out="00:00:09.440"/>
+    <entry producer="producer141" in="00:00:00.960" out="00:00:09.760"/>
+    <entry producer="producer142" in="00:00:00.960" out="00:00:08.480"/>
+    <entry producer="producer143" in="00:00:00.960" out="00:00:09.160"/>
     <entry producer="producer144" in="00:00:00.960" out="00:00:05.000"/>
     <entry producer="producer145" in="00:00:00.960" out="00:00:05.000"/>
     <entry producer="producer146" in="00:00:00.960" out="00:00:05.000"/>
@@ -10373,50 +10377,7 @@ UTPやSTPはこれに関わっている．
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">d8b4ffb323574c8720e9c1cb4f294e64</property>
-  </chain>
-  <chain id="chain279" out="00:00:02.640">
-    <property name="length">00:00:02.680</property>
-    <property name="eof">pause</property>
-    <property name="resource">voice/aaa/aaa_089_wiring1.1.wav</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="meta.media.nb_streams">1</property>
-    <property name="meta.media.0.stream.type">audio</property>
-    <property name="meta.media.0.codec.sample_fmt">s16</property>
-    <property name="meta.media.0.codec.sample_rate">24000</property>
-    <property name="meta.media.0.codec.channels">1</property>
-    <property name="meta.media.0.codec.name">pcm_s16le</property>
-    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
-    <property name="meta.media.0.codec.bit_rate">384000</property>
-    <property name="seekable">1</property>
-    <property name="audio_index">0</property>
-    <property name="video_index">-1</property>
-    <property name="creation_time">2023-12-15T03:29:12</property>
-    <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">5567114d747610d44de51096d0dda5c6</property>
-  </chain>
-  <chain id="chain280" out="00:00:00.160">
-    <property name="length">00:00:00.200</property>
-    <property name="eof">pause</property>
-    <property name="resource">voice/bbb/bbb_001_.wav</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="meta.media.nb_streams">1</property>
-    <property name="meta.media.0.stream.type">audio</property>
-    <property name="meta.media.0.codec.sample_fmt">s16</property>
-    <property name="meta.media.0.codec.sample_rate">24000</property>
-    <property name="meta.media.0.codec.channels">1</property>
-    <property name="meta.media.0.codec.name">pcm_s16le</property>
-    <property name="meta.media.0.codec.long_name">PCM signed 16-bit little-endian</property>
-    <property name="meta.media.0.codec.bit_rate">384000</property>
-    <property name="seekable">1</property>
-    <property name="audio_index">0</property>
-    <property name="video_index">-1</property>
-    <property name="creation_time">2023-12-15T04:04:54</property>
-    <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">22dd28192b7d2333d8d7510ce523aa81</property>
+    <property name="shotcut:caption">aaa_088_配線にまだまだ時間….wav</property>
   </chain>
   <chain id="chain281" out="00:00:07.120">
     <property name="length">00:00:07.160</property>
@@ -10439,9 +10400,10 @@ UTPやSTPはこれに関わっている．
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">917540bb9aa8785037e3c3dbfaca99c3</property>
+    <property name="shotcut:caption">bbb_002_そういえばみなさん….wav</property>
   </chain>
-  <chain id="chain282" out="00:00:04.760">
-    <property name="length">00:00:04.800</property>
+  <chain id="chain208" out="00:00:04.400">
+    <property name="length">00:00:04.440</property>
     <property name="eof">pause</property>
     <property name="resource">voice/bbb/bbb_003_もしカテゴリという….wav</property>
     <property name="mlt_service">avformat-novalidate</property>
@@ -10456,11 +10418,13 @@ UTPやSTPはこれに関わっている．
     <property name="seekable">1</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
-    <property name="creation_time">2023-12-15T04:05:04</property>
+    <property name="creation_time">2023-12-17T09:07:28</property>
     <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:hash">be49c7e50925041ec25a4e203a27ff10</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">bbb_003_もしカテゴリという….wav</property>
     <property name="xml">was here</property>
-    <property name="shotcut:hash">092a402abd9b6b1e650f98fe2524b81d</property>
   </chain>
   <chain id="chain283" out="00:00:03.400">
     <property name="length">00:00:03.440</property>
@@ -10483,6 +10447,7 @@ UTPやSTPはこれに関わっている．
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">32b365cfd531aab1b4acdb44301eea79</property>
+    <property name="shotcut:caption">bbb_004_是非次からは意識し….wav</property>
   </chain>
   <chain id="chain284" out="00:00:04.640">
     <property name="length">00:00:04.680</property>
@@ -12755,17 +12720,11 @@ UTPやSTPはこれに関わっている．
     <entry producer="chain274" in="00:00:00.000" out="00:00:07.920"/>
     <blank length="00:00:00.600"/>
     <entry producer="chain277" in="00:00:00.000" out="00:00:03.600"/>
-    <blank length="00:00:00.400"/>
     <entry producer="chain278" in="00:00:00.000" out="00:00:04.720"/>
-    <blank length="00:00:00.400"/>
-    <entry producer="chain279" in="00:00:00.000" out="00:00:02.640"/>
-    <blank length="00:00:00.400"/>
-    <entry producer="chain280" in="00:00:00.000" out="00:00:00.160"/>
-    <blank length="00:00:00.400"/>
+    <blank length="00:00:00.360"/>
     <entry producer="chain281" in="00:00:00.000" out="00:00:07.120"/>
     <blank length="00:00:00.400"/>
-    <entry producer="chain282" in="00:00:00.000" out="00:00:04.760"/>
-    <blank length="00:00:00.400"/>
+    <entry producer="chain208" in="00:00:00.000" out="00:00:04.400"/>
     <entry producer="chain283" in="00:00:00.000" out="00:00:03.400"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain284" in="00:00:00.000" out="00:00:04.640"/>
