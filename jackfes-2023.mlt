@@ -5041,8 +5041,8 @@
     <entry producer="chain194" in="00:00:00.000" out="00:00:01.840"/>
     <entry producer="producer8" in="00:00:00.000" out="00:00:03.960"/>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:14:55.960">
-    <property name="length">00:14:56.000</property>
+  <producer id="black" in="00:00:00.000" out="00:14:56.400">
+    <property name="length">00:14:56.440</property>
     <property name="eof">pause</property>
     <property name="resource">0</property>
     <property name="aspect_ratio">1</property>
@@ -5051,7 +5051,7 @@
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:14:55.960"/>
+    <entry producer="black" in="00:00:00.000" out="00:14:56.400"/>
   </playlist>
   <producer id="producer19" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
@@ -5104,8 +5104,8 @@
     </filter>
     <filter id="filter17" out="00:14:52.320">
       <property name="format">MM:SS.SS</property>
-      <property name="start">00:05:05.000</property>
-      <property name="duration">00:08:13.282</property>
+      <property name="start">00:05:08.430</property>
+      <property name="duration">00:08:16.712</property>
       <property name="offset">00:00:00.000</property>
       <property name="speed">1</property>
       <property name="direction">up</property>
@@ -5131,7 +5131,7 @@
   <playlist id="playlist1">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">Back</property>
-    <property name="shotcut:lock">1</property>
+    <property name="shotcut:lock">0</property>
     <entry producer="producer19" in="00:00:00.000" out="00:14:52.320"/>
   </playlist>
   <chain id="chain196" out="00:10:50.560">
@@ -5193,7 +5193,7 @@
     <property name="meta.media.progressive">1</property>
     <property name="shotcut:caption">intro_fail.mp4</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter12" in="00:01:53.320" out="00:04:07.320">
+    <filter id="filter12" in="00:01:53.320" out="00:04:10.360">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -5292,8 +5292,8 @@
     <property name="shotcut:name">Main</property>
     <property name="shotcut:lock">0</property>
     <blank length="00:02:45.160"/>
-    <entry producer="chain196" in="00:01:53.320" out="00:04:06.400"/>
-    <blank length="00:00:04.080"/>
+    <entry producer="chain196" in="00:01:53.320" out="00:04:10.360"/>
+    <blank length="00:00:00.560"/>
     <entry producer="chain197" in="00:00:00.040" out="00:09:53.600"/>
   </playlist>
   <producer id="producer9" in="00:00:00.000" out="03:59:59.960">
@@ -5871,6 +5871,7 @@ https://amzn.asia/d/4RCCrdV
     <property name="shotcut:hash">5e0e680ebfea2d31c8202177a7d32b24</property>
     <property name="shotcut:caption">straight-cross_vsq.png</property>
     <property name="meta.shotcut.vui">1</property>
+    <property name="xml">was here</property>
     <filter id="filter25" out="00:00:08.240">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
@@ -5923,6 +5924,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="shotcut:hash">ad8f671005333c285abbade76b7fa60f</property>
     <property name="shotcut:caption">tester.jpg</property>
     <property name="meta.shotcut.vui">1</property>
+    <property name="xml">was here</property>
     <filter id="filter27" out="00:00:16.600">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
@@ -5975,6 +5977,7 @@ https://item.rakuten.co.jp/shop-always/r171017-07n/</property>
     <property name="shotcut:hash">70ad6fb08b2749de22d4afe15da2dc34</property>
     <property name="shotcut:caption">st-cs-module_freedom.jpg</property>
     <property name="meta.shotcut.vui">1</property>
+    <property name="xml">was here</property>
     <filter id="filter29" out="00:00:27.240">
       <property name="argument">引用
 https://www.freedom.ne.jp/www/support_staff_blog/ｌａｎケーブル/</property>
@@ -6145,6 +6148,7 @@ https://item.rakuten.co.jp/shop-always/r171017-07n/</property>
     <property name="shotcut:hash">06aec2f6a6e2f77e34d649e8fc142a40</property>
     <property name="shotcut:caption">module_x2.png</property>
     <property name="meta.shotcut.vui">1</property>
+    <property name="xml">was here</property>
     <filter id="filter36" in="00:00:01.280" out="00:00:05.880">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
@@ -6192,6 +6196,7 @@ https://item.rakuten.co.jp/shop-always/r171017-07n/</property>
     <property name="shotcut:hash">1795db48a4d9dd0fa023c34cfa557dc9</property>
     <property name="shotcut:caption">nipper.png</property>
     <property name="meta.shotcut.vui">1</property>
+    <property name="xml">was here</property>
     <filter id="filter39" out="00:00:01.880">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
@@ -6238,6 +6243,7 @@ https://item.rakuten.co.jp/shop-always/r171017-07n/</property>
     <property name="shotcut:hash">0d6b2888dda48c63d54c978b896a3294</property>
     <property name="shotcut:caption">kasime.png</property>
     <property name="meta.shotcut.vui">1</property>
+    <property name="xml">was here</property>
     <filter id="filter42" in="00:00:02.280" out="00:00:03.960">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
@@ -6448,38 +6454,6 @@ https://item.rakuten.co.jp/shop-always/r171017-07n/</property>
   <producer id="producer23" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
-    <property name="resource">images/rj-45-arrange_ewords.png</property>
-    <property name="ttl">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="meta.media.progressive">1</property>
-    <property name="seekable">1</property>
-    <property name="format">1</property>
-    <property name="meta.media.width">200</property>
-    <property name="meta.media.height">200</property>
-    <property name="mlt_service">qimage</property>
-    <property name="creation_time">2023-12-18T06:51:02</property>
-    <property name="shotcut:hash">180e13cbde1e10aed222d8aa56e58293</property>
-    <property name="shotcut:caption">rj-45-arrange_ewords.png</property>
-  </producer>
-  <producer id="producer24" in="00:00:00.000" out="03:59:59.960">
-    <property name="length">04:00:00.000</property>
-    <property name="eof">pause</property>
-    <property name="resource">images/utp-stp_cman.jpg</property>
-    <property name="ttl">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="meta.media.progressive">1</property>
-    <property name="seekable">1</property>
-    <property name="format">1</property>
-    <property name="meta.media.width">619</property>
-    <property name="meta.media.height">330</property>
-    <property name="mlt_service">qimage</property>
-    <property name="creation_time">2023-12-18T06:53:50</property>
-    <property name="shotcut:hash">017e55dad73c7c5258f4a9befadcad49</property>
-    <property name="shotcut:caption">utp-stp_cman.jpg</property>
-  </producer>
-  <producer id="producer143" in="00:00:00.000" out="03:59:59.960">
-    <property name="length">04:00:00.000</property>
-    <property name="eof">pause</property>
     <property name="resource">#00000000</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
@@ -6489,9 +6463,9 @@ https://item.rakuten.co.jp/shop-always/r171017-07n/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter143" out="00:00:09.160">
-      <property name="argument">Cat(カテゴリ)</property>
-      <property name="geometry">18 342 1259 277 1</property>
+    <filter id="filter50" out="00:00:14.360">
+      <property name="argument">右の表をご覧ください→</property>
+      <property name="geometry">14 284 1370 211 1</property>
       <property name="family">Hiragino Sans</property>
       <property name="size">144</property>
       <property name="weight">900</property>
@@ -6510,7 +6484,397 @@ https://item.rakuten.co.jp/shop-always/r171017-07n/</property>
       <property name="shotcut:pointSize">144</property>
     </filter>
   </producer>
+  <producer id="producer24" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">images/rj-45-arrange_ewords.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="meta.media.width">200</property>
+    <property name="meta.media.height">200</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-12-18T06:51:02</property>
+    <property name="shotcut:hash">180e13cbde1e10aed222d8aa56e58293</property>
+    <property name="shotcut:caption">rj-45-arrange_ewords.png</property>
+    <property name="xml">was here</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter51" out="00:00:09.200">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">00:00:04.200=319.615 -3.46154 782.308 782.308 1;00:00:07.440=966.923 3.46154 422.308 422.308 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter52" out="00:00:09.200">
+      <property name="argument">
+引用：https://e-words.jp/w/T568A-T568B.html</property>
+      <property name="geometry">325 703 778 73 1</property>
+      <property name="family">Sans</property>
+      <property name="size">540</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ff000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="opacity">00:00:04.280=1;00:00:04.320=0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
   <producer id="producer25" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">images/hato-hohou.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">468</property>
+    <property name="meta.media.height">468</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-12-19T00:57:51</property>
+    <property name="shotcut:hash">d6402392d918909ae2f2b84360953ca6</property>
+    <property name="shotcut:caption">hato-hohou.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter53" out="00:00:07.040">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">967 3 422 422 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer26" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">images/utp_cman.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">620</property>
+    <property name="meta.media.height">660</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-12-19T01:06:21</property>
+    <property name="shotcut:hash">1a05740166ea857799f1e97556cd2533</property>
+    <property name="shotcut:caption">utp_cman.png</property>
+    <property name="xml">was here</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter54" in="00:00:00.520" out="00:00:10.440">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">345.692 3.46154 731.643 778.846 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+    <filter id="filter55" in="00:00:00.520" out="00:00:10.440">
+      <property name="argument">引用
+https://note.cman.jp/network/lan_cable.cgi</property>
+      <property name="geometry">353 661 715 111 1</property>
+      <property name="family">Sans</property>
+      <property name="size">540</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ff000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="opacity">1.0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer27" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">images/stp_cman.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">620</property>
+    <property name="meta.media.height">660</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-12-19T01:06:43</property>
+    <property name="shotcut:hash">2b536d1d4978f3202758f90d7d27893c</property>
+    <property name="shotcut:caption">stp_cman.png</property>
+    <property name="xml">was here</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter56" in="00:00:00.040" out="00:00:14.680">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">345.692 3.46154 731.643 778.846 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter57" in="00:00:00.040" out="00:00:14.680">
+      <property name="argument">引用
+https://note.cman.jp/network/lan_cable.cgi</property>
+      <property name="geometry">353 661 715 111 1</property>
+      <property name="family">Sans</property>
+      <property name="size">540</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ff000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="opacity">1.0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">0</property>
+    </filter>
+  </producer>
+  <tractor id="tractor2" in="00:00:00.000" out="00:00:00.000">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer26" in="00:00:10.440" out="00:00:10.440"/>
+    <track producer="producer27" in="00:00:00.040" out="00:00:00.040"/>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer28" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">images/stp_cman.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">620</property>
+    <property name="meta.media.height">660</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-12-19T01:06:43</property>
+    <property name="shotcut:hash">2b536d1d4978f3202758f90d7d27893c</property>
+    <property name="shotcut:caption">stp_cman.png</property>
+    <property name="xml">was here</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter58" in="00:00:00.040" out="00:00:14.680">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">345.692 3.46154 731.643 778.846 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter59" in="00:00:00.040" out="00:00:14.680">
+      <property name="argument">引用
+https://note.cman.jp/network/lan_cable.cgi</property>
+      <property name="geometry">353 661 715 111 1</property>
+      <property name="family">Sans</property>
+      <property name="size">540</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ff000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="opacity">1.0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">0</property>
+    </filter>
+  </producer>
+  <producer id="producer29" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">images/hato-hohou.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">468</property>
+    <property name="meta.media.height">468</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-12-19T00:57:51</property>
+    <property name="shotcut:hash">d6402392d918909ae2f2b84360953ca6</property>
+    <property name="shotcut:caption">hato-hohou.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter60" out="00:00:04.000">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">967 3 422 422 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter61" in="00:00:00.240" out="00:00:04.000">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="shotcut:animIn">26</property>
+    </filter>
+    <filter id="filter62" in="00:00:00.240" out="00:00:04.000">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:02.720=1;00:00:03.760=0</property>
+      <property name="shotcut:animOut">27</property>
+    </filter>
+  </producer>
+  <producer id="producer30" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">images/irasutoya-lan.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">400</property>
+    <property name="meta.media.height">400</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-12-17T23:52:51</property>
+    <property name="shotcut:hash">3dd2c5ca6b6c0eb1f5784efca226632e</property>
+    <property name="shotcut:caption">irasutoya-lan.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter63" out="00:00:06.000">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">967 3 422 422 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter64" out="00:00:06.000">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="shotcut:animIn">26</property>
+    </filter>
+  </producer>
+  <producer id="producer31" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter143" in="00:00:01.000" out="00:00:09.280">
+      <property name="argument">Cat </property>
+      <property name="geometry">00:00:00.000=413 166 1040 665 1;00:00:04.320=413 166 1040 665 1;00:00:07.800=243 -0 452 277 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">288</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">288</property>
+      <property name="disable">0</property>
+    </filter>
+  </producer>
+  <producer id="producer32" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/cat-table_pcwatch.png</property>
@@ -6524,8 +6888,66 @@ https://item.rakuten.co.jp/shop-always/r171017-07n/</property>
     <property name="mlt_service">qimage</property>
     <property name="creation_time">2023-12-18T06:57:19</property>
     <property name="shotcut:hash">6c5e20f6363fdec1314e0c1d628d4423</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">cat-table_pcwatch.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter65" out="00:00:30.640">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">236.154 197.308 958.193 581.538 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter66" out="00:00:30.640">
+      <property name="argument">Cat </property>
+      <property name="geometry">243 0 452 277 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">288</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">288</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter67" out="00:00:30.640">
+      <property name="argument">とは</property>
+      <property name="geometry">658 51 373 187 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">700</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
   </producer>
-  <producer id="producer26" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer33" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/lan-def_ewords.png</property>
@@ -6539,8 +6961,63 @@ https://item.rakuten.co.jp/shop-always/r171017-07n/</property>
     <property name="mlt_service">qimage</property>
     <property name="creation_time">2023-12-18T06:59:42</property>
     <property name="shotcut:hash">c6266be93066b0b8a1258ce4928124e9</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">lan-def_ewords.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter68" out="00:00:09.600">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">2.37194 6.46154 782.304 278.085 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter69" out="00:00:09.600">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="shotcut:animIn">26</property>
+    </filter>
+    <filter id="filter70" out="00:00:09.600">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:08.560=1;00:00:09.600=0</property>
+      <property name="shotcut:animOut">27</property>
+    </filter>
+    <filter id="filter71" out="00:00:09.600">
+      <property name="argument">引用：https://pc.watch.impress.co.jp/docs/topic/feature/1328323.html</property>
+      <property name="geometry">42 166 715 111 1</property>
+      <property name="family">Sans</property>
+      <property name="size">1080</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ff000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="opacity">00:00:01.000=0;00:00:02.000=1;00:00:06.000=1;00:00:07.000=0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">0</property>
+    </filter>
   </producer>
-  <producer id="producer27" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer34" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/irasutoya-programmer.png</property>
@@ -6554,8 +7031,42 @@ https://item.rakuten.co.jp/shop-always/r171017-07n/</property>
     <property name="mlt_service">qimage</property>
     <property name="creation_time">2023-12-18T07:03:12</property>
     <property name="shotcut:hash">076e478ebaf23a3df81fa7417f2b7454</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">irasutoya-programmer.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter72" out="00:00:03.960">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">890.846 3 422 338.655 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter73" out="00:00:03.960">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="shotcut:animIn">26</property>
+    </filter>
+    <filter id="filter74" out="00:00:03.960">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:02.920=1;00:00:03.960=0</property>
+      <property name="shotcut:animOut">27</property>
+    </filter>
   </producer>
-  <producer id="producer28" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer35" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/straight-cross_vsq.png</property>
@@ -6572,7 +7083,7 @@ https://item.rakuten.co.jp/shop-always/r171017-07n/</property>
     <property name="shotcut:caption">straight-cross_vsq.png</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter50" out="00:00:08.240">
+    <filter id="filter75" out="00:00:05.800">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -6585,7 +7096,7 @@ https://item.rakuten.co.jp/shop-always/r171017-07n/</property>
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
-    <filter id="filter51" out="00:00:08.240">
+    <filter id="filter76" out="00:00:05.800">
       <property name="argument">引用
 https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="geometry">14 547 992 156 1</property>
@@ -6607,8 +7118,73 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
+    <filter id="filter77" out="00:00:05.800">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="shotcut:animIn">26</property>
+    </filter>
+    <filter id="filter78" out="00:00:05.800">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:04.760=1;00:00:05.800=0</property>
+      <property name="shotcut:animOut">27</property>
+    </filter>
   </producer>
-  <producer id="producer29" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer159" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter159" out="00:00:04.560">
+      <property name="argument">MDI　MDI-X</property>
+      <property name="geometry">4 4 1384 775 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">288</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">288</property>
+    </filter>
+    <filter id="filter79" out="00:00:04.560">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="shotcut:animIn">26</property>
+    </filter>
+    <filter id="filter80" out="00:00:04.560">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:03.520=1;00:00:04.560=0</property>
+      <property name="shotcut:animOut">27</property>
+    </filter>
+  </producer>
+  <producer id="producer36" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/non-auto-mdi.png</property>
@@ -6622,8 +7198,65 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="mlt_service">qimage</property>
     <property name="creation_time">2023-12-18T07:06:56</property>
     <property name="shotcut:hash">da2bbc70b908d9ff3b81fb58445f1d9e</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">non-auto-mdi.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter81" out="00:00:15.760">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">908.978 -0.461538 480.022 458.203 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter82" out="00:00:15.760">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="shotcut:animIn">26</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter83" out="00:00:15.760">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:14.720=1;00:00:15.760=0</property>
+      <property name="shotcut:animOut">27</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter84" out="00:00:15.760">
+      <property name="argument">引用：https://www.nw-siken.com/kakomon/28_aki/am2_1.html</property>
+      <property name="geometry">921 263 463 190 1</property>
+      <property name="family">Sans</property>
+      <property name="size">1080</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ff000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="opacity">1.0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
   </producer>
-  <producer id="producer30" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer37" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/auto-mdi.png</property>
@@ -6637,8 +7270,366 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="mlt_service">qimage</property>
     <property name="creation_time">2023-12-18T07:08:01</property>
     <property name="shotcut:hash">fd000409f1defc210db426c23e0ffa8a</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">auto-mdi.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter85" out="00:00:39.320">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">852.648 3 536.352 454.603 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter86" out="00:00:39.320">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="shotcut:animIn">26</property>
+    </filter>
+    <filter id="filter87" out="00:00:39.320">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:38.280=1;00:00:39.320=0</property>
+      <property name="shotcut:animOut">27</property>
+    </filter>
+    <filter id="filter88" out="00:00:39.320">
+      <property name="argument">引用：https://www.nw-siken.com/kakomon/28_aki/am2_1.html</property>
+      <property name="geometry">865 260 463 190 1</property>
+      <property name="family">Sans</property>
+      <property name="size">1080</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ff000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="opacity">1.0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">1</property>
+    </filter>
   </producer>
-  <producer id="producer31" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer39" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">images/rj-45-arrange_ewords.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">1</property>
+    <property name="meta.media.width">200</property>
+    <property name="meta.media.height">200</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-12-18T06:51:02</property>
+    <property name="shotcut:hash">180e13cbde1e10aed222d8aa56e58293</property>
+    <property name="shotcut:caption">rj-45-arrange_ewords.png</property>
+    <property name="xml">was here</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter89" out="00:00:17.520">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">966.923 3.46154 422.308 422.308 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+    <filter id="filter90" out="00:00:17.520">
+      <property name="argument">ざっくり説明すると，序盤で表示したこの左の画像にて
+クロスケーブルにするには，緑と橙を入れ替えれば良い</property>
+      <property name="geometry">55 0 899 277 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">540</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1.0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+    <filter id="filter91" out="00:00:17.520">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="shotcut:animIn">26</property>
+    </filter>
+    <filter id="filter92" out="00:00:17.520">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:16.480=1;00:00:17.520=0</property>
+      <property name="shotcut:animOut">27</property>
+    </filter>
+  </producer>
+  <producer id="producer38" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter93" in="00:00:00.960" out="00:00:01.960">
+      <property name="argument">・</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer40" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter94" in="00:00:00.960" out="00:00:01.960">
+      <property name="argument">・・</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer41" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter95" in="00:00:00.960" out="00:00:01.960">
+      <property name="argument">・・・</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer42" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter96" in="00:00:00.960" out="00:00:01.960">
+      <property name="argument">・・・・</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer43" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter97" in="00:00:00.960" out="00:00:01.960">
+      <property name="argument">・・・・・</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer44" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter98" in="00:00:00.960" out="00:00:02.600">
+      <property name="argument">がーんばれ()
+</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer45" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter99" in="00:00:00.960" out="00:00:02.600">
+      <property name="argument">がーんばれ()
+がーんばれ()</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer46" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/rj-45-module-long_truecable.png</property>
@@ -6652,23 +7643,130 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="mlt_service">qimage</property>
     <property name="creation_time">2023-12-18T07:34:47</property>
     <property name="shotcut:hash">845888ae6d0e76fe86ff314745265554</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">rj-45-module-long_truecable.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter100" out="00:00:48.360">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">738.461 3.46154 650.77 325.385 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter101" out="00:00:48.360">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
+      <property name="shotcut:animIn">26</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter102" out="00:00:48.360">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">00:00:47.320=1;00:00:48.360=0</property>
+      <property name="shotcut:animOut">27</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter103" out="00:00:48.360">
+      <property name="argument">引用
+https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</property>
+      <property name="geometry">765 111 612 211 1</property>
+      <property name="family">Sans</property>
+      <property name="size">540</property>
+      <property name="weight">400</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ff000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="opacity">1.0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter104" out="00:00:48.360">
+      <property name="argument">→</property>
+      <property name="geometry">564 -48 487 357 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">1080</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ff000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">00:00:07.120=0;00:00:08.160=1;00:00:18.040=1;00:00:19.080=0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+    <filter id="filter105" out="00:00:48.360">
+      <property name="argument">↑</property>
+      <property name="geometry">723 222 487 357 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">1080</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ff000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">00:00:43.000=0;00:00:43.520=1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+    <filter id="filter106" out="00:00:48.360">
+      <property name="argument">↑</property>
+      <property name="geometry">889 104 487 357 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">1080</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ff000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">00:00:24.680=0;00:00:25.720=1;00:00:35.280=1;00:00:36.320=0;00:00:43.520=0;00:00:43.840=1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
   </producer>
-  <producer id="producer32" in="00:00:00.000" out="03:59:59.960">
-    <property name="length">04:00:00.000</property>
-    <property name="eof">pause</property>
-    <property name="resource">images/network.png</property>
-    <property name="ttl">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="meta.media.progressive">1</property>
-    <property name="seekable">1</property>
-    <property name="format">2</property>
-    <property name="meta.media.width">400</property>
-    <property name="meta.media.height">338</property>
-    <property name="mlt_service">qimage</property>
-    <property name="creation_time">2023-12-18T07:39:10</property>
-    <property name="shotcut:hash">c7c95bc6a6549d9253ab61fc871b47b3</property>
-  </producer>
-  <producer id="producer33" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer47" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">images/atcoder.png</property>
@@ -6682,6 +7780,122 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="mlt_service">qimage</property>
     <property name="creation_time">2023-12-18T07:41:02</property>
     <property name="shotcut:hash">cc1239d88d742358fce1f04454163d23</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">atcoder.png</property>
+  </producer>
+  <producer id="producer48" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">images/network.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="format">2</property>
+    <property name="meta.media.width">400</property>
+    <property name="meta.media.height">338</property>
+    <property name="mlt_service">qimage</property>
+    <property name="creation_time">2023-12-18T07:39:10</property>
+    <property name="shotcut:hash">c7c95bc6a6549d9253ab61fc871b47b3</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">network.png</property>
+  </producer>
+  <producer id="producer49" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter107" in="00:00:00.040" out="00:00:29.440">
+      <property name="argument">1．LANケーブルには狭義と広義のものがある．</property>
+      <property name="geometry">00:00:00.960=413 166 1040 665 1;00:00:04.040=430 190 950 128 1;00:00:05.280=413 166 1040 665 1;00:00:08.760=243 -0 452 277 1;00:00:16.360=271 107 1047 249 1;00:00:26.520=271 217 1047 249 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">36</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">36</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter108" in="00:00:00.040" out="00:00:29.440">
+      <property name="argument">2．LANケーブルにはストレートとクロスがある．</property>
+      <property name="geometry">00:00:00.960=413 166 1040 665 1;00:00:04.040=430 190 950 128 1;00:00:05.280=413 166 1040 665 1;00:00:08.760=243 -0 452 277 1;00:00:16.360=271 107 1047 249 1;00:00:26.520=271 307 1047 249 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">36</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">36</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter110" in="00:00:00.040" out="00:00:29.440">
+      <property name="argument">3．LANケーブルの指標にCatというものがある．</property>
+      <property name="geometry">00:00:00.960=413 166 1040 665 1;00:00:04.040=430 190 950 128 1;00:00:05.280=413 166 1040 665 1;00:00:08.760=243 -0 452 277 1;00:00:16.360=271 107 1047 249 1;00:00:26.520=271 397 1047 249 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">36</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">36</property>
+      <property name="disable">0</property>
+    </filter>
+    <filter id="filter111" in="00:00:00.040" out="00:00:29.440">
+      <property name="argument">まとめ</property>
+      <property name="geometry">00:00:00.960=413 166 1040 665 1;00:00:04.040=430 190 950 128 1;00:00:05.280=413 166 1040 665 1;00:00:08.760=243 -0 452 277 1;00:00:16.360=271 107 1047 249 1;00:00:26.520=271 139 1047 249 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">48</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">48</property>
+      <property name="disable">0</property>
+    </filter>
   </producer>
   <playlist id="playlist4">
     <property name="shotcut:video">1</property>
@@ -6716,32 +7930,52 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <entry producer="producer130" in="00:00:00.960" out="00:00:14.240"/>
     <entry producer="tractor1" in="00:00:00.000" out="00:00:00.000"/>
     <blank length="00:00:00.080"/>
-    <entry producer="producer132" in="00:00:01.000" out="00:00:14.360"/>
-    <blank length="00:00:15.600"/>
-    <entry producer="producer23" in="00:00:00.000" out="00:00:03.960"/>
-    <blank length="00:00:19.400"/>
-    <entry producer="producer24" in="00:00:00.000" out="00:00:03.960"/>
-    <blank length="00:00:46.440"/>
-    <entry producer="producer143" in="00:00:00.960" out="00:00:09.160"/>
-    <blank length="00:00:11.240"/>
-    <entry producer="producer25" in="00:00:00.000" out="00:00:03.960"/>
-    <blank length="00:01:00.280"/>
-    <entry producer="producer26" in="00:00:00.000" out="00:00:03.960"/>
-    <blank length="00:00:53.360"/>
-    <entry producer="producer27" in="00:00:00.000" out="00:00:03.960"/>
-    <blank length="00:00:34.880"/>
-    <entry producer="producer28" in="00:00:00.000" out="00:00:08.240"/>
-    <blank length="00:00:05.240"/>
-    <entry producer="producer29" in="00:00:00.000" out="00:00:03.960"/>
-    <blank length="00:00:06.240"/>
-    <entry producer="producer30" in="00:00:00.000" out="00:00:03.960"/>
-    <blank length="00:02:12.160"/>
-    <entry producer="producer31" in="00:00:00.000" out="00:00:03.960"/>
-    <blank length="00:01:42.800"/>
-    <entry producer="producer32" in="00:00:00.000" out="00:00:03.960"/>
-    <blank length="00:00:11.840"/>
-    <entry producer="producer33" in="00:00:00.000" out="00:00:03.960"/>
-    <filter id="filter52" out="00:14:45.240">
+    <entry producer="producer23" in="00:00:01.000" out="00:00:14.360"/>
+    <blank length="00:00:15.760"/>
+    <entry producer="producer24" in="00:00:00.000" out="00:00:09.200"/>
+    <entry producer="producer25" in="00:00:00.240" out="00:00:07.040"/>
+    <blank length="00:00:03.440"/>
+    <entry producer="producer26" in="00:00:00.520" out="00:00:10.400"/>
+    <entry producer="tractor2" in="00:00:00.000" out="00:00:00.000"/>
+    <blank length="00:00:01.280"/>
+    <entry producer="producer28" in="00:00:00.080" out="00:00:14.680"/>
+    <blank length="00:00:09.280"/>
+    <entry producer="producer29" in="00:00:00.240" out="00:00:04.000"/>
+    <blank length="00:00:05.760"/>
+    <entry producer="producer30" in="00:00:00.000" out="00:00:06.000"/>
+    <entry producer="producer31" in="00:00:01.000" out="00:00:09.280"/>
+    <entry producer="producer32" in="00:00:00.000" out="00:00:30.640"/>
+    <blank length="00:00:45.080"/>
+    <entry producer="producer33" in="00:00:00.000" out="00:00:09.600"/>
+    <blank length="00:00:48.560"/>
+    <entry producer="producer34" in="00:00:00.000" out="00:00:03.960"/>
+    <blank length="00:00:34.800"/>
+    <entry producer="producer35" in="00:00:00.000" out="00:00:05.800"/>
+    <blank length="00:00:06.080"/>
+    <entry producer="producer159" in="00:00:00.000" out="00:00:04.560"/>
+    <blank length="00:00:08.680"/>
+    <entry producer="producer36" in="00:00:00.000" out="00:00:15.760"/>
+    <blank length="00:00:05.080"/>
+    <entry producer="producer37" in="00:00:00.000" out="00:00:39.320"/>
+    <blank length="00:00:13.960"/>
+    <entry producer="producer39" in="00:00:00.000" out="00:00:17.520"/>
+    <blank length="00:00:05.160"/>
+    <entry producer="producer38" in="00:00:00.960" out="00:00:01.960"/>
+    <entry producer="producer40" in="00:00:00.960" out="00:00:01.960"/>
+    <entry producer="producer41" in="00:00:00.960" out="00:00:01.960"/>
+    <entry producer="producer42" in="00:00:00.960" out="00:00:01.960"/>
+    <entry producer="producer43" in="00:00:00.960" out="00:00:01.960"/>
+    <entry producer="producer44" in="00:00:00.960" out="00:00:02.600"/>
+    <entry producer="producer45" in="00:00:00.960" out="00:00:02.600"/>
+    <blank length="00:00:17.800"/>
+    <entry producer="producer46" in="00:00:00.000" out="00:00:48.360"/>
+    <blank length="00:01:04.120"/>
+    <entry producer="producer47" in="00:00:00.000" out="00:00:03.960"/>
+    <blank length="00:00:07.320"/>
+    <entry producer="producer48" in="00:00:00.000" out="00:00:03.960"/>
+    <blank length="00:00:05.400"/>
+    <entry producer="producer49" in="00:00:00.040" out="00:00:29.440"/>
+    <filter id="filter112" out="00:14:45.240">
       <property name="argument"> - 配線
  - 先端を揃える
  - かしめる
@@ -6782,7 +8016,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter100" out="00:00:05.560">
+    <filter id="filter113" out="00:00:05.560">
       <property name="argument">みんな大好きLANケーブル作成RTA
 はっじまっるよー
 </property>
@@ -6817,7 +8051,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter101" out="00:00:06.640">
+    <filter id="filter114" out="00:00:06.640">
       <property name="argument">まずは軽く自己紹介．
 うｐ主はまっつんくんという名前で活動しています．
 </property>
@@ -6852,7 +8086,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter102" out="00:00:17.640">
+    <filter id="filter115" out="00:00:17.640">
       <property name="argument">名古屋大学の小さな非公式サークル「アプリ開発団体jack」の
 大きな公式イベント，jackFes2023に参加できなく申し訳ありません．
 そのため，この動画を提供することで償いをしようと考えました．</property>
@@ -6887,7 +8121,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter103" out="00:00:05.360">
+    <filter id="filter116" out="00:00:05.360">
       <property name="argument">さて,最初に断っておくべきことが5つございます．
 
 </property>
@@ -6922,7 +8156,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter104" out="00:00:09.480">
+    <filter id="filter117" out="00:00:09.480">
       <property name="argument">1つ目に，
 この音声は“VOICEVOX:雨晴はう“を利用しています．
 製作者様に感謝です．</property>
@@ -6957,7 +8191,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter105" out="00:00:09.040">
+    <filter id="filter118" out="00:00:09.040">
       <property name="argument">2つ目に，
 うｐ主は動画編集が初めてなので，
 雑な部分が多いかもしれませんがご了承下さい．</property>
@@ -6992,7 +8226,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter106" out="00:00:09.080">
+    <filter id="filter119" out="00:00:09.080">
       <property name="argument">3つ目に，
 本RTAはガバガバレギュレーションの下，
 ガバガバに走っていますが，ご了承下さい．</property>
@@ -7027,7 +8261,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter107" out="00:00:10.360">
+    <filter id="filter120" out="00:00:10.360">
       <property name="argument">4つ目に，
 専門知識において間違った点があるかもしれませんが，
 その際はコメント欄にてご指摘いただけるとありがたいです．</property>
@@ -7062,7 +8296,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter108" out="00:00:12.720">
+    <filter id="filter121" out="00:00:12.720">
       <property name="argument">5つ目に，
 本動画は，LANケーブルを作成するという，細々してて何やってるか
 分かりにくい動画になっていますが，その分解説でカバーするように努めます．</property>
@@ -7085,7 +8319,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="shotcut:pointSize">144</property>
     </filter>
   </producer>
-  <producer id="producer34" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer50" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -7097,7 +8331,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter53" out="00:00:05.760">
+    <filter id="filter122" out="00:00:05.760">
       <property name="argument">さて，本編を始める前に少々時間がございますので，
 
 </property>
@@ -7132,7 +8366,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter110" out="00:00:15.640">
+    <filter id="filter123" out="00:00:15.640">
       <property name="argument">本動画において重要な言葉，「RTA」と「LANケーブル」について，
 視聴者兄貴姉貴たちの中には馴染のない方もいるかと思われるので，
 先にざっくり解説したいと思います．</property>
@@ -7167,7 +8401,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter111" out="00:00:05.320">
+    <filter id="filter124" out="00:00:05.320">
       <property name="argument">まず，RTAから．以下Wikipediaより引用
 
 </property>
@@ -7202,7 +8436,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter112" out="00:00:09.160">
+    <filter id="filter125" out="00:00:09.160">
       <property name="argument">コンピュータゲームにおけるやり込みの一種，「リアルタイムアタック」 (Real Time Attack)．
 ゲーム内部時間ではなく実際のプレイ時間で計測する．「RTA in Japan」など，
 集団運営によるイベントが実施されることもある．</property>
@@ -7237,7 +8471,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter113" out="00:00:07.400">
+    <filter id="filter126" out="00:00:07.400">
       <property name="argument">まあ，
 要は素早く何かを成功させるという意味です．
 （クソガバ解説）</property>
@@ -7272,7 +8506,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter114" out="00:00:07.400">
+    <filter id="filter127" out="00:00:07.400">
       <property name="argument">今回はゲームではありませんが，
 LANケーブル(次に解説)を素早く作成する動画となっております．
 </property>
@@ -7307,7 +8541,7 @@ LANケーブル(次に解説)を素早く作成する動画となっておりま
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter115" out="00:00:05.760">
+    <filter id="filter128" out="00:00:05.760">
       <property name="argument">次に，LANケーブルという言葉
 以下Wikipediaより引用
 </property>
@@ -7342,7 +8576,7 @@ LANケーブル(次に解説)を素早く作成する動画となっておりま
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter116" out="00:00:15.520">
+    <filter id="filter129" out="00:00:15.520">
       <property name="argument">撚り対線（よりついせん）による平衡接続で100Ωの特性インピーダンスを持つ銅線ケーブル．
 特に4対8線で両端にオス型8P8C（通称RJ(Registered Jack)-45）コネクタのついたものが
 最も多く使用され，一般に「LANケーブル」と呼ばれる．
@@ -7379,7 +8613,7 @@ LANケーブル(次に解説)を素早く作成する動画となっておりま
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter117" out="00:00:06.600">
+    <filter id="filter130" out="00:00:06.600">
       <property name="argument">要は，Wi-Fiの有線バージョンってことです
 （クソガバ解説）．
 </property>
@@ -7414,7 +8648,7 @@ LANケーブル(次に解説)を素早く作成する動画となっておりま
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter118" out="00:00:07.520">
+    <filter id="filter131" out="00:00:07.520">
       <property name="argument">また今回は，LANケーブルにRJ-45という規格を
 両端に作成するものとなっております．
 </property>
@@ -7449,7 +8683,7 @@ LANケーブル(次に解説)を素早く作成する動画となっておりま
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter119" out="00:00:09.320">
+    <filter id="filter133" out="00:00:09.320">
       <property name="argument">そして，配線はストレートケーブルとクロスケーブルの2種類ありますが
 今回はストレートケーブルを作成します．
 </property>
@@ -7484,7 +8718,7 @@ LANケーブル(次に解説)を素早く作成する動画となっておりま
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter120" out="00:00:09.240">
+    <filter id="filter134" out="00:00:09.240">
       <property name="argument">まだまだ，RTAを開始するまで時間がありそうなので，
 RTAの下準備について解説していきます．
 </property>
@@ -7519,7 +8753,7 @@ RTAの下準備について解説していきます．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter121" out="00:00:08.000">
+    <filter id="filter135" out="00:00:08.000">
       <property name="argument">このRTAでのタイマーストップはLANケーブルが
 正常に動作していることを確認できたタイミングです．
 </property>
@@ -7554,7 +8788,7 @@ RTAの下準備について解説していきます．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter122" out="00:00:07.600">
+    <filter id="filter136" out="00:00:07.600">
       <property name="argument">従って，LANケーブルの動作確認のため，
 LANケーブルのテスターを用意してください．
 </property>
@@ -7589,7 +8823,7 @@ LANケーブルのテスターを用意してください．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter123" out="00:00:11.000">
+    <filter id="filter137" out="00:00:11.000">
       <property name="argument">このテスターについて少し紹介．
 視聴者兄貴姉貴の中には当然のことのように知っている方も
 おられるかもしれませんが一応解説します，</property>
@@ -7624,7 +8858,7 @@ LANケーブルのテスターを用意してください．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter124" out="00:00:10.120">
+    <filter id="filter138" out="00:00:10.120">
       <property name="argument">実は我々がよく目にするLANケーブルには，
 先ほども少し触れたように，
 ストレートケーブルとクロスケーブルの2種類あります．</property>
@@ -7659,7 +8893,7 @@ LANケーブルのテスターを用意してください．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter125" out="00:00:11.400">
+    <filter id="filter139" out="00:00:11.400">
       <property name="argument">一見素人には同じに見えますが，モジュールの部分をよーく見てみると，
 両端の順番が同じものと，少し順番が違うものがあります．
 </property>
@@ -7694,7 +8928,7 @@ LANケーブルのテスターを用意してください．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter126" out="00:00:08.600">
+    <filter id="filter140" out="00:00:08.600">
       <property name="argument">ざっくり説明すると，
 順番が同じものがストレートケーブル，
 違うものがクロスケーブルとなります．</property>
@@ -7729,7 +8963,7 @@ LANケーブルのテスターを用意してください．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter127" out="00:00:09.040">
+    <filter id="filter141" out="00:00:09.040">
       <property name="argument">なので，このテスターにおいて，
 ストレートケーブルであればここが光り
 クロスケーブルであればここが光ります．</property>
@@ -7764,7 +8998,7 @@ LANケーブルのテスターを用意してください．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter128" out="00:00:09.680">
+    <filter id="filter142" out="00:00:09.680">
       <property name="argument">断線や，正しい配線がされていなければ，ここが光ります．
 今回はこの部分が光ったらタイマーストップします．
 </property>
@@ -7799,7 +9033,7 @@ LANケーブルのテスターを用意してください．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter129" out="00:00:15.360">
+    <filter id="filter144" out="00:00:15.360">
       <property name="argument">さて，当然LANケーブル作成RTAなので，
 通常のUTPのLANケーブルの両端を切り落としといて下さい．
 UTPという単語については本編に入ったらまた解説します．</property>
@@ -7822,7 +9056,7 @@ UTPという単語については本編に入ったらまた解説します．</
       <property name="shotcut:pointSize">144</property>
     </filter>
   </producer>
-  <producer id="producer35" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer51" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -7834,7 +9068,7 @@ UTPという単語については本編に入ったらまた解説します．</
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter130" out="00:00:12.240">
+    <filter id="filter145" out="00:00:12.240">
       <property name="argument">そして，RJ-45モジュールを両端につけるため，
 それを二つ用意してください．
 あと，「ニッパーのようなもの」と「かしめ工具のようなもの」も必要です．</property>
@@ -7869,7 +9103,7 @@ UTPという単語については本編に入ったらまた解説します．</
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter131" out="00:00:14.280">
+    <filter id="filter146" out="00:00:14.280">
       <property name="argument">これにて準備完了です．用意するものはこの通りです．
 テスター，切り落とされたLANケーブル，RJ-45モジュールｘ２，
 ニッパーのようなもの，かしめ工具のようなもの，だけです．</property>
@@ -7892,7 +9126,7 @@ UTPという単語については本編に入ったらまた解説します．</
       <property name="shotcut:pointSize">144</property>
     </filter>
   </producer>
-  <producer id="producer36" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer52" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -7904,7 +9138,7 @@ UTPという単語については本編に入ったらまた解説します．</
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter54" out="00:00:14.360">
+    <filter id="filter147" out="00:00:14.360">
       <property name="argument">RTAのマイルストーンは簡単です．
 配線→長さを整える→モジュール取り付け→かしめる
 を両端で行い，最後にテストをするだけです．</property>
@@ -7939,7 +9173,7 @@ UTPという単語については本編に入ったらまた解説します．</
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter133" out="00:00:05.080">
+    <filter id="filter148" out="00:00:04.360">
       <property name="argument">雰囲気だけ掴んでもらえれば大丈夫です．
 
 </property>
@@ -7974,9 +9208,44 @@ UTPという単語については本編に入ったらまた解説します．</
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter134" in="00:00:01.000" out="00:00:09.080">
+    <filter id="filter149" in="00:00:01.000" out="00:00:06.200">
       <property name="argument">さて，準備ができたようなので，始めていきます．
-LANケーブルを手で触れた瞬間からタイマースタートです．
+
+</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer53" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter150" in="00:00:04.840" out="00:00:09.080">
+      <property name="argument">LANケーブルを手で触れた瞬間からタイマースタートです．
+
 </property>
       <property name="geometry">371 834 1505 211 1</property>
       <property name="family">Hiragino Sans</property>
@@ -8009,7 +9278,7 @@ LANケーブルを手で触れた瞬間からタイマースタートです．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter135" out="00:00:03.240">
+    <filter id="filter151" in="00:00:01.120" out="00:00:03.240">
       <property name="argument">はい．よーいすたーと．
 
 </property>
@@ -8044,7 +9313,7 @@ LANケーブルを手で触れた瞬間からタイマースタートです．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter136" out="00:00:10.920">
+    <filter id="filter152" out="00:00:10.920">
       <property name="argument">まずはLANケーブルから出ている８本の線を
 図のように並べる必要があります．
 うp主は天才なので，当然この配線を暗記しています．</property>
@@ -8079,7 +9348,7 @@ LANケーブルを手で触れた瞬間からタイマースタートです．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter137" out="00:00:07.760">
+    <filter id="filter153" out="00:00:07.760">
       <property name="argument">ですが，記憶力がハトなので，
 完成したLANケーブルから配線を確認していますね．
 </property>
@@ -8114,7 +9383,7 @@ LANケーブルを手で触れた瞬間からタイマースタートです．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter138" out="00:00:14.320">
+    <filter id="filter154" out="00:00:14.320">
       <property name="argument">ここで先程のUTPという用語の補足です．
 UTP(UNshielded twisted pair)とは断面図が
 こういう感じでバラバラで，ノイズの影響を受けやすいものになっています．</property>
@@ -8149,7 +9418,7 @@ UTP(UNshielded twisted pair)とは断面図が
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter139" out="00:00:16.880">
+    <filter id="filter155" out="00:00:16.880">
       <property name="argument">それに対して，STP(shielded twisted pair)とは
 こういう感じの断面図であり，ノイズの影響を受けにくくなっています．
 当然，STPの方が高性能ですが，その分高価になっています．</property>
@@ -8184,7 +9453,7 @@ UTP(UNshielded twisted pair)とは断面図が
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter140" out="00:00:09.440">
+    <filter id="filter156" out="00:00:09.440">
       <property name="argument">今回はUTPケーブルです．
 頑張ってうp主が線を並べている様子をご覧ください．
 (見難い(醜い)けどごめんね．)</property>
@@ -8219,7 +9488,7 @@ UTP(UNshielded twisted pair)とは断面図が
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter141" out="00:00:09.760">
+    <filter id="filter157" out="00:00:09.760">
       <property name="argument">やはりハトなので，配線を確認していますね．
 配線にまだまだ時間がかかりそうなので
 皆さんに聞きたいことがあります．</property>
@@ -8254,7 +9523,7 @@ UTP(UNshielded twisted pair)とは断面図が
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter142" out="00:00:08.480">
+    <filter id="filter158" out="00:00:08.480">
       <property name="argument">そういえばみなさん
 LANケーブルを買うときに何を気にしていますか？
 LANケーブルの長さ？高級感？</property>
@@ -8277,7 +9546,7 @@ LANケーブルの長さ？高級感？</property>
       <property name="shotcut:pointSize">144</property>
     </filter>
   </producer>
-  <producer id="producer37" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer54" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -8289,7 +9558,7 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter55" out="00:00:09.160">
+    <filter id="filter160" out="00:00:09.160">
       <property name="argument">もしCat(カテゴリ)というという規格を初めて聞く
 視聴者兄貴姉貴がいたら是非次からは
 意識していただけると良いかと思います．</property>
@@ -8324,7 +9593,7 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter144" out="00:00:16.640">
+    <filter id="filter161" out="00:00:16.640">
       <property name="argument">Catとは通信速度や伝送帯域などを表している規格です．
 なので，Catを見れば通信速度が分かるので，確認してみて下さい．
 ちなみに前に述べたUTPとSTPはCatに関係しています．</property>
@@ -8359,7 +9628,7 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter145" out="00:00:08.640">
+    <filter id="filter162" out="00:00:08.640">
       <property name="argument">一定以上のCatにはSTPでないと実現できないものがあります．
 気になる人は調べてみて下さい．
 </property>
@@ -8394,7 +9663,7 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter146" out="00:00:08.040">
+    <filter id="filter163" out="00:00:08.040">
       <property name="argument">図にあるとおり，数字が上がるほど性能が良くなりますが，
 その分値段が高くなっています．
 </property>
@@ -8429,7 +9698,7 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter147" out="00:00:10.760">
+    <filter id="filter164" out="00:00:10.760">
       <property name="argument">通信速度の速いケーブルを買っても，
 ケーブルが繋ぐ機器がその速度に対応していなければ，
 その機器がボトルネックになってしまいます．</property>
@@ -8464,7 +9733,7 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter148" out="00:00:11.800">
+    <filter id="filter165" out="00:00:11.800">
       <property name="argument">そのため，要件を満たす速度のケーブルを買い，
 あまりにオーバースペックなものは勿体無いので，
 適切なLANケーブルを買うようにすると良いと思います．</property>
@@ -8499,10 +9768,44 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter149" out="00:00:10.360">
+    <filter id="filter166" out="00:00:10.360">
       <property name="argument">なんとか並べたようですね．
 ここで，先端をペンチのようなもので
 切って，揃えてRJ-45のモジュールに線を差し込みます．</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer153" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter167" out="00:00:11.920">
+      <property name="argument">(うp主は非力ですね．)
+(ニッパーの扱いもおぼつかなさそうです．)</property>
       <property name="geometry">371 834 1505 211 1</property>
       <property name="family">Hiragino Sans</property>
       <property name="size">144</property>
@@ -8534,7 +9837,7 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter150" out="00:00:09.440">
+    <filter id="filter168" in="00:00:00.960" out="00:00:09.440">
       <property name="argument">そういえばみなさんLANケーブルと聞くと今作成しているものを
 想像されるかもしれませんが，これは狭義のLANケーブルです．
 </property>
@@ -8569,7 +9872,7 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter151" out="00:00:10.560">
+    <filter id="filter169" out="00:00:10.560">
       <property name="argument">広義には文字通り，
 「LANをケーブルで繋ぐこと」ができればLANケーブルなので，
 光ファイバー，電話線なども含みます．</property>
@@ -8604,7 +9907,7 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter152" out="00:00:11.280">
+    <filter id="filter170" out="00:00:11.280">
       <property name="argument">状況によっては，広義のLANケーブルを指している可能性があるので，
 一応頭に入れておくと良いでしょう．いつか役に立つかもしれません．
 </property>
@@ -8627,7 +9930,7 @@ LANケーブルの長さ？高級感？</property>
       <property name="shotcut:pointSize">144</property>
     </filter>
   </producer>
-  <producer id="producer153" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer55" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -8639,7 +9942,42 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter153" out="00:00:05.000">
+    <filter id="filter171" out="00:00:14.880">
+      <property name="argument">(もしかしてうp主は不器用なのか．．？)
+(時間かかりすぎじゃね．．．？)
+</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer56" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter172" in="00:00:00.960" out="00:00:05.000">
       <property name="argument">そうこうしているうちにモジュールへの差し込みができたようですね．
 
 </property>
@@ -8674,7 +10012,7 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter154" out="00:00:10.600">
+    <filter id="filter173" out="00:00:10.600">
       <property name="argument">そして，このかしめる道具でかしめていきます．
 視聴者兄貴姉貴の中で，
 このかしめる道具を持っている方はおられますか？</property>
@@ -8709,7 +10047,7 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter155" out="00:00:07.840">
+    <filter id="filter174" out="00:00:07.840">
       <property name="argument">うp主は生憎持っていなかったので，
 職場の方にこれを借りて本RTAを走っています．
 </property>
@@ -8744,10 +10082,115 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter156" out="00:00:14.520">
+    <filter id="filter175" out="00:00:14.520">
       <property name="argument">また，この動画はその職場で撮影しています．普段は楽しく
 プログラミングをしながら働いています．もちろん，撮影etcの許可が
 降りた上で動画を撮っているので安心してください．</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer57" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter176" in="00:00:00.960" out="00:00:04.480">
+      <property name="argument">(作業が遅すぎて場がもたないな．．．)
+(俺っちの小ネタを挟むか．．．)
+</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer58" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter177" in="00:00:00.160" out="00:00:06.200">
+      <property name="argument">(左下で喋ってる俺っちの紹介！)
+(弊サークル(アプリ開発団体jack)のマスコットキャラクターだぜ！)
+(名前は「じゃっくん」だぜ！！！)</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer59" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter178" in="00:00:00.960" out="00:00:04.120">
+      <property name="argument">・・・
+
+</property>
       <property name="geometry">371 834 1505 211 1</property>
       <property name="family">Hiragino Sans</property>
       <property name="size">144</property>
@@ -8779,7 +10222,7 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter157" out="00:00:07.280">
+    <filter id="filter179" in="00:00:00.960" out="00:00:07.280">
       <property name="argument">なれてない工具なので戸惑いが見られましたが，
 なんとか片方をかしめ終わりました．
 </property>
@@ -8802,6 +10245,26 @@ LANケーブルの長さ？高級感？</property>
       <property name="shotcut:pointSize">144</property>
     </filter>
   </producer>
+  <tractor id="tractor3" in="00:00:00.000" out="00:00:00.920">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer59" in="00:00:04.080" out="00:00:04.080"/>
+    <track producer="producer157" in="00:00:00.960" out="00:00:01.880"/>
+    <transition id="transition6">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition7">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
   <producer id="producer158" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
@@ -8814,7 +10277,7 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter158" out="00:00:04.440">
+    <filter id="filter180" out="00:00:04.840">
       <property name="argument">同様の手順でもう片方もかしめていきます．
 
 </property>
@@ -8837,7 +10300,7 @@ LANケーブルの長さ？高級感？</property>
       <property name="shotcut:pointSize">144</property>
     </filter>
   </producer>
-  <producer id="producer159" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer60" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">#00000000</property>
@@ -8849,7 +10312,7 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter159" out="00:00:02.600">
+    <filter id="filter181" in="00:00:00.960" out="00:00:02.600">
       <property name="argument">まずは配線．
 
 </property>
@@ -8884,7 +10347,7 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter160" out="00:00:04.280">
+    <filter id="filter182" out="00:00:04.280">
       <property name="argument">同じことをやっているので，少し余談．
 
 </property>
@@ -8919,7 +10382,7 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter161" out="00:00:06.760">
+    <filter id="filter183" out="00:00:06.760">
       <property name="argument">本編入る前に解説した
 「ストレートケーブル」と「クロスケーブル」
 についての補足です．</property>
@@ -8954,7 +10417,7 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter162" out="00:00:11.560">
+    <filter id="filter184" out="00:00:11.560">
       <property name="argument">LANケーブルがストレートケーブルとクロスケーブル
 の二種類存在しているのは，
 機器のポートにはMDIとMDI-Xという二種類あることに起因しています．</property>
@@ -8989,7 +10452,7 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter163" out="00:00:09.560">
+    <filter id="filter185" out="00:00:09.560">
       <property name="argument">これらMDIとMDI-Xでは，LANケーブルの8本の線のうち，
 送受信に用いている線が異なります．
 </property>
@@ -9024,7 +10487,7 @@ LANケーブルの長さ？高級感？</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter164" out="00:00:16.800">
+    <filter id="filter186" out="00:00:16.800">
       <property name="argument">そのため図のように，
 同じMDIとMDI，MDI-XとMDI-X同士の接続にはこのクロスケーブルを用いて，
 MDIとMDI-X同士の接続にはストレートケーブルを用いる必要があります</property>
@@ -9059,7 +10522,7 @@ MDIとMDI-X同士の接続にはストレートケーブルを用いる必要が
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter165" out="00:00:05.920">
+    <filter id="filter187" out="00:00:05.920">
       <property name="argument">よって，これらのケーブルは適切に使い分ける必要があります．
 
 </property>
@@ -9094,7 +10557,7 @@ MDIとMDI-X同士の接続にはストレートケーブルを用いる必要が
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter166" out="00:00:19.040">
+    <filter id="filter188" out="00:00:19.040">
       <property name="argument">ですが，コレは太古のお話です．現在では，ほとんどの機器のポートにて
 Auto MDI/MDI-Xという機能があり，その機能は，送受信方法を自動で
 検知し，MDI/MDI-Xの差異を自動で吸収するものです．</property>
@@ -9129,7 +10592,7 @@ Auto MDI/MDI-Xという機能があり，その機能は，送受信方法を自
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter167" out="00:00:12.680">
+    <filter id="filter189" out="00:00:12.680">
       <property name="argument">そのため，ストレートケーブルとクロスケーブルを
 使い分ける必要がなくなりました．
 つまり，MDIとMDI-Xを気にせずにLANケーブルを使うことができます．</property>
@@ -9164,7 +10627,7 @@ Auto MDI/MDI-Xという機能があり，その機能は，送受信方法を自
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter168" out="00:00:10.480">
+    <filter id="filter190" out="00:00:10.480">
       <property name="argument">Auto MDI/MDI-Xのおかげか，現在流通しているケーブルは
 基本的にストレートケーブルのみになっております
 </property>
@@ -9199,7 +10662,7 @@ Auto MDI/MDI-Xという機能があり，その機能は，送受信方法を自
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter169" out="00:00:14.840">
+    <filter id="filter191" out="00:00:14.840">
       <property name="argument">（何故クロスケーブルではなく，ストレートケーブルが一般的に流通する
 ようになったかの経緯は知りません．まあ，ストレートケーブルは両端が
 同じ配線だから作りやすいっていう理由もあるやろうな）</property>
@@ -9234,7 +10697,7 @@ Auto MDI/MDI-Xという機能があり，その機能は，送受信方法を自
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter170" out="00:00:14.320">
+    <filter id="filter192" out="00:00:14.320">
       <property name="argument">当然，クロスケーブルでも問題なく通信できます．
 今RTAで作成している配線を入れ替えることで，
 クロスケーブルを作成しても，LANケーブルとして問題無く機能します</property>
@@ -9269,7 +10732,7 @@ Auto MDI/MDI-Xという機能があり，その機能は，送受信方法を自
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter171" out="00:00:05.120">
+    <filter id="filter193" out="00:00:05.120">
       <property name="argument">（まあ，クロスケーブルにわざわざする必要もないですが．）．
 
 </property>
@@ -9304,7 +10767,7 @@ Auto MDI/MDI-Xという機能があり，その機能は，送受信方法を自
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter172" out="00:00:06.120">
+    <filter id="filter194" out="00:00:06.120">
       <property name="argument">さっきよりも手こずっていますね．みなさん応援して待っててください．
 
 </property>
@@ -9339,7 +10802,7 @@ Auto MDI/MDI-Xという機能があり，その機能は，送受信方法を自
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter173" out="00:00:08.600">
+    <filter id="filter195" out="00:00:08.600">
       <property name="argument">はい，みなさんの応援のおかげで配線は終わったようなので，
 次にニッパーで先端を整えて行きます．
 </property>
@@ -9374,7 +10837,7 @@ Auto MDI/MDI-Xという機能があり，その機能は，送受信方法を自
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter174" out="00:00:10.000">
+    <filter id="filter196" out="00:00:10.000">
       <property name="argument">一応線の長さを整えることに関する補足をしておきます．
 みなさんこれらの導線はどのくらい出す必要があると思いますか？
 </property>
@@ -9409,7 +10872,7 @@ Auto MDI/MDI-Xという機能があり，その機能は，送受信方法を自
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter175" out="00:00:08.160">
+    <filter id="filter197" out="00:00:08.160">
       <property name="argument">実はこの8本の導線全てがこのRJ-45モジュールの先端まで
 達している必要はありません．
 </property>
@@ -9444,7 +10907,7 @@ Auto MDI/MDI-Xという機能があり，その機能は，送受信方法を自
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter176" out="00:00:12.120">
+    <filter id="filter198" out="00:00:12.120">
       <property name="argument">この部分まで達していることが接続を行う上での
 必要条件となっています．
 機器との接続はその部分を媒介して行われるので，問題はありません．</property>
@@ -9479,7 +10942,7 @@ Auto MDI/MDI-Xという機能があり，その機能は，送受信方法を自
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter177" out="00:00:07.160">
+    <filter id="filter199" out="00:00:07.160">
       <property name="argument">その部分に達するだけではなく，
 長さも一定の長さ以下にする必要があります．
 </property>
@@ -9514,7 +10977,7 @@ Auto MDI/MDI-Xという機能があり，その機能は，送受信方法を自
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter178" out="00:00:11.960">
+    <filter id="filter200" out="00:00:11.960">
       <property name="argument">なぜなら，後の工程である「かしめる」作業にて，
 RJ-45モジュールのこの部分をケーブルでかしめて，
 安定させる必要があるからです．</property>
@@ -9549,7 +11012,7 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter179" out="00:00:13.520">
+    <filter id="filter201" out="00:00:13.520">
       <property name="argument">これで，LANケーブルがすっぽ抜けてしまうこともありません．
 つまり，導線の先端は全てここからここまでの
 長さにする必要があります(結構めんどくさいですね)．</property>
@@ -9584,9 +11047,9 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter180" out="00:00:04.000">
-      <property name="argument">あとはモジュールをうまく取り付けるだけです．
-
+    <filter id="filter202" out="00:00:04.000">
+      <property name="argument">(話は本編(RTA)に戻りまして)
+あとはモジュールをうまく取り付けるだけです．
 </property>
       <property name="geometry">371 834 1505 211 1</property>
       <property name="family">Hiragino Sans</property>
@@ -9619,7 +11082,7 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter181" out="00:00:09.480">
+    <filter id="filter203" out="00:00:09.480">
       <property name="argument">実は，配線がうまくいっていれば，
 モジュールにこれらの線を入れるだけで
 結構自動的に適所に入るんですよね．</property>
@@ -9654,7 +11117,7 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter182" out="00:00:02.600">
+    <filter id="filter204" out="00:00:02.600">
       <property name="argument">不思議ですよね．
 
 </property>
@@ -9689,7 +11152,7 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter184" in="00:00:00.960" out="00:00:06.720">
+    <filter id="filter205" in="00:00:00.960" out="00:00:06.720">
       <property name="argument">さて，モジュールの取り付けがうまくいき，
 かしめるのもうまくいきそうですね．
 </property>
@@ -9724,10 +11187,175 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter183" out="00:00:05.280">
+    <filter id="filter206" out="00:00:05.280">
       <property name="argument">特に語ることが無いので，みんなで応援しましょう．
 
 </property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer61" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter207" in="00:00:00.960" out="00:00:01.960">
+      <property name="argument">・</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer62" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter208" in="00:00:00.960" out="00:00:01.960">
+      <property name="argument">・・</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer63" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter209" in="00:00:00.960" out="00:00:01.960">
+      <property name="argument">・・・</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer64" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter210" in="00:00:00.960" out="00:00:01.960">
+      <property name="argument">・・・・</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer65" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter211" in="00:00:00.960" out="00:00:01.960">
+      <property name="argument">・・・・・</property>
       <property name="geometry">371 834 1505 211 1</property>
       <property name="family">Hiragino Sans</property>
       <property name="size">144</property>
@@ -9759,10 +11387,274 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter185" out="00:00:05.000">
+    <filter id="filter212" out="00:00:05.000">
       <property name="argument">最後はテスターで確認できたらタイマーストップです．
 
 </property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer66" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter213" in="00:00:00.960" out="00:00:01.960">
+      <property name="argument">・</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer67" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter214" in="00:00:00.960" out="00:00:01.960">
+      <property name="argument">・・</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer68" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter215" in="00:00:00.960" out="00:00:01.960">
+      <property name="argument">・・・</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer69" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter216" in="00:00:00.960" out="00:00:01.960">
+      <property name="argument">・・・・</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer70" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter217" in="00:00:00.960" out="00:00:01.960">
+      <property name="argument">・・・・・</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer71" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter218" in="00:00:00.960" out="00:00:01.960">
+      <property name="argument">作業が</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer72" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter219" in="00:00:00.960" out="00:00:01.960">
+      <property name="argument">作業が遅い</property>
+      <property name="geometry">371 834 1505 211 1</property>
+      <property name="family">Hiragino Sans</property>
+      <property name="size">144</property>
+      <property name="weight">900</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#ffffffff</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">left</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="opacity">1</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">1</property>
+      <property name="shotcut:pointSize">144</property>
+    </filter>
+  </producer>
+  <producer id="producer73" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">#00000000</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="shotcut:caption">transparent</property>
+    <property name="shotcut:detail">transparent</property>
+    <property name="xml">was here</property>
+    <property name="seekable">1</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter220" in="00:00:00.960" out="00:00:01.960">
+      <property name="argument">作業が遅い( ＾∀＾)</property>
       <property name="geometry">371 834 1505 211 1</property>
       <property name="family">Hiragino Sans</property>
       <property name="size">144</property>
@@ -9794,7 +11686,7 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter186" out="00:00:03.640">
+    <filter id="filter221" out="00:00:03.640">
       <property name="argument">はい．ここでタイマーストップ．
 
 </property>
@@ -9829,7 +11721,7 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter187" out="00:00:02.720">
+    <filter id="filter222" out="00:00:02.720">
       <property name="argument">乾燥した乾燥
 
 </property>
@@ -9864,7 +11756,7 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter188" out="00:00:10.480">
+    <filter id="filter223" out="00:00:10.480">
       <property name="argument">うp主がRJ-45x2のLANケーブルを作るのは初めてですが，
 完走することができ，楽しかったです(小並感)．
 </property>
@@ -9899,7 +11791,7 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter189" out="00:00:09.040">
+    <filter id="filter224" out="00:00:09.040">
       <property name="argument">ちなみに，この動画を作ろうと思ったきっかけは，
 うp主が最近ネットワークに興味を持ち始めたからです．
 </property>
@@ -9934,7 +11826,7 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter190" out="00:00:09.680">
+    <filter id="filter225" out="00:00:09.680">
       <property name="argument">うp主の興味のある分野があっち行ったりこっち行ったりして大変です．
 ちょっと前では競プロに興味を持ったり色々．．．
 </property>
@@ -9969,7 +11861,7 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter191" out="00:00:10.320">
+    <filter id="filter226" out="00:00:10.320">
       <property name="argument">まあ，今はもっぱらネットワーク機器なので，
 通信などの低レイヤーに興味があったら
 是非うp主に話しかけてください．</property>
@@ -10004,7 +11896,7 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter192" out="00:00:12.280">
+    <filter id="filter227" out="00:00:12.280">
       <property name="argument">一応この動画で述べた(うp主的に)重要なことのまとめに入ります．
 動画で出てきた順番通りの説明ではありませんが，あしからず．
 </property>
@@ -10039,7 +11931,7 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter193" out="00:00:12.360">
+    <filter id="filter228" out="00:00:12.360">
       <property name="argument">一つ目．LANケーブルには狭義と広義のものがあり，
 一般的には狭義のLANケーブルを指していることが多く，
 この動画でも狭義のLANケーブルを指している．</property>
@@ -10074,7 +11966,7 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter194" out="00:00:08.800">
+    <filter id="filter229" out="00:00:08.800">
       <property name="argument">二つ目．LANケーブルにはストレートケーブルとクロスケーブルがあるが
 現在は気にする機会はほぼ無い．
 </property>
@@ -10109,7 +12001,7 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter195" out="00:00:10.000">
+    <filter id="filter230" out="00:00:10.000">
       <property name="argument">三つ目．LANケーブルを選ぶときはCatが重要な指標の一つになり，
 UTPやSTPはこれに関わっている．
 </property>
@@ -10144,7 +12036,7 @@ UTPやSTPはこれに関わっている．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter196" out="00:00:12.080">
+    <filter id="filter231" out="00:00:12.080">
       <property name="argument">この動画をきっかけに「アプリ開発団体jack」にて
 低レイヤーに興味を持つ人が一人でも増えてくれたら嬉しいです．
 以上で発表を終わります．</property>
@@ -10179,7 +12071,7 @@ UTPやSTPはこれに関わっている．
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter197" out="00:00:03.400">
+    <filter id="filter232" out="00:00:03.400">
       <property name="argument">ご視聴ありがとうございました．
 
 </property>
@@ -10216,7 +12108,7 @@ UTPやSTPはこれに関わっている．
     <entry producer="producer107" in="00:00:00.960" out="00:00:10.360"/>
     <entry producer="producer108" in="00:00:00.960" out="00:00:12.720"/>
     <blank length="00:00:01.200"/>
-    <entry producer="producer34" in="00:00:00.960" out="00:00:05.760"/>
+    <entry producer="producer50" in="00:00:00.960" out="00:00:05.760"/>
     <entry producer="producer110" in="00:00:00.960" out="00:00:15.640"/>
     <entry producer="producer111" in="00:00:00.960" out="00:00:05.320"/>
     <entry producer="producer112" in="00:00:00.960" out="00:00:09.160"/>
@@ -10239,12 +12131,13 @@ UTPやSTPはこれに関わっている．
     <entry producer="producer127" in="00:00:00.960" out="00:00:09.040"/>
     <entry producer="producer128" in="00:00:00.960" out="00:00:09.680"/>
     <entry producer="producer129" in="00:00:00.960" out="00:00:15.360"/>
-    <entry producer="producer35" in="00:00:00.960" out="00:00:12.240"/>
+    <entry producer="producer51" in="00:00:00.960" out="00:00:12.240"/>
     <entry producer="producer131" in="00:00:00.960" out="00:00:14.280"/>
-    <entry producer="producer36" in="00:00:00.960" out="00:00:14.360"/>
-    <entry producer="producer133" in="00:00:00.960" out="00:00:05.080"/>
-    <entry producer="producer134" in="00:00:01.000" out="00:00:09.080"/>
-    <entry producer="producer135" in="00:00:00.960" out="00:00:03.240"/>
+    <entry producer="producer52" in="00:00:00.960" out="00:00:14.360"/>
+    <entry producer="producer133" in="00:00:00.960" out="00:00:04.360"/>
+    <entry producer="producer134" in="00:00:01.000" out="00:00:06.200"/>
+    <entry producer="producer53" in="00:00:04.920" out="00:00:09.080"/>
+    <entry producer="producer135" in="00:00:01.120" out="00:00:03.240"/>
     <entry producer="producer136" in="00:00:00.960" out="00:00:10.920"/>
     <entry producer="producer137" in="00:00:00.960" out="00:00:07.760"/>
     <entry producer="producer138" in="00:00:00.960" out="00:00:14.320"/>
@@ -10252,27 +12145,32 @@ UTPやSTPはこれに関わっている．
     <entry producer="producer140" in="00:00:00.960" out="00:00:09.440"/>
     <entry producer="producer141" in="00:00:00.960" out="00:00:09.760"/>
     <entry producer="producer142" in="00:00:00.960" out="00:00:08.480"/>
-    <entry producer="producer37" in="00:00:00.960" out="00:00:09.160"/>
+    <entry producer="producer54" in="00:00:00.960" out="00:00:09.160"/>
     <entry producer="producer144" in="00:00:00.960" out="00:00:16.640"/>
     <entry producer="producer145" in="00:00:00.960" out="00:00:08.640"/>
     <entry producer="producer146" in="00:00:00.960" out="00:00:08.040"/>
     <entry producer="producer147" in="00:00:00.960" out="00:00:10.760"/>
     <entry producer="producer148" in="00:00:00.960" out="00:00:11.800"/>
     <entry producer="producer149" in="00:00:00.960" out="00:00:10.360"/>
-    <blank length="00:00:06.480"/>
+    <blank length="00:00:00.080"/>
+    <entry producer="producer153" in="00:00:00.960" out="00:00:07.320"/>
     <entry producer="producer150" in="00:00:00.960" out="00:00:09.440"/>
     <entry producer="producer151" in="00:00:00.960" out="00:00:10.560"/>
     <entry producer="producer152" in="00:00:00.960" out="00:00:11.280"/>
-    <blank length="00:00:11.440"/>
-    <entry producer="producer153" in="00:00:00.960" out="00:00:05.000"/>
+    <entry producer="producer55" in="00:00:00.960" out="00:00:12.360"/>
+    <entry producer="producer56" in="00:00:00.960" out="00:00:05.000"/>
     <blank length="00:00:01.920"/>
     <entry producer="producer154" in="00:00:00.960" out="00:00:10.600"/>
     <entry producer="producer155" in="00:00:00.960" out="00:00:07.840"/>
     <entry producer="producer156" in="00:00:00.960" out="00:00:14.520"/>
-    <blank length="00:00:14.480"/>
-    <entry producer="producer157" in="00:00:00.960" out="00:00:07.280"/>
+    <blank length="00:00:01.720"/>
+    <entry producer="producer57" in="00:00:00.960" out="00:00:04.480"/>
+    <entry producer="producer58" in="00:00:00.160" out="00:00:06.200"/>
+    <entry producer="producer59" in="00:00:00.960" out="00:00:04.040"/>
+    <entry producer="tractor3" in="00:00:00.000" out="00:00:00.000"/>
+    <entry producer="producer157" in="00:00:01.000" out="00:00:07.280"/>
     <entry producer="producer158" in="00:00:00.960" out="00:00:04.440"/>
-    <entry producer="producer159" in="00:00:00.960" out="00:00:02.600"/>
+    <entry producer="producer60" in="00:00:00.960" out="00:00:02.600"/>
     <entry producer="producer160" in="00:00:00.960" out="00:00:04.280"/>
     <entry producer="producer161" in="00:00:00.960" out="00:00:06.760"/>
     <entry producer="producer162" in="00:00:00.960" out="00:00:11.560"/>
@@ -10299,9 +12197,26 @@ UTPやSTPはこれに関わっている．
     <entry producer="producer182" in="00:00:00.960" out="00:00:02.600"/>
     <entry producer="producer184" in="00:00:00.960" out="00:00:06.720"/>
     <entry producer="producer183" in="00:00:00.960" out="00:00:05.280"/>
-    <blank length="00:00:06.560"/>
+    <blank length="00:00:00.600"/>
+    <entry producer="producer61" in="00:00:00.960" out="00:00:01.960"/>
+    <entry producer="producer62" in="00:00:00.960" out="00:00:01.960"/>
+    <entry producer="producer63" in="00:00:00.960" out="00:00:01.960"/>
+    <entry producer="producer64" in="00:00:00.960" out="00:00:01.960"/>
+    <entry producer="producer65" in="00:00:00.960" out="00:00:01.960"/>
+    <blank length="00:00:00.760"/>
     <entry producer="producer185" in="00:00:00.960" out="00:00:05.000"/>
-    <blank length="00:00:09.960"/>
+    <blank length="00:00:00.760"/>
+    <entry producer="producer66" in="00:00:00.960" out="00:00:01.960"/>
+    <entry producer="producer67" in="00:00:00.960" out="00:00:01.960"/>
+    <entry producer="producer68" in="00:00:00.960" out="00:00:01.960"/>
+    <entry producer="producer69" in="00:00:00.960" out="00:00:01.960"/>
+    <entry producer="producer70" in="00:00:00.960" out="00:00:01.960"/>
+    <blank length="00:00:00.040"/>
+    <entry producer="producer71" in="00:00:00.960" out="00:00:01.960"/>
+    <entry producer="producer72" in="00:00:00.960" out="00:00:01.960"/>
+    <blank length="00:00:00.120"/>
+    <entry producer="producer73" in="00:00:00.960" out="00:00:01.960"/>
+    <blank length="00:00:00.720"/>
     <entry producer="producer186" in="00:00:00.960" out="00:00:03.640"/>
     <blank length="00:00:00.480"/>
     <entry producer="producer187" in="00:00:00.960" out="00:00:02.720"/>
@@ -10316,7 +12231,7 @@ UTPやSTPはこれに関わっている．
     <entry producer="producer196" in="00:00:00.960" out="00:00:12.080"/>
     <entry producer="producer197" in="00:00:00.960" out="00:00:03.400"/>
   </playlist>
-  <producer id="producer38" in="00:00:00.000" out="03:59:59.960">
+  <producer id="producer74" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">back/jackkun.png</property>
@@ -10335,7 +12250,7 @@ UTPやSTPはこれに関わっている．
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter56" out="00:14:52.320">
+    <filter id="filter233" out="00:14:52.320">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -10353,7 +12268,7 @@ UTPやSTPはこれに関わっている．
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">Speaker</property>
     <property name="shotcut:lock">1</property>
-    <entry producer="producer38" in="00:00:00.000" out="00:14:52.320"/>
+    <entry producer="producer74" in="00:00:00.000" out="00:14:52.320"/>
   </playlist>
   <chain id="chain198" out="00:00:02.960">
     <property name="length">00:00:03.000</property>
@@ -10713,7 +12628,7 @@ UTPやSTPはこれに関わっている．
     <property name="xml">was here</property>
     <property name="shotcut:hash">e22eab8ea878bfc2d929be38c167ba7c</property>
   </chain>
-  <producer id="producer39" in="00:00:00.000" out="00:00:02.240">
+  <producer id="producer75" in="00:00:00.000" out="00:00:02.240">
     <property name="length">00:00:02.280</property>
     <property name="eof">pause</property>
     <property name="resource">2:voice/aaa/aaa_020_コンピュータゲーム….wav</property>
@@ -10740,7 +12655,7 @@ UTPやSTPはこれに関わっている．
     <property name="shotcut:caption">aaa_020_コンピュータゲーム….wav (2x)</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer40" in="00:00:00.000" out="00:00:02.000">
+  <producer id="producer76" in="00:00:00.000" out="00:00:02.000">
     <property name="length">00:00:02.040</property>
     <property name="eof">pause</property>
     <property name="resource">2:voice/aaa/aaa_021_ゲーム内部時間では….wav</property>
@@ -10767,7 +12682,7 @@ UTPやSTPはこれに関わっている．
     <property name="shotcut:caption">aaa_021_ゲーム内部時間では….wav (2x)</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer41" in="00:00:00.000" out="00:00:03.480">
+  <producer id="producer77" in="00:00:00.000" out="00:00:03.480">
     <property name="length">00:00:03.520</property>
     <property name="eof">pause</property>
     <property name="resource">2:voice/aaa/aaa_022_「アールティーエー….wav</property>
@@ -10884,7 +12799,7 @@ UTPやSTPはこれに関わっている．
     <property name="shotcut:hash">4c4203394dfb95b93d2890bcc5e04e26</property>
     <property name="shotcut:caption">aaa_026_以下Wikiped….wav</property>
   </chain>
-  <producer id="producer42" in="00:00:00.000" out="00:00:03.120">
+  <producer id="producer78" in="00:00:00.000" out="00:00:03.120">
     <property name="length">00:00:03.160</property>
     <property name="eof">pause</property>
     <property name="resource">2:voice/aaa/aaa_027_（よりついせん）に….wav</property>
@@ -10911,7 +12826,7 @@ UTPやSTPはこれに関わっている．
     <property name="shotcut:caption">aaa_027_（よりついせん）に….wav (2x)</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer43" in="00:00:00.000" out="00:00:06.160">
+  <producer id="producer79" in="00:00:00.000" out="00:00:06.160">
     <property name="length">00:00:06.200</property>
     <property name="eof">pause</property>
     <property name="resource">2:voice/aaa/aaa_028_特に4対8線で両端….wav</property>
@@ -10938,7 +12853,7 @@ UTPやSTPはこれに関わっている．
     <property name="shotcut:caption">aaa_028_特に4対8線で両端….wav (2x)</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer44" in="00:00:00.000" out="00:00:02.920">
+  <producer id="producer80" in="00:00:00.000" out="00:00:02.920">
     <property name="length">00:00:02.960</property>
     <property name="eof">pause</property>
     <property name="resource">2:voice/aaa/aaa_029_圧接工具を使えば容….wav</property>
@@ -10965,7 +12880,7 @@ UTPやSTPはこれに関わっている．
     <property name="shotcut:caption">aaa_029_圧接工具を使えば容….wav (2x)</property>
     <property name="xml">was here</property>
   </producer>
-  <producer id="producer45" in="00:00:00.000" out="00:00:01.880">
+  <producer id="producer81" in="00:00:00.000" out="00:00:01.880">
     <property name="length">00:00:01.920</property>
     <property name="eof">pause</property>
     <property name="resource">2:voice/aaa/aaa_030_ケーブルには配線構….wav</property>
@@ -13729,9 +15644,9 @@ UTPやSTPはこれに関わっている．
     <blank length="00:00:00.400"/>
     <entry producer="chain213" in="00:00:00.000" out="00:00:03.960"/>
     <blank length="00:00:00.400"/>
-    <entry producer="producer39" in="00:00:00.000" out="00:00:02.240"/>
-    <entry producer="producer40" in="00:00:00.000" out="00:00:02.000"/>
-    <entry producer="producer41" in="00:00:00.000" out="00:00:03.480"/>
+    <entry producer="producer75" in="00:00:00.000" out="00:00:02.240"/>
+    <entry producer="producer76" in="00:00:00.000" out="00:00:02.000"/>
+    <entry producer="producer77" in="00:00:00.000" out="00:00:03.480"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain217" in="00:00:00.000" out="00:00:06.040"/>
     <blank length="00:00:00.400"/>
@@ -13740,10 +15655,10 @@ UTPやSTPはこれに関わっている．
     <entry producer="chain219" in="00:00:00.000" out="00:00:02.640"/>
     <entry producer="chain220" in="00:00:00.000" out="00:00:01.720"/>
     <blank length="00:00:00.400"/>
-    <entry producer="producer42" in="00:00:00.000" out="00:00:03.120"/>
-    <entry producer="producer43" in="00:00:00.000" out="00:00:06.160"/>
-    <entry producer="producer44" in="00:00:00.000" out="00:00:02.920"/>
-    <entry producer="producer45" in="00:00:00.000" out="00:00:01.880"/>
+    <entry producer="producer78" in="00:00:00.000" out="00:00:03.120"/>
+    <entry producer="producer79" in="00:00:00.000" out="00:00:06.160"/>
+    <entry producer="producer80" in="00:00:00.000" out="00:00:02.920"/>
+    <entry producer="producer81" in="00:00:00.000" out="00:00:01.880"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain225" in="00:00:00.000" out="00:00:05.280"/>
     <blank length="00:00:00.400"/>
@@ -13794,8 +15709,9 @@ UTPやSTPはこれに関わっている．
     <entry producer="chain258" in="00:00:00.000" out="00:00:03.520"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain259" in="00:00:00.000" out="00:00:02.840"/>
-    <blank length="00:00:01.240"/>
+    <blank length="00:00:00.520"/>
     <entry producer="chain260" in="00:00:00.000" out="00:00:04.040"/>
+    <blank length="00:00:01.160"/>
     <entry producer="chain261" in="00:00:00.000" out="00:00:03.640"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain262" in="00:00:00.000" out="00:00:01.920"/>
@@ -14017,6 +15933,7 @@ UTPやSTPはこれに関わっている．
     <property name="astream">0</property>
     <property name="shotcut:hash">21f3a8304c864b26a6664b990377f8a5</property>
     <property name="shotcut:caption">cutting.mp3</property>
+    <property name="xml">was here</property>
   </chain>
   <chain id="chain221" out="00:00:00.680">
     <property name="length">00:00:00.720</property>
@@ -14041,6 +15958,57 @@ UTPやSTPはこれに関わっている．
     <property name="shotcut:caption">cut.mp3</property>
     <property name="xml">was here</property>
   </chain>
+  <chain id="chain222" out="00:00:01.880">
+    <property name="length">00:00:01.920</property>
+    <property name="eof">pause</property>
+    <property name="resource">voice/Camera-Phone01-mp3/Camera-Phone01-1.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">53296</property>
+    <property name="meta.attr.0.stream.encoder.markup">LAME3.99r</property>
+    <property name="meta.attr.artist.markup">OtoLogic</property>
+    <property name="meta.attr.title.markup">Camera-Phone01-1</property>
+    <property name="meta.attr.album.markup">OtoLogic-SE</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2018-09-29T06:29:02</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">afe0096e4d211c08c1cbb6e79bb4e0f3</property>
+    <property name="shotcut:caption">Camera-Phone01-1.mp3</property>
+  </chain>
+  <chain id="chain223" out="00:00:01.880">
+    <property name="length">00:00:01.920</property>
+    <property name="eof">pause</property>
+    <property name="resource">voice/Camera-Phone01-mp3/Camera-Phone01-1.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">53296</property>
+    <property name="meta.attr.0.stream.encoder.markup">LAME3.99r</property>
+    <property name="meta.attr.artist.markup">OtoLogic</property>
+    <property name="meta.attr.title.markup">Camera-Phone01-1</property>
+    <property name="meta.attr.album.markup">OtoLogic-SE</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2018-09-29T06:29:02</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">afe0096e4d211c08c1cbb6e79bb4e0f3</property>
+    <property name="shotcut:caption">Camera-Phone01-1.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
   <playlist id="playlist6">
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">BGM</property>
@@ -14051,15 +16019,19 @@ UTPやSTPはこれに関わっている．
     <entry producer="chain215" in="00:00:00.000" out="00:00:00.680"/>
     <blank length="00:01:24.520"/>
     <entry producer="chain216" in="00:00:00.000" out="00:00:01.200"/>
-    <blank length="00:00:46.920"/>
+    <blank length="00:00:51.480"/>
     <entry producer="chain221" in="00:00:00.000" out="00:00:00.680"/>
+    <blank length="00:00:26.040"/>
+    <entry producer="chain222" in="00:00:00.000" out="00:00:01.880"/>
+    <blank length="00:00:09.400"/>
+    <entry producer="chain223" in="00:00:00.000" out="00:00:01.880"/>
   </playlist>
-  <tractor id="tractor3" title="Shotcut version 23.11.29" in="00:00:00.000" out="00:14:55.960">
+  <tractor id="tractor4" title="Shotcut version 23.11.29" in="00:00:00.000" out="00:14:56.400">
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
     <property name="shotcut:skipConvert">0</property>
-    <property name="shotcut:scaleFactor">0.400715</property>
+    <property name="shotcut:scaleFactor">0.509736</property>
     <properties name="shotcut:markers">
       <properties name="0">
         <property name="text">Marker 1</property>
@@ -14076,14 +16048,14 @@ UTPやSTPはこれに関わっている．
     <track producer="playlist2"/>
     <track producer="playlist5" hide="video"/>
     <track producer="playlist6" hide="video"/>
-    <transition id="transition6">
+    <transition id="transition8">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
-    <transition id="transition4">
+    <transition id="transition9">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="version">0.1</property>
@@ -14098,7 +16070,7 @@ UTPやSTPはこれに関わっている．
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
-    <transition id="transition5">
+    <transition id="transition11">
       <property name="a_track">1</property>
       <property name="b_track">2</property>
       <property name="version">0.1</property>
@@ -14113,7 +16085,7 @@ UTPやSTPはこれに関わっている．
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
-    <transition id="transition7">
+    <transition id="transition12">
       <property name="a_track">1</property>
       <property name="b_track">3</property>
       <property name="version">0.1</property>
@@ -14121,31 +16093,16 @@ UTPやSTPはこれに関わっている．
       <property name="1">normal</property>
       <property name="disable">0</property>
     </transition>
-    <transition id="transition8">
+    <transition id="transition13">
       <property name="a_track">0</property>
       <property name="b_track">4</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
-    <transition id="transition9">
+    <transition id="transition15">
       <property name="a_track">1</property>
       <property name="b_track">4</property>
-      <property name="version">0.1</property>
-      <property name="mlt_service">frei0r.cairoblend</property>
-      <property name="1">normal</property>
-      <property name="disable">0</property>
-    </transition>
-    <transition id="transition12">
-      <property name="a_track">0</property>
-      <property name="b_track">5</property>
-      <property name="mlt_service">mix</property>
-      <property name="always_active">1</property>
-      <property name="sum">1</property>
-    </transition>
-    <transition id="transition11">
-      <property name="a_track">1</property>
-      <property name="b_track">5</property>
       <property name="version">0.1</property>
       <property name="mlt_service">frei0r.cairoblend</property>
       <property name="1">normal</property>
@@ -14153,12 +16110,27 @@ UTPやSTPはこれに関わっている．
     </transition>
     <transition id="transition16">
       <property name="a_track">0</property>
+      <property name="b_track">5</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition17">
+      <property name="a_track">1</property>
+      <property name="b_track">5</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="1">normal</property>
+      <property name="disable">0</property>
+    </transition>
+    <transition id="transition18">
+      <property name="a_track">0</property>
       <property name="b_track">6</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
-    <transition id="transition13">
+    <transition id="transition19">
       <property name="a_track">0</property>
       <property name="b_track">7</property>
       <property name="mlt_service">mix</property>
