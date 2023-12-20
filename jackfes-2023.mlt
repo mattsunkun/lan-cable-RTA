@@ -5091,7 +5091,7 @@
       <property name="halign">center</property>
       <property name="valign">middle</property>
       <property name="outline">0</property>
-      <property name="opacity">0</property>
+      <property name="opacity">00:04:40.000=0;00:04:41.040=1</property>
       <property name="mlt_service">timer</property>
       <property name="shotcut:filter">timer</property>
       <property name="shotcut:usePointSize">0</property>
@@ -5119,7 +5119,7 @@
       <property name="halign">left</property>
       <property name="valign">bottom</property>
       <property name="outline">3</property>
-      <property name="opacity">00:00:05.880=0</property>
+      <property name="opacity">00:04:01.040=0;00:04:40.040=0;00:04:41.040=1</property>
       <property name="mlt_service">dynamictext</property>
       <property name="shotcut:filter">dynamicText</property>
       <property name="shotcut:usePointSize">0</property>
@@ -6417,7 +6417,7 @@ UTPという単語については本編に入ったらまた解説します．</
     <property name="meta.shotcut.vui">1</property>
     <filter id="filter152" out="00:00:12.560">
       <property name="argument">RTAのマイルストーンは簡単です．
-配線→長さを整える→モジュール取り付け→かしめる
+配線→長さを整える(→モジュール取り付け)→かしめる
 を両端で行い，最後にテストをするだけです．</property>
       <property name="geometry">371 834 1505 211 1</property>
       <property name="family">Hiragino Sans</property>
@@ -10959,6 +10959,14 @@ https://item.rakuten.co.jp/shop-always/r171017-07n/</property>
       <property name="shotcut:usePointSize">1</property>
       <property name="shotcut:pointSize">144</property>
     </filter>
+    <filter id="filter58" in="00:00:01.000" out="00:00:12.560">
+      <property name="start">1</property>
+      <property name="level">1</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeInBrightness</property>
+      <property name="alpha">00:00:00.000=0;00:00:00.960=1</property>
+      <property name="shotcut:animIn">00:00:01.000</property>
+    </filter>
   </producer>
   <producer id="producer24" in="00:00:00.000" out="03:59:59.960">
     <property name="length">04:00:00.000</property>
@@ -10977,7 +10985,7 @@ https://item.rakuten.co.jp/shop-always/r171017-07n/</property>
     <property name="shotcut:caption">rj-45-arrange_ewords.png</property>
     <property name="xml">was here</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter58" out="00:00:09.200">
+    <filter id="filter59" out="00:00:09.200">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -10991,7 +10999,7 @@ https://item.rakuten.co.jp/shop-always/r171017-07n/</property>
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter59" out="00:00:09.200">
+    <filter id="filter60" out="00:00:09.200">
       <property name="argument">
 引用：https://e-words.jp/w/T568A-T568B.html</property>
       <property name="geometry">325 703 778 73 1</property>
@@ -11031,7 +11039,7 @@ https://item.rakuten.co.jp/shop-always/r171017-07n/</property>
     <property name="shotcut:caption">hato-hohou.png</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter60" out="00:00:07.040">
+    <filter id="filter61" out="00:00:07.040">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -11062,7 +11070,7 @@ https://item.rakuten.co.jp/shop-always/r171017-07n/</property>
     <property name="shotcut:caption">utp_cman.png</property>
     <property name="xml">was here</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter61" in="00:00:00.520" out="00:00:10.440">
+    <filter id="filter62" in="00:00:00.520" out="00:00:10.440">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -11075,7 +11083,7 @@ https://item.rakuten.co.jp/shop-always/r171017-07n/</property>
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
-    <filter id="filter62" in="00:00:00.520" out="00:00:10.440">
+    <filter id="filter63" in="00:00:00.520" out="00:00:10.440">
       <property name="argument">引用
 https://note.cman.jp/network/lan_cable.cgi</property>
       <property name="geometry">353 661 715 111 1</property>
@@ -11115,7 +11123,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
     <property name="shotcut:caption">stp_cman.png</property>
     <property name="xml">was here</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter63" in="00:00:00.040" out="00:00:14.680">
+    <filter id="filter64" in="00:00:00.040" out="00:00:14.680">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -11129,7 +11137,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
       <property name="transition.threads">0</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter64" in="00:00:00.040" out="00:00:14.680">
+    <filter id="filter65" in="00:00:00.040" out="00:00:14.680">
       <property name="argument">引用
 https://note.cman.jp/network/lan_cable.cgi</property>
       <property name="geometry">353 661 715 111 1</property>
@@ -11190,7 +11198,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
     <property name="shotcut:caption">stp_cman.png</property>
     <property name="xml">was here</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter65" in="00:00:00.040" out="00:00:14.680">
+    <filter id="filter66" in="00:00:00.040" out="00:00:14.680">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -11204,7 +11212,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
       <property name="transition.threads">0</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter66" in="00:00:00.040" out="00:00:14.680">
+    <filter id="filter67" in="00:00:00.040" out="00:00:14.680">
       <property name="argument">引用
 https://note.cman.jp/network/lan_cable.cgi</property>
       <property name="geometry">353 661 715 111 1</property>
@@ -11245,7 +11253,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
     <property name="shotcut:caption">hato-hohou.png</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter67" out="00:00:04.000">
+    <filter id="filter68" out="00:00:04.000">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -11259,7 +11267,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter68" in="00:00:00.240" out="00:00:04.000">
+    <filter id="filter69" in="00:00:00.240" out="00:00:04.000">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -11267,7 +11275,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
       <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
       <property name="shotcut:animIn">26</property>
     </filter>
-    <filter id="filter69" in="00:00:00.240" out="00:00:04.000">
+    <filter id="filter70" in="00:00:00.240" out="00:00:04.000">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -11293,7 +11301,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
     <property name="shotcut:caption">irasutoya-lan.png</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter70" out="00:00:06.000">
+    <filter id="filter71" out="00:00:06.000">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -11307,7 +11315,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter71" out="00:00:06.000">
+    <filter id="filter72" out="00:00:06.000">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -11367,7 +11375,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
     <property name="xml">was here</property>
     <property name="shotcut:caption">cat-table_pcwatch.png</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter72" out="00:00:30.640">
+    <filter id="filter73" out="00:00:30.640">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -11381,7 +11389,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
       <property name="transition.threads">0</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter73" out="00:00:30.640">
+    <filter id="filter74" out="00:00:30.640">
       <property name="argument">Cat </property>
       <property name="geometry">243 0 452 277 1</property>
       <property name="family">Hiragino Sans</property>
@@ -11402,7 +11410,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
       <property name="shotcut:pointSize">288</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter74" out="00:00:30.640">
+    <filter id="filter75" out="00:00:30.640">
       <property name="argument">とは</property>
       <property name="geometry">658 51 373 187 1</property>
       <property name="family">Hiragino Sans</property>
@@ -11440,7 +11448,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
     <property name="xml">was here</property>
     <property name="shotcut:caption">lan-def_ewords.png</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter75" out="00:00:09.600">
+    <filter id="filter76" out="00:00:09.600">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -11454,7 +11462,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter76" out="00:00:09.600">
+    <filter id="filter77" out="00:00:09.600">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -11462,7 +11470,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
       <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
       <property name="shotcut:animIn">26</property>
     </filter>
-    <filter id="filter77" out="00:00:09.600">
+    <filter id="filter78" out="00:00:09.600">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -11470,7 +11478,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
       <property name="alpha">00:00:08.560=1;00:00:09.600=0</property>
       <property name="shotcut:animOut">27</property>
     </filter>
-    <filter id="filter78" out="00:00:09.600">
+    <filter id="filter79" out="00:00:09.600">
       <property name="argument">引用：https://pc.watch.impress.co.jp/docs/topic/feature/1328323.html</property>
       <property name="geometry">42 166 715 111 1</property>
       <property name="family">Sans</property>
@@ -11510,7 +11518,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
     <property name="xml">was here</property>
     <property name="shotcut:caption">irasutoya-programmer.png</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter79" out="00:00:03.960">
+    <filter id="filter80" out="00:00:03.960">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -11525,7 +11533,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
       <property name="transition.fix_rotate_x">0</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter80" out="00:00:03.960">
+    <filter id="filter81" out="00:00:03.960">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -11533,7 +11541,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
       <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
       <property name="shotcut:animIn">26</property>
     </filter>
-    <filter id="filter81" out="00:00:03.960">
+    <filter id="filter82" out="00:00:03.960">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -11559,7 +11567,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
     <property name="shotcut:caption">straight-cross_vsq.png</property>
     <property name="meta.shotcut.vui">1</property>
     <property name="xml">was here</property>
-    <filter id="filter82" out="00:00:05.800">
+    <filter id="filter83" out="00:00:05.800">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -11572,7 +11580,7 @@ https://note.cman.jp/network/lan_cable.cgi</property>
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="transition.threads">0</property>
     </filter>
-    <filter id="filter83" out="00:00:05.800">
+    <filter id="filter84" out="00:00:05.800">
       <property name="argument">引用
 https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="geometry">14 547 992 156 1</property>
@@ -11594,7 +11602,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter84" out="00:00:05.800">
+    <filter id="filter85" out="00:00:05.800">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -11602,7 +11610,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
       <property name="shotcut:animIn">26</property>
     </filter>
-    <filter id="filter85" out="00:00:05.800">
+    <filter id="filter86" out="00:00:05.800">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -11643,7 +11651,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="shotcut:usePointSize">1</property>
       <property name="shotcut:pointSize">288</property>
     </filter>
-    <filter id="filter86" out="00:00:04.560">
+    <filter id="filter87" out="00:00:04.560">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -11651,7 +11659,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
       <property name="shotcut:animIn">26</property>
     </filter>
-    <filter id="filter87" out="00:00:04.560">
+    <filter id="filter88" out="00:00:04.560">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -11677,7 +11685,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="shotcut:caption">non-auto-mdi.png</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter88" out="00:00:15.760">
+    <filter id="filter89" out="00:00:15.760">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -11692,7 +11700,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="transition.fix_rotate_x">0</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter89" out="00:00:15.760">
+    <filter id="filter90" out="00:00:15.760">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -11701,7 +11709,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="shotcut:animIn">26</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter90" out="00:00:15.760">
+    <filter id="filter91" out="00:00:15.760">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -11710,7 +11718,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="shotcut:animOut">27</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter91" out="00:00:15.760">
+    <filter id="filter92" out="00:00:15.760">
       <property name="argument">引用：https://www.nw-siken.com/kakomon/28_aki/am2_1.html</property>
       <property name="geometry">921 263 463 190 1</property>
       <property name="family">Sans</property>
@@ -11749,7 +11757,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="shotcut:caption">auto-mdi.png</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter92" out="00:00:39.320">
+    <filter id="filter93" out="00:00:39.320">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -11763,7 +11771,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter93" out="00:00:39.320">
+    <filter id="filter94" out="00:00:39.320">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -11771,7 +11779,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
       <property name="shotcut:animIn">26</property>
     </filter>
-    <filter id="filter94" out="00:00:39.320">
+    <filter id="filter95" out="00:00:39.320">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -11779,7 +11787,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="alpha">00:00:38.280=1;00:00:39.320=0</property>
       <property name="shotcut:animOut">27</property>
     </filter>
-    <filter id="filter95" out="00:00:39.320">
+    <filter id="filter96" out="00:00:39.320">
       <property name="argument">引用：https://www.nw-siken.com/kakomon/28_aki/am2_1.html</property>
       <property name="geometry">865 260 463 190 1</property>
       <property name="family">Sans</property>
@@ -11819,7 +11827,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="shotcut:caption">rj-45-arrange_ewords.png</property>
     <property name="xml">was here</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter96" out="00:00:17.520">
+    <filter id="filter97" out="00:00:17.520">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -11833,7 +11841,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="transition.threads">0</property>
       <property name="transition.fix_rotate_x">0</property>
     </filter>
-    <filter id="filter97" out="00:00:17.520">
+    <filter id="filter98" out="00:00:17.520">
       <property name="argument">ざっくり説明すると，序盤で表示したこの左の画像にて
 クロスケーブルにするには，緑と橙を入れ替えれば良い</property>
       <property name="geometry">55 0 899 277 1</property>
@@ -11855,7 +11863,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter98" out="00:00:17.520">
+    <filter id="filter99" out="00:00:17.520">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -11863,7 +11871,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
       <property name="shotcut:animIn">26</property>
     </filter>
-    <filter id="filter99" out="00:00:17.520">
+    <filter id="filter100" out="00:00:17.520">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -11884,7 +11892,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter100" in="00:00:00.960" out="00:00:01.960">
+    <filter id="filter101" in="00:00:00.960" out="00:00:01.960">
       <property name="argument">・</property>
       <property name="geometry">371 834 1505 211 1</property>
       <property name="family">Hiragino Sans</property>
@@ -11917,7 +11925,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter101" in="00:00:00.960" out="00:00:01.960">
+    <filter id="filter102" in="00:00:00.960" out="00:00:01.960">
       <property name="argument">・・</property>
       <property name="geometry">371 834 1505 211 1</property>
       <property name="family">Hiragino Sans</property>
@@ -11950,7 +11958,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter102" in="00:00:00.960" out="00:00:01.960">
+    <filter id="filter103" in="00:00:00.960" out="00:00:01.960">
       <property name="argument">・・・</property>
       <property name="geometry">371 834 1505 211 1</property>
       <property name="family">Hiragino Sans</property>
@@ -11983,7 +11991,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter103" in="00:00:00.960" out="00:00:01.960">
+    <filter id="filter104" in="00:00:00.960" out="00:00:01.960">
       <property name="argument">・・・・</property>
       <property name="geometry">371 834 1505 211 1</property>
       <property name="family">Hiragino Sans</property>
@@ -12016,7 +12024,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter104" in="00:00:00.960" out="00:00:01.960">
+    <filter id="filter105" in="00:00:00.960" out="00:00:01.960">
       <property name="argument">・・・・・</property>
       <property name="geometry">371 834 1505 211 1</property>
       <property name="family">Hiragino Sans</property>
@@ -12049,7 +12057,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter105" in="00:00:00.960" out="00:00:02.600">
+    <filter id="filter106" in="00:00:00.960" out="00:00:02.600">
       <property name="argument">がーんばれ()
 </property>
       <property name="geometry">371 834 1505 211 1</property>
@@ -12083,7 +12091,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter106" in="00:00:00.960" out="00:00:02.600">
+    <filter id="filter107" in="00:00:00.960" out="00:00:02.600">
       <property name="argument">がーんばれ()
 がーんばれ()</property>
       <property name="geometry">371 834 1505 211 1</property>
@@ -12122,7 +12130,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="shotcut:caption">rj-45-module-long_truecable.png</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter107" out="00:00:48.360">
+    <filter id="filter108" out="00:00:48.360">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -12137,7 +12145,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="transition.fix_rotate_x">0</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter108" out="00:00:48.360">
+    <filter id="filter110" out="00:00:48.360">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -12146,7 +12154,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="shotcut:animIn">26</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter110" out="00:00:48.360">
+    <filter id="filter111" out="00:00:48.360">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -12155,7 +12163,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="shotcut:animOut">27</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter111" out="00:00:48.360">
+    <filter id="filter112" out="00:00:48.360">
       <property name="argument">引用
 https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</property>
       <property name="geometry">765 111 612 211 1</property>
@@ -12178,7 +12186,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter112" out="00:00:48.360">
+    <filter id="filter113" out="00:00:48.360">
       <property name="argument">→</property>
       <property name="geometry">564 -48 487 357 1</property>
       <property name="family">Hiragino Sans</property>
@@ -12199,7 +12207,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter113" out="00:00:48.360">
+    <filter id="filter114" out="00:00:48.360">
       <property name="argument">↑</property>
       <property name="geometry">723 222 487 357 1</property>
       <property name="family">Hiragino Sans</property>
@@ -12220,7 +12228,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter114" out="00:00:48.360">
+    <filter id="filter115" out="00:00:48.360">
       <property name="argument">↑</property>
       <property name="geometry">889 104 487 357 1</property>
       <property name="family">Hiragino Sans</property>
@@ -12259,7 +12267,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <property name="xml">was here</property>
     <property name="shotcut:caption">atcoder.png</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter115" out="00:00:03.000">
+    <filter id="filter116" out="00:00:03.000">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -12274,7 +12282,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
       <property name="transition.fix_rotate_x">0</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter116" out="00:00:03.000">
+    <filter id="filter117" out="00:00:03.000">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -12282,7 +12290,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
       <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
       <property name="shotcut:animIn">26</property>
     </filter>
-    <filter id="filter117" out="00:00:03.000">
+    <filter id="filter238" out="00:00:03.000">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -12308,7 +12316,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <property name="xml">was here</property>
     <property name="shotcut:caption">network.png</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter238" out="00:00:03.960">
+    <filter id="filter239" out="00:00:03.960">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -12323,7 +12331,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
       <property name="transition.fix_rotate_x">0</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter239" out="00:00:03.960">
+    <filter id="filter240" out="00:00:03.960">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -12331,7 +12339,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
       <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
       <property name="shotcut:animIn">26</property>
     </filter>
-    <filter id="filter240" out="00:00:03.960">
+    <filter id="filter241" out="00:00:03.960">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -12352,7 +12360,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter241" in="00:00:00.040" out="00:00:39.880">
+    <filter id="filter242" in="00:00:00.040" out="00:00:39.880">
       <property name="argument">1．LANケーブルには狭義と広義のものがある．</property>
       <property name="geometry">271 217 1047 249 1</property>
       <property name="family">Hiragino Sans</property>
@@ -12373,7 +12381,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
       <property name="shotcut:pointSize">36</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter242" in="00:00:00.040" out="00:00:39.880">
+    <filter id="filter243" in="00:00:00.040" out="00:00:39.880">
       <property name="argument">2．LANケーブルにはストレートとクロスがある．</property>
       <property name="geometry">271 307 1047 249 1</property>
       <property name="family">Hiragino Sans</property>
@@ -12394,7 +12402,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
       <property name="shotcut:pointSize">36</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter243" in="00:00:00.040" out="00:00:39.880">
+    <filter id="filter244" in="00:00:00.040" out="00:00:39.880">
       <property name="argument">3．LANケーブルの指標にCatというものがある．</property>
       <property name="geometry">271 397 1047 249 1</property>
       <property name="family">Hiragino Sans</property>
@@ -12415,7 +12423,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
       <property name="shotcut:pointSize">36</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter244" in="00:00:00.040" out="00:00:39.880">
+    <filter id="filter247" in="00:00:00.040" out="00:00:39.880">
       <property name="argument">まとめ</property>
       <property name="geometry">271 139 1047 249 1</property>
       <property name="family">Hiragino Sans</property>
@@ -12535,7 +12543,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter247" out="00:14:56.400">
+    <filter id="filter248" out="00:14:56.400">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
