@@ -5075,7 +5075,7 @@
     <filter id="filter17" out="00:14:53.640">
       <property name="format">MM:SS.SS</property>
       <property name="start">00:05:06.030</property>
-      <property name="duration">00:08:16.712</property>
+      <property name="duration">00:08:13.520</property>
       <property name="offset">00:00:00.000</property>
       <property name="speed">1</property>
       <property name="direction">up</property>
@@ -5094,8 +5094,9 @@
       <property name="opacity">00:05:00.160=0;00:05:00.200=1</property>
       <property name="mlt_service">timer</property>
       <property name="shotcut:filter">timer</property>
-      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:usePointSize">1</property>
       <property name="disable">0</property>
+      <property name="shotcut:pointSize">1080</property>
     </filter>
     <filter id="filter1" out="00:14:53.640">
       <property name="argument"> RTAの流れ↓
@@ -5109,7 +5110,7 @@
 　かしめる(2)
 　テスト
 </property>
-      <property name="geometry">1482 169 397 637 1</property>
+      <property name="geometry">1497 191 397 637 1</property>
       <property name="family">Sans</property>
       <property name="size">98.1818</property>
       <property name="weight">400</property>
@@ -5131,7 +5132,7 @@
     </filter>
     <filter id="filter2" out="00:14:53.640">
       <property name="argument">ー</property>
-      <property name="geometry">1357 146 553 675 1</property>
+      <property name="geometry">1357 106 553 675 1</property>
       <property name="family">Hiragino Sans</property>
       <property name="size">1080</property>
       <property name="weight">100</property>
@@ -5153,7 +5154,7 @@
     </filter>
     <filter id="filter8" out="00:14:53.640">
       <property name="argument">ー</property>
-      <property name="geometry">1367 496 553 675 1</property>
+      <property name="geometry">1357 156 553 675 1</property>
       <property name="family">Hiragino Sans</property>
       <property name="size">1080</property>
       <property name="weight">100</property>
@@ -5197,7 +5198,7 @@
     </filter>
     <filter id="filter4" out="00:14:53.640">
       <property name="argument">ー</property>
-      <property name="geometry">1357 266 553 675 1</property>
+      <property name="geometry">1357 256 553 675 1</property>
       <property name="family">Hiragino Sans</property>
       <property name="size">1080</property>
       <property name="weight">100</property>
@@ -5219,12 +5220,12 @@
     </filter>
     <filter id="filter5" out="00:14:53.640">
       <property name="argument">ー</property>
-      <property name="geometry">1357 326 553 675 1</property>
+      <property name="geometry">1357 316 553 675 1</property>
       <property name="family">Hiragino Sans</property>
       <property name="size">1080</property>
       <property name="weight">100</property>
       <property name="style">normal</property>
-      <property name="fgcolour">#ffff1016</property>
+      <property name="fgcolour">#ffff2600</property>
       <property name="bgcolour">#00000000</property>
       <property name="olcolour">#aa000000</property>
       <property name="pad">0</property>
@@ -5241,12 +5242,12 @@
     </filter>
     <filter id="filter6" out="00:14:53.640">
       <property name="argument">ー</property>
-      <property name="geometry">1200 496 553 675 1</property>
+      <property name="geometry">1357 366 553 675 1</property>
       <property name="family">Hiragino Sans</property>
       <property name="size">1080</property>
       <property name="weight">100</property>
       <property name="style">normal</property>
-      <property name="fgcolour">#ffff1016</property>
+      <property name="fgcolour">#ffff2600</property>
       <property name="bgcolour">#00000000</property>
       <property name="olcolour">#aa000000</property>
       <property name="pad">0</property>
@@ -5263,7 +5264,7 @@
     </filter>
     <filter id="filter7" out="00:14:53.640">
       <property name="argument">ー</property>
-      <property name="geometry">1357 386 553 675 1</property>
+      <property name="geometry">1357 416 553 675 1</property>
       <property name="family">Hiragino Sans</property>
       <property name="size">1080</property>
       <property name="weight">100</property>
@@ -5285,7 +5286,7 @@
     </filter>
     <filter id="filter9" out="00:14:53.640">
       <property name="argument">ー</property>
-      <property name="geometry">1357 436 553 675 1</property>
+      <property name="geometry">1357 466 553 675 1</property>
       <property name="family">Hiragino Sans</property>
       <property name="size">1080</property>
       <property name="weight">100</property>
@@ -5307,7 +5308,7 @@
     </filter>
     <filter id="filter10" out="00:14:53.640">
       <property name="argument">ー</property>
-      <property name="geometry">1357 596 553 675 1</property>
+      <property name="geometry">1357 526 553 675 1</property>
       <property name="family">Hiragino Sans</property>
       <property name="size">1080</property>
       <property name="weight">100</property>
