@@ -5332,7 +5332,7 @@
   <playlist id="playlist1">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">Back</property>
-    <property name="shotcut:lock">0</property>
+    <property name="shotcut:lock">1</property>
     <entry producer="producer19" in="00:00:00.000" out="00:14:53.640"/>
   </playlist>
   <producer id="producer100" in="00:00:00.000" out="03:59:59.960">
@@ -9296,7 +9296,7 @@ UTPやSTPはこれに関わっている．
   <playlist id="playlist0">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">Transcript</property>
-    <property name="shotcut:lock">0</property>
+    <property name="shotcut:lock">1</property>
     <entry producer="producer100" in="00:00:00.960" out="00:00:05.560"/>
     <entry producer="producer101" in="00:00:00.960" out="00:00:06.640"/>
     <entry producer="producer102" in="00:00:00.960" out="00:00:17.640"/>
@@ -9581,7 +9581,7 @@ UTPやSTPはこれに関わっている．
   <playlist id="playlist3">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">Main</property>
-    <property name="shotcut:lock">0</property>
+    <property name="shotcut:lock">1</property>
     <blank length="00:02:44.400"/>
     <entry producer="chain196" in="00:01:53.320" out="00:04:08.960"/>
     <blank length="00:00:00.080"/>
@@ -12386,7 +12386,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
   <playlist id="playlist4">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">Sub</property>
-    <property name="shotcut:lock">0</property>
+    <property name="shotcut:lock">1</property>
     <property name="meta.shotcut.vui">1</property>
     <entry producer="producer9" in="00:00:00.000" out="00:00:04.600"/>
     <entry producer="producer10" in="00:00:00.000" out="00:00:22.400"/>
@@ -12498,7 +12498,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
   <playlist id="playlist2">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">Speaker</property>
-    <property name="shotcut:lock">0</property>
+    <property name="shotcut:lock">1</property>
     <entry producer="producer74" in="00:00:00.000" out="00:14:53.640"/>
   </playlist>
   <chain id="chain198" out="00:00:02.960">
@@ -15845,7 +15845,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
   <playlist id="playlist5">
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">Audio</property>
-    <property name="shotcut:lock">0</property>
+    <property name="shotcut:lock">1</property>
     <entry producer="chain198" in="00:00:00.000" out="00:00:02.960"/>
     <entry producer="chain199" in="00:00:00.000" out="00:00:01.200"/>
     <blank length="00:00:00.400"/>
@@ -16245,7 +16245,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
   <playlist id="playlist6">
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">SE</property>
-    <property name="shotcut:lock">0</property>
+    <property name="shotcut:lock">1</property>
     <blank length="00:01:18.120"/>
     <entry producer="chain223" in="00:00:00.000" out="00:00:00.680"/>
     <blank length="00:01:25.120"/>
@@ -16258,6 +16258,41 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <entry producer="chain234" in="00:00:00.000" out="00:00:01.880"/>
     <blank length="00:00:09.400"/>
     <entry producer="chain241" in="00:00:00.000" out="00:00:01.880"/>
+  </playlist>
+  <chain id="chain245" out="00:03:11.840">
+    <property name="length">00:03:11.880</property>
+    <property name="eof">pause</property>
+    <property name="resource">bgm/2_23_AM_2.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">320000</property>
+    <property name="meta.attr.title.markup">2:23 AM(LOOP)</property>
+    <property name="meta.attr.comment.markup">210217</property>
+    <property name="meta.attr.artist.markup">しゃろう</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2023-12-20T03:47:48</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">f8e8e9aed59e5408ee08b798eeeec43a</property>
+    <property name="shotcut:caption">2_23_AM_2.mp3</property>
+    <filter id="filter248" out="00:03:11.840">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-18.5</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <playlist id="playlist7">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">BGM</property>
+    <entry producer="chain245" in="00:00:00.000" out="00:03:11.840"/>
   </playlist>
   <tractor id="tractor7" title="Shotcut version 23.11.29" in="00:00:00.000" out="00:14:53.640">
     <property name="shotcut">1</property>
@@ -16281,6 +16316,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <track producer="playlist2"/>
     <track producer="playlist5" hide="video"/>
     <track producer="playlist6" hide="video"/>
+    <track producer="playlist7" hide="both"/>
     <transition id="transition14">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -16366,6 +16402,13 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <transition id="transition25">
       <property name="a_track">0</property>
       <property name="b_track">7</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition26">
+      <property name="a_track">0</property>
+      <property name="b_track">8</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
