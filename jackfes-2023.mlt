@@ -5074,7 +5074,7 @@
     <property name="meta.shotcut.vui">1</property>
     <filter id="filter17" out="00:14:56.400">
       <property name="format">MM:SS.SS</property>
-      <property name="start">00:05:08.430</property>
+      <property name="start">00:05:06.030</property>
       <property name="duration">00:08:16.712</property>
       <property name="offset">00:00:00.000</property>
       <property name="speed">1</property>
@@ -5091,7 +5091,7 @@
       <property name="halign">center</property>
       <property name="valign">middle</property>
       <property name="outline">0</property>
-      <property name="opacity">00:04:40.000=0;00:04:41.040=1</property>
+      <property name="opacity">00:05:00.160=0;00:05:00.200=1</property>
       <property name="mlt_service">timer</property>
       <property name="shotcut:filter">timer</property>
       <property name="shotcut:usePointSize">0</property>
@@ -9567,7 +9567,7 @@ UTPやSTPはこれに関わっている．
     <property name="meta.media.progressive">1</property>
     <property name="shotcut:caption">intro_fail.mp4</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter245" in="00:01:53.320" out="00:04:10.360">
+    <filter id="filter245" in="00:01:53.320" out="00:04:08.960">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -9666,8 +9666,8 @@ UTPやSTPはこれに関わっている．
     <property name="shotcut:name">Main</property>
     <property name="shotcut:lock">0</property>
     <blank length="00:02:44.400"/>
-    <entry producer="chain196" in="00:01:53.320" out="00:04:10.360"/>
-    <blank length="00:00:06.920"/>
+    <entry producer="chain196" in="00:01:53.320" out="00:04:08.960"/>
+    <blank length="00:00:00.080"/>
     <entry producer="chain197" in="00:00:00.040" out="00:09:47.280"/>
   </playlist>
   <producer id="producer9" in="00:00:00.000" out="03:59:59.960">
@@ -16314,7 +16314,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <entry producer="chain222" in="00:00:00.000" out="00:00:00.680"/>
     <blank length="00:01:24.520"/>
     <entry producer="chain223" in="00:00:00.000" out="00:00:01.200"/>
-    <blank length="00:00:51.480"/>
+    <blank length="00:00:49.480"/>
     <entry producer="chain224" in="00:00:00.000" out="00:00:00.680"/>
     <blank length="00:00:26.040"/>
     <entry producer="chain226" in="00:00:00.000" out="00:00:01.880"/>
