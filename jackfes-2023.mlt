@@ -16282,24 +16282,319 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <property name="astream">0</property>
     <property name="shotcut:hash">f8e8e9aed59e5408ee08b798eeeec43a</property>
     <property name="shotcut:caption">2_23_AM_2.mp3</property>
-    <filter id="filter248" out="00:03:11.840">
+    <filter id="filter248" out="00:02:16.080">
       <property name="window">75</property>
       <property name="max_gain">20dB</property>
-      <property name="level">-18.5</property>
+      <property name="level">-26.2</property>
       <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter249" out="00:02:16.080">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:02.120=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">54</property>
+    </filter>
+  </chain>
+  <chain id="chain255" out="00:01:32.120">
+    <property name="length">00:01:32.160</property>
+    <property name="eof">pause</property>
+    <property name="resource">bgm/しゅわしゅわハニーレモン350ml_2.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">320000</property>
+    <property name="meta.attr.title.markup">しゅわしゅわハニーレモン350ml(LOOP)</property>
+    <property name="meta.attr.comment.markup">210615</property>
+    <property name="meta.attr.artist.markup">しゃろう</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2023-12-20T06:56:08</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">f3a9dd02aeacc1a0c3129c5502e9097e</property>
+    <property name="shotcut:caption">しゅわしゅわハニーレモン350ml_2.mp3</property>
+    <filter id="filter250" out="00:01:32.120">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-26.2</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter251" out="00:01:32.120">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:02.120=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">54</property>
+    </filter>
+  </chain>
+  <chain id="chain263" out="00:01:32.120">
+    <property name="length">00:01:32.160</property>
+    <property name="eof">pause</property>
+    <property name="resource">bgm/しゅわしゅわハニーレモン350ml_2.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">320000</property>
+    <property name="meta.attr.title.markup">しゅわしゅわハニーレモン350ml(LOOP)</property>
+    <property name="meta.attr.comment.markup">210615</property>
+    <property name="meta.attr.artist.markup">しゃろう</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2023-12-20T06:56:08</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">f3a9dd02aeacc1a0c3129c5502e9097e</property>
+    <property name="shotcut:caption">しゅわしゅわハニーレモン350ml_2.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter252" out="00:01:32.120">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-26.2</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain264" out="00:01:32.120">
+    <property name="length">00:01:32.160</property>
+    <property name="eof">pause</property>
+    <property name="resource">bgm/しゅわしゅわハニーレモン350ml_2.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">320000</property>
+    <property name="meta.attr.title.markup">しゅわしゅわハニーレモン350ml(LOOP)</property>
+    <property name="meta.attr.comment.markup">210615</property>
+    <property name="meta.attr.artist.markup">しゃろう</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2023-12-20T06:56:08</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">f3a9dd02aeacc1a0c3129c5502e9097e</property>
+    <property name="shotcut:caption">しゅわしゅわハニーレモン350ml_2.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter253" out="00:01:32.120">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-26.2</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain268" out="00:01:32.120">
+    <property name="length">00:01:32.160</property>
+    <property name="eof">pause</property>
+    <property name="resource">bgm/しゅわしゅわハニーレモン350ml_2.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">320000</property>
+    <property name="meta.attr.title.markup">しゅわしゅわハニーレモン350ml(LOOP)</property>
+    <property name="meta.attr.comment.markup">210615</property>
+    <property name="meta.attr.artist.markup">しゃろう</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2023-12-20T06:56:08</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">f3a9dd02aeacc1a0c3129c5502e9097e</property>
+    <property name="shotcut:caption">しゅわしゅわハニーレモン350ml_2.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter254" out="00:01:32.120">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-26.2</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain269" out="00:01:32.120">
+    <property name="length">00:01:32.160</property>
+    <property name="eof">pause</property>
+    <property name="resource">bgm/しゅわしゅわハニーレモン350ml_2.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">320000</property>
+    <property name="meta.attr.title.markup">しゅわしゅわハニーレモン350ml(LOOP)</property>
+    <property name="meta.attr.comment.markup">210615</property>
+    <property name="meta.attr.artist.markup">しゃろう</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2023-12-20T06:56:08</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">f3a9dd02aeacc1a0c3129c5502e9097e</property>
+    <property name="shotcut:caption">しゅわしゅわハニーレモン350ml_2.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter255" out="00:01:32.120">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-26.2</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+  </chain>
+  <chain id="chain275" out="00:01:32.120">
+    <property name="length">00:01:32.160</property>
+    <property name="eof">pause</property>
+    <property name="resource">bgm/しゅわしゅわハニーレモン350ml_2.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">320000</property>
+    <property name="meta.attr.title.markup">しゅわしゅわハニーレモン350ml(LOOP)</property>
+    <property name="meta.attr.comment.markup">210615</property>
+    <property name="meta.attr.artist.markup">しゃろう</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2023-12-20T06:56:08</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">f3a9dd02aeacc1a0c3129c5502e9097e</property>
+    <property name="shotcut:caption">しゅわしゅわハニーレモン350ml_2.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter256" out="00:00:41.240">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-26.2</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter257" out="00:00:41.240">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:40.280=0;00:00:41.240=-60</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="shotcut:animOut">00:00:01.000</property>
+    </filter>
+  </chain>
+  <chain id="chain276" out="00:00:48.000">
+    <property name="length">00:00:48.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">bgm/野良猫は宇宙を目指した_2.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">320000</property>
+    <property name="meta.attr.title.markup">野良猫は宇宙を目指した(LOOP)</property>
+    <property name="meta.attr.comment.markup">210624</property>
+    <property name="meta.attr.artist.markup">しゃろう</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2023-12-20T06:57:31</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">275df178e4db7504de9bf2176a277e68</property>
+    <property name="shotcut:caption">野良猫は宇宙を目指した_2.mp3</property>
+    <filter id="filter258" out="00:00:48.000">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-26.2</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter259" out="00:00:48.000">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:02.120=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">54</property>
+    </filter>
+  </chain>
+  <chain id="chain279" out="00:00:48.000">
+    <property name="length">00:00:48.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">bgm/野良猫は宇宙を目指した_2.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">320000</property>
+    <property name="meta.attr.title.markup">野良猫は宇宙を目指した(LOOP)</property>
+    <property name="meta.attr.comment.markup">210624</property>
+    <property name="meta.attr.artist.markup">しゃろう</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2023-12-20T06:57:31</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">275df178e4db7504de9bf2176a277e68</property>
+    <property name="shotcut:caption">野良猫は宇宙を目指した_2.mp3</property>
+    <property name="xml">was here</property>
+    <filter id="filter260" out="00:00:43.440">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">-26.2</property>
+      <property name="mlt_service">volume</property>
+    </filter>
+    <filter id="filter261" out="00:00:43.440">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="level">00:00:00.000=-60;00:00:02.120=0</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeInVolume</property>
+      <property name="shotcut:animIn">54</property>
     </filter>
   </chain>
   <playlist id="playlist7">
     <property name="shotcut:audio">1</property>
     <property name="shotcut:name">BGM</property>
-    <entry producer="chain245" in="00:00:00.000" out="00:03:11.840"/>
+    <blank length="00:02:43.960"/>
+    <entry producer="chain245" in="00:00:00.000" out="00:02:16.080"/>
+    <entry producer="chain255" in="00:00:00.000" out="00:01:32.120"/>
+    <entry producer="chain263" in="00:00:00.000" out="00:01:32.120"/>
+    <entry producer="chain264" in="00:00:00.000" out="00:01:32.120"/>
+    <entry producer="chain268" in="00:00:00.000" out="00:01:32.120"/>
+    <entry producer="chain269" in="00:00:00.000" out="00:01:32.120"/>
+    <entry producer="chain275" in="00:00:00.000" out="00:00:41.240"/>
+    <entry producer="chain276" in="00:00:00.000" out="00:00:48.000"/>
+    <entry producer="chain279" in="00:00:00.000" out="00:00:43.440"/>
   </playlist>
   <tractor id="tractor7" title="Shotcut version 23.11.29" in="00:00:00.000" out="00:14:53.640">
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">1</property>
     <property name="shotcut:skipConvert">0</property>
-    <property name="shotcut:scaleFactor">0.308829</property>
+    <property name="shotcut:scaleFactor">0.170812</property>
     <properties name="shotcut:markers">
       <properties name="0">
         <property name="text">Marker 1</property>
@@ -16316,7 +16611,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <track producer="playlist2"/>
     <track producer="playlist5" hide="video"/>
     <track producer="playlist6" hide="video"/>
-    <track producer="playlist7" hide="both"/>
+    <track producer="playlist7" hide="video"/>
     <transition id="transition14">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
