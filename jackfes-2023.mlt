@@ -5137,7 +5137,7 @@
       <property name="size">1080</property>
       <property name="weight">100</property>
       <property name="style">normal</property>
-      <property name="fgcolour">#ffff1016</property>
+      <property name="fgcolour">#ff00fdff</property>
       <property name="bgcolour">#00000000</property>
       <property name="olcolour">#aa000000</property>
       <property name="pad">0</property>
@@ -5159,7 +5159,7 @@
       <property name="size">1080</property>
       <property name="weight">100</property>
       <property name="style">normal</property>
-      <property name="fgcolour">#ffff1016</property>
+      <property name="fgcolour">#ff00fdff</property>
       <property name="bgcolour">#00000000</property>
       <property name="olcolour">#aa000000</property>
       <property name="pad">0</property>
@@ -5181,7 +5181,7 @@
       <property name="size">1080</property>
       <property name="weight">100</property>
       <property name="style">normal</property>
-      <property name="fgcolour">#ffff1016</property>
+      <property name="fgcolour">#ff00fdff</property>
       <property name="bgcolour">#00000000</property>
       <property name="olcolour">#aa000000</property>
       <property name="pad">0</property>
@@ -5203,7 +5203,7 @@
       <property name="size">1080</property>
       <property name="weight">100</property>
       <property name="style">normal</property>
-      <property name="fgcolour">#ffff1016</property>
+      <property name="fgcolour">#ff00fdff</property>
       <property name="bgcolour">#00000000</property>
       <property name="olcolour">#aa000000</property>
       <property name="pad">0</property>
@@ -5225,7 +5225,7 @@
       <property name="size">1080</property>
       <property name="weight">100</property>
       <property name="style">normal</property>
-      <property name="fgcolour">#ffff2600</property>
+      <property name="fgcolour">#ff00fdff</property>
       <property name="bgcolour">#00000000</property>
       <property name="olcolour">#aa000000</property>
       <property name="pad">0</property>
@@ -5247,7 +5247,7 @@
       <property name="size">1080</property>
       <property name="weight">100</property>
       <property name="style">normal</property>
-      <property name="fgcolour">#ffff2600</property>
+      <property name="fgcolour">#ff00fdff</property>
       <property name="bgcolour">#00000000</property>
       <property name="olcolour">#aa000000</property>
       <property name="pad">0</property>
@@ -5269,7 +5269,7 @@
       <property name="size">1080</property>
       <property name="weight">100</property>
       <property name="style">normal</property>
-      <property name="fgcolour">#ffff1016</property>
+      <property name="fgcolour">#ff00fdff</property>
       <property name="bgcolour">#00000000</property>
       <property name="olcolour">#aa000000</property>
       <property name="pad">0</property>
@@ -5291,7 +5291,7 @@
       <property name="size">1080</property>
       <property name="weight">100</property>
       <property name="style">normal</property>
-      <property name="fgcolour">#ffff1016</property>
+      <property name="fgcolour">#ff00fdff</property>
       <property name="bgcolour">#00000000</property>
       <property name="olcolour">#aa000000</property>
       <property name="pad">0</property>
@@ -5313,7 +5313,7 @@
       <property name="size">1080</property>
       <property name="weight">100</property>
       <property name="style">normal</property>
-      <property name="fgcolour">#ffff1016</property>
+      <property name="fgcolour">#ff00fdff</property>
       <property name="bgcolour">#00000000</property>
       <property name="olcolour">#aa000000</property>
       <property name="pad">0</property>
