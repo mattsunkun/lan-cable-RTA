@@ -8700,7 +8700,7 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
     <filter id="filter218" in="00:00:00.960" out="00:00:01.960">
-      <property name="argument">・</property>
+      <property name="argument">最後くらい，</property>
       <property name="geometry">371 834 1505 211 1</property>
       <property name="family">Hiragino Sans</property>
       <property name="size">144</property>
@@ -8733,7 +8733,7 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
     <filter id="filter219" in="00:00:00.960" out="00:00:01.960">
-      <property name="argument">・・</property>
+      <property name="argument">最後くらい，手際良く，</property>
       <property name="geometry">371 834 1505 211 1</property>
       <property name="family">Hiragino Sans</property>
       <property name="size">144</property>
@@ -8766,7 +8766,7 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
     <filter id="filter220" in="00:00:00.960" out="00:00:01.960">
-      <property name="argument">・・・</property>
+      <property name="argument">最後くらい，手際良く，やれ</property>
       <property name="geometry">371 834 1505 211 1</property>
       <property name="family">Hiragino Sans</property>
       <property name="size">144</property>
@@ -8799,139 +8799,7 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
     <filter id="filter221" in="00:00:00.960" out="00:00:01.960">
-      <property name="argument">・・・・</property>
-      <property name="geometry">371 834 1505 211 1</property>
-      <property name="family">Hiragino Sans</property>
-      <property name="size">144</property>
-      <property name="weight">900</property>
-      <property name="style">normal</property>
-      <property name="fgcolour">#ffffffff</property>
-      <property name="bgcolour">#00000000</property>
-      <property name="olcolour">#aa000000</property>
-      <property name="pad">0</property>
-      <property name="halign">left</property>
-      <property name="valign">middle</property>
-      <property name="outline">3</property>
-      <property name="opacity">1</property>
-      <property name="mlt_service">dynamictext</property>
-      <property name="shotcut:filter">dynamicText</property>
-      <property name="shotcut:usePointSize">1</property>
-      <property name="shotcut:pointSize">144</property>
-    </filter>
-  </producer>
-  <producer id="producer70" in="00:00:00.000" out="03:59:59.960">
-    <property name="length">04:00:00.000</property>
-    <property name="eof">pause</property>
-    <property name="resource">#00000000</property>
-    <property name="aspect_ratio">1</property>
-    <property name="mlt_service">color</property>
-    <property name="mlt_image_format">rgba</property>
-    <property name="shotcut:caption">transparent</property>
-    <property name="shotcut:detail">transparent</property>
-    <property name="xml">was here</property>
-    <property name="seekable">1</property>
-    <property name="meta.shotcut.vui">1</property>
-    <filter id="filter222" in="00:00:00.960" out="00:00:01.960">
-      <property name="argument">・・・・・</property>
-      <property name="geometry">371 834 1505 211 1</property>
-      <property name="family">Hiragino Sans</property>
-      <property name="size">144</property>
-      <property name="weight">900</property>
-      <property name="style">normal</property>
-      <property name="fgcolour">#ffffffff</property>
-      <property name="bgcolour">#00000000</property>
-      <property name="olcolour">#aa000000</property>
-      <property name="pad">0</property>
-      <property name="halign">left</property>
-      <property name="valign">middle</property>
-      <property name="outline">3</property>
-      <property name="opacity">1</property>
-      <property name="mlt_service">dynamictext</property>
-      <property name="shotcut:filter">dynamicText</property>
-      <property name="shotcut:usePointSize">1</property>
-      <property name="shotcut:pointSize">144</property>
-    </filter>
-  </producer>
-  <producer id="producer71" in="00:00:00.000" out="03:59:59.960">
-    <property name="length">04:00:00.000</property>
-    <property name="eof">pause</property>
-    <property name="resource">#00000000</property>
-    <property name="aspect_ratio">1</property>
-    <property name="mlt_service">color</property>
-    <property name="mlt_image_format">rgba</property>
-    <property name="shotcut:caption">transparent</property>
-    <property name="shotcut:detail">transparent</property>
-    <property name="xml">was here</property>
-    <property name="seekable">1</property>
-    <property name="meta.shotcut.vui">1</property>
-    <filter id="filter223" in="00:00:00.960" out="00:00:01.960">
-      <property name="argument">作業が</property>
-      <property name="geometry">371 834 1505 211 1</property>
-      <property name="family">Hiragino Sans</property>
-      <property name="size">144</property>
-      <property name="weight">900</property>
-      <property name="style">normal</property>
-      <property name="fgcolour">#ffffffff</property>
-      <property name="bgcolour">#00000000</property>
-      <property name="olcolour">#aa000000</property>
-      <property name="pad">0</property>
-      <property name="halign">left</property>
-      <property name="valign">middle</property>
-      <property name="outline">3</property>
-      <property name="opacity">1</property>
-      <property name="mlt_service">dynamictext</property>
-      <property name="shotcut:filter">dynamicText</property>
-      <property name="shotcut:usePointSize">1</property>
-      <property name="shotcut:pointSize">144</property>
-    </filter>
-  </producer>
-  <producer id="producer72" in="00:00:00.000" out="03:59:59.960">
-    <property name="length">04:00:00.000</property>
-    <property name="eof">pause</property>
-    <property name="resource">#00000000</property>
-    <property name="aspect_ratio">1</property>
-    <property name="mlt_service">color</property>
-    <property name="mlt_image_format">rgba</property>
-    <property name="shotcut:caption">transparent</property>
-    <property name="shotcut:detail">transparent</property>
-    <property name="xml">was here</property>
-    <property name="seekable">1</property>
-    <property name="meta.shotcut.vui">1</property>
-    <filter id="filter224" in="00:00:00.960" out="00:00:01.960">
-      <property name="argument">作業が遅い</property>
-      <property name="geometry">371 834 1505 211 1</property>
-      <property name="family">Hiragino Sans</property>
-      <property name="size">144</property>
-      <property name="weight">900</property>
-      <property name="style">normal</property>
-      <property name="fgcolour">#ffffffff</property>
-      <property name="bgcolour">#00000000</property>
-      <property name="olcolour">#aa000000</property>
-      <property name="pad">0</property>
-      <property name="halign">left</property>
-      <property name="valign">middle</property>
-      <property name="outline">3</property>
-      <property name="opacity">1</property>
-      <property name="mlt_service">dynamictext</property>
-      <property name="shotcut:filter">dynamicText</property>
-      <property name="shotcut:usePointSize">1</property>
-      <property name="shotcut:pointSize">144</property>
-    </filter>
-  </producer>
-  <producer id="producer73" in="00:00:00.000" out="03:59:59.960">
-    <property name="length">04:00:00.000</property>
-    <property name="eof">pause</property>
-    <property name="resource">#00000000</property>
-    <property name="aspect_ratio">1</property>
-    <property name="mlt_service">color</property>
-    <property name="mlt_image_format">rgba</property>
-    <property name="shotcut:caption">transparent</property>
-    <property name="shotcut:detail">transparent</property>
-    <property name="xml">was here</property>
-    <property name="seekable">1</property>
-    <property name="meta.shotcut.vui">1</property>
-    <filter id="filter225" in="00:00:00.960" out="00:00:01.960">
-      <property name="argument">作業が遅い( ＾∀＾)</property>
+      <property name="argument">最後くらい，手際良く，やれ！！</property>
       <property name="geometry">371 834 1505 211 1</property>
       <property name="family">Hiragino Sans</property>
       <property name="size">144</property>
@@ -9174,7 +9042,7 @@ RJ-45モジュールのこの部分をケーブルでかしめて，
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
     <filter id="filter232" out="00:00:12.280">
-      <property name="argument">一応この動画で述べた(うp主的に)重要なことのまとめに入ります．
+      <property name="argument">一応この動画で述べた重要なこと(うp主的に)のまとめに入ります．
 動画で出てきた順番通りの説明ではありませんが，あしからず．
 </property>
       <property name="geometry">371 834 1505 211 1</property>
@@ -9487,13 +9355,7 @@ UTPやSTPはこれに関わっている．
     <entry producer="producer67" in="00:00:00.960" out="00:00:01.960"/>
     <entry producer="producer68" in="00:00:00.960" out="00:00:01.960"/>
     <entry producer="producer69" in="00:00:00.960" out="00:00:01.960"/>
-    <entry producer="producer70" in="00:00:00.960" out="00:00:01.960"/>
-    <blank length="00:00:00.040"/>
-    <entry producer="producer71" in="00:00:00.960" out="00:00:01.960"/>
-    <entry producer="producer72" in="00:00:00.960" out="00:00:01.960"/>
-    <blank length="00:00:00.120"/>
-    <entry producer="producer73" in="00:00:00.960" out="00:00:01.960"/>
-    <blank length="00:00:00.720"/>
+    <blank length="00:00:02.720"/>
     <entry producer="producer186" in="00:00:00.960" out="00:00:03.640"/>
     <blank length="00:00:00.480"/>
     <entry producer="producer187" in="00:00:00.960" out="00:00:02.720"/>
@@ -10339,9 +10201,9 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <transition id="transition3">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer16" in="00:00:00.000" out="03:59:59.960">
@@ -10583,9 +10445,9 @@ https://item.rakuten.co.jp/shop-always/r171017-07n/</property>
     <transition id="transition5" out="00:00:00.040">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer20" in="00:00:00.000" out="03:59:59.960">
@@ -10746,9 +10608,9 @@ https://item.rakuten.co.jp/shop-always/r171017-07n/</property>
     <transition id="transition9" out="00:00:00.440">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
   <producer id="producer130" in="00:00:00.000" out="03:59:59.960">
@@ -12130,7 +11992,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
     <property name="xml">was here</property>
     <property name="shotcut:caption">rj-45-module-long_truecable.png</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter108" out="00:00:48.360">
+    <filter id="filter108" in="00:00:02.520" out="00:00:48.360">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -12145,7 +12007,7 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="transition.fix_rotate_x">0</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter110" out="00:00:48.360">
+    <filter id="filter110" in="00:00:02.520" out="00:00:48.360">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -12154,16 +12016,16 @@ https://vsq.co.jp/special/tips_cable_lan/</property>
       <property name="shotcut:animIn">26</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter111" out="00:00:48.360">
+    <filter id="filter111" in="00:00:02.520" out="00:00:48.360">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
       <property name="shotcut:filter">fadeOutBrightness</property>
-      <property name="alpha">00:00:47.320=1;00:00:48.360=0</property>
+      <property name="alpha">00:00:44.800=1;00:00:45.840=0</property>
       <property name="shotcut:animOut">27</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter112" out="00:00:48.360">
+    <filter id="filter112" in="00:00:02.520" out="00:00:48.360">
       <property name="argument">引用
 https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</property>
       <property name="geometry">765 111 612 211 1</property>
@@ -12186,7 +12048,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
       <property name="shotcut:animOut">00:00:00.000</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter113" out="00:00:48.360">
+    <filter id="filter113" in="00:00:02.520" out="00:00:48.360">
       <property name="argument">→</property>
       <property name="geometry">564 -48 487 357 1</property>
       <property name="family">Hiragino Sans</property>
@@ -12200,14 +12062,14 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
       <property name="halign">center</property>
       <property name="valign">middle</property>
       <property name="outline">3</property>
-      <property name="opacity">00:00:07.120=0;00:00:08.160=1;00:00:18.040=1;00:00:19.080=0</property>
+      <property name="opacity">00:00:05.240=0;00:00:06.240=1;00:00:18.040=1;00:00:19.080=0</property>
       <property name="mlt_service">dynamictext</property>
       <property name="shotcut:filter">dynamicText</property>
       <property name="shotcut:usePointSize">0</property>
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter114" out="00:00:48.360">
+    <filter id="filter114" in="00:00:02.520" out="00:00:48.360">
       <property name="argument">↑</property>
       <property name="geometry">723 222 487 357 1</property>
       <property name="family">Hiragino Sans</property>
@@ -12221,14 +12083,14 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
       <property name="halign">center</property>
       <property name="valign">middle</property>
       <property name="outline">3</property>
-      <property name="opacity">00:00:43.000=0;00:00:43.520=1</property>
+      <property name="opacity">00:00:40.360=0;00:00:41.320=1</property>
       <property name="mlt_service">dynamictext</property>
       <property name="shotcut:filter">dynamicText</property>
       <property name="shotcut:usePointSize">0</property>
       <property name="shotcut:animIn">00:00:00.000</property>
       <property name="shotcut:animOut">00:00:00.000</property>
     </filter>
-    <filter id="filter115" out="00:00:48.360">
+    <filter id="filter115" in="00:00:02.520" out="00:00:48.360">
       <property name="argument">↑</property>
       <property name="geometry">889 104 487 357 1</property>
       <property name="family">Hiragino Sans</property>
@@ -12242,7 +12104,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
       <property name="halign">center</property>
       <property name="valign">middle</property>
       <property name="outline">3</property>
-      <property name="opacity">00:00:24.680=0;00:00:25.720=1;00:00:35.280=1;00:00:36.320=0;00:00:43.520=0;00:00:43.840=1</property>
+      <property name="opacity">00:00:28.440=0;00:00:29.440=1;00:00:35.280=1;00:00:36.320=0;00:00:40.960=0;00:00:41.680=1</property>
       <property name="mlt_service">dynamictext</property>
       <property name="shotcut:filter">dynamicText</property>
       <property name="shotcut:usePointSize">0</property>
@@ -12290,7 +12152,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
       <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
       <property name="shotcut:animIn">26</property>
     </filter>
-    <filter id="filter238" out="00:00:03.000">
+    <filter id="filter222" out="00:00:03.000">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -12316,7 +12178,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <property name="xml">was here</property>
     <property name="shotcut:caption">network.png</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter239" out="00:00:03.960">
+    <filter id="filter238" out="00:00:03.960">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -12331,7 +12193,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
       <property name="transition.fix_rotate_x">0</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter240" out="00:00:03.960">
+    <filter id="filter239" out="00:00:03.960">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -12339,7 +12201,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
       <property name="alpha">00:00:00.000=0;00:00:01.000=1</property>
       <property name="shotcut:animIn">26</property>
     </filter>
-    <filter id="filter241" out="00:00:03.960">
+    <filter id="filter240" out="00:00:03.960">
       <property name="start">1</property>
       <property name="level">1</property>
       <property name="mlt_service">brightness</property>
@@ -12360,7 +12222,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <property name="xml">was here</property>
     <property name="seekable">1</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter242" in="00:00:00.040" out="00:00:39.880">
+    <filter id="filter241" in="00:00:00.040" out="00:00:39.880">
       <property name="argument">1．LANケーブルには狭義と広義のものがある．</property>
       <property name="geometry">271 217 1047 249 1</property>
       <property name="family">Hiragino Sans</property>
@@ -12381,7 +12243,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
       <property name="shotcut:pointSize">36</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter243" in="00:00:00.040" out="00:00:39.880">
+    <filter id="filter242" in="00:00:00.040" out="00:00:39.880">
       <property name="argument">2．LANケーブルにはストレートとクロスがある．</property>
       <property name="geometry">271 307 1047 249 1</property>
       <property name="family">Hiragino Sans</property>
@@ -12402,7 +12264,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
       <property name="shotcut:pointSize">36</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter244" in="00:00:00.040" out="00:00:39.880">
+    <filter id="filter243" in="00:00:00.040" out="00:00:39.880">
       <property name="argument">3．LANケーブルの指標にCatというものがある．</property>
       <property name="geometry">271 397 1047 249 1</property>
       <property name="family">Hiragino Sans</property>
@@ -12423,7 +12285,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
       <property name="shotcut:pointSize">36</property>
       <property name="disable">0</property>
     </filter>
-    <filter id="filter247" in="00:00:00.040" out="00:00:39.880">
+    <filter id="filter244" in="00:00:00.040" out="00:00:39.880">
       <property name="argument">まとめ</property>
       <property name="geometry">271 139 1047 249 1</property>
       <property name="family">Hiragino Sans</property>
@@ -12515,9 +12377,9 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <entry producer="producer43" in="00:00:00.960" out="00:00:01.960"/>
     <entry producer="producer44" in="00:00:00.960" out="00:00:02.600"/>
     <entry producer="producer45" in="00:00:00.960" out="00:00:02.600"/>
-    <blank length="00:00:17.800"/>
-    <entry producer="producer46" in="00:00:00.000" out="00:00:48.360"/>
-    <blank length="00:01:12.320"/>
+    <blank length="00:00:20.320"/>
+    <entry producer="producer46" in="00:00:02.520" out="00:00:48.360"/>
+    <blank length="00:01:12.560"/>
     <entry producer="producer47" in="00:00:00.000" out="00:00:03.000"/>
     <blank length="00:00:02.040"/>
     <entry producer="producer48" in="00:00:00.000" out="00:00:03.960"/>
@@ -12543,7 +12405,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <property name="ignore_points">0</property>
     <property name="xml">was here</property>
     <property name="meta.shotcut.vui">1</property>
-    <filter id="filter248" out="00:14:56.400">
+    <filter id="filter247" out="00:14:56.400">
       <property name="background">color:#00000000</property>
       <property name="mlt_service">affine</property>
       <property name="shotcut:filter">affineSizePosition</property>
@@ -14243,10 +14105,10 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <property name="shotcut:caption">bbb_003_もしカテゴリという….wav</property>
     <property name="xml">was here</property>
   </chain>
-  <chain id="chain283" out="00:00:03.400">
-    <property name="length">00:00:03.440</property>
+  <chain id="chain216" out="00:00:03.560">
+    <property name="length">00:00:03.600</property>
     <property name="eof">pause</property>
-    <property name="resource">voice/bbb/bbb_004_是非次からは意識し….wav</property>
+    <property name="resource">voice/zzz/002_雨晴はう（ノーマル）_是非つぎからは意識….wav</property>
     <property name="mlt_service">avformat-novalidate</property>
     <property name="meta.media.nb_streams">1</property>
     <property name="meta.media.0.stream.type">audio</property>
@@ -14259,12 +14121,11 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <property name="seekable">1</property>
     <property name="audio_index">0</property>
     <property name="video_index">-1</property>
-    <property name="creation_time">2023-12-15T04:05:01</property>
+    <property name="creation_time">2023-12-20T00:20:47</property>
     <property name="astream">0</property>
-    <property name="shotcut:skipConvert">1</property>
+    <property name="shotcut:hash">92385c179b74c59b811dc52814d27e8b</property>
+    <property name="shotcut:caption">002_雨晴はう（ノーマル）_是非つぎからは意識….wav</property>
     <property name="xml">was here</property>
-    <property name="shotcut:hash">32b365cfd531aab1b4acdb44301eea79</property>
-    <property name="shotcut:caption">bbb_004_是非次からは意識し….wav</property>
   </chain>
   <chain id="chain284" out="00:00:04.640">
     <property name="length">00:00:04.680</property>
@@ -14287,6 +14148,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <property name="shotcut:skipConvert">1</property>
     <property name="xml">was here</property>
     <property name="shotcut:hash">eb6ddd499a48952c0d29e5cdb0df07fe</property>
+    <property name="shotcut:caption">bbb_005_カテゴリとは通信速….wav</property>
   </chain>
   <chain id="chain285" out="00:00:05.640">
     <property name="length">00:00:05.680</property>
@@ -15436,7 +15298,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <property name="xml">was here</property>
     <property name="shotcut:hash">5c3c969d650113fcaaa9ebc2cae17ee7</property>
   </chain>
-  <chain id="chain216" out="00:00:02.160">
+  <chain id="chain221" out="00:00:02.160">
     <property name="length">00:00:02.200</property>
     <property name="eof">pause</property>
     <property name="resource">voice/zzz/003_雨晴はう（ノーマル）_話は本編に戻りまし….wav</property>
@@ -16028,8 +15890,9 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <entry producer="chain281" in="00:00:00.000" out="00:00:07.120"/>
     <blank length="00:00:00.400"/>
     <entry producer="chain215" in="00:00:00.000" out="00:00:04.400"/>
-    <entry producer="chain283" in="00:00:00.000" out="00:00:03.400"/>
-    <blank length="00:00:00.400"/>
+    <blank length="00:00:00.080"/>
+    <entry producer="chain216" in="00:00:00.000" out="00:00:03.560"/>
+    <blank length="00:00:00.240"/>
     <entry producer="chain284" in="00:00:00.000" out="00:00:04.640"/>
     <entry producer="chain285" in="00:00:00.000" out="00:00:05.640"/>
     <entry producer="chain286" in="00:00:00.000" out="00:00:04.880"/>
@@ -16119,7 +15982,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <blank length="00:00:00.400"/>
     <entry producer="chain349" in="00:00:00.000" out="00:00:07.720"/>
     <blank length="00:00:00.400"/>
-    <entry producer="chain216" in="00:00:00.000" out="00:00:02.160"/>
+    <entry producer="chain221" in="00:00:00.000" out="00:00:02.160"/>
     <blank length="00:00:00.040"/>
     <entry producer="chain352" in="00:00:00.000" out="00:00:02.640"/>
     <blank length="00:00:00.400"/>
@@ -16132,7 +15995,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <entry producer="chain355" in="00:00:00.000" out="00:00:03.800"/>
     <blank length="00:00:07.080"/>
     <entry producer="chain361" in="00:00:00.000" out="00:00:03.520"/>
-    <blank length="00:00:10.480"/>
+    <blank length="00:00:08.160"/>
     <entry producer="chain364" in="00:00:00.000" out="00:00:02.280"/>
     <blank length="00:00:00.840"/>
     <entry producer="chain367" in="00:00:00.000" out="00:00:01.400"/>
@@ -16161,29 +16024,6 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <blank length="00:00:00.400"/>
     <entry producer="chain379" in="00:00:00.000" out="00:00:04.080"/>
   </playlist>
-  <chain id="chain221" out="00:00:00.680">
-    <property name="length">00:00:00.720</property>
-    <property name="eof">pause</property>
-    <property name="resource">bgm/cut.mp3</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="meta.media.nb_streams">1</property>
-    <property name="meta.media.0.stream.type">audio</property>
-    <property name="meta.media.0.codec.sample_fmt">fltp</property>
-    <property name="meta.media.0.codec.sample_rate">44100</property>
-    <property name="meta.media.0.codec.channels">2</property>
-    <property name="meta.media.0.codec.name">mp3float</property>
-    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
-    <property name="meta.media.0.codec.bit_rate">192000</property>
-    <property name="meta.attr.0.stream.encoder.markup">LAME3.100</property>
-    <property name="seekable">1</property>
-    <property name="audio_index">0</property>
-    <property name="video_index">-1</property>
-    <property name="creation_time">2023-12-18T01:31:22</property>
-    <property name="astream">0</property>
-    <property name="shotcut:hash">5f0b9b9f58c550735f8a1906a8873436</property>
-    <property name="shotcut:caption">cut.mp3</property>
-    <property name="xml">was here</property>
-  </chain>
   <chain id="chain222" out="00:00:00.680">
     <property name="length">00:00:00.720</property>
     <property name="eof">pause</property>
@@ -16207,30 +16047,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <property name="shotcut:caption">cut.mp3</property>
     <property name="xml">was here</property>
   </chain>
-  <chain id="chain223" out="00:00:01.200">
-    <property name="length">00:00:01.240</property>
-    <property name="eof">pause</property>
-    <property name="resource">bgm/cutting.mp3</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="meta.media.nb_streams">1</property>
-    <property name="meta.media.0.stream.type">audio</property>
-    <property name="meta.media.0.codec.sample_fmt">fltp</property>
-    <property name="meta.media.0.codec.sample_rate">44100</property>
-    <property name="meta.media.0.codec.channels">2</property>
-    <property name="meta.media.0.codec.name">mp3float</property>
-    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
-    <property name="meta.media.0.codec.bit_rate">192000</property>
-    <property name="meta.attr.0.stream.encoder.markup">LAME3.100</property>
-    <property name="seekable">1</property>
-    <property name="audio_index">0</property>
-    <property name="video_index">-1</property>
-    <property name="creation_time">2023-12-18T04:33:37</property>
-    <property name="astream">0</property>
-    <property name="shotcut:hash">21f3a8304c864b26a6664b990377f8a5</property>
-    <property name="shotcut:caption">cutting.mp3</property>
-    <property name="xml">was here</property>
-  </chain>
-  <chain id="chain224" out="00:00:00.680">
+  <chain id="chain223" out="00:00:00.680">
     <property name="length">00:00:00.720</property>
     <property name="eof">pause</property>
     <property name="resource">bgm/cut.mp3</property>
@@ -16253,7 +16070,53 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <property name="shotcut:caption">cut.mp3</property>
     <property name="xml">was here</property>
   </chain>
-  <chain id="chain226" out="00:00:01.880">
+  <chain id="chain224" out="00:00:01.200">
+    <property name="length">00:00:01.240</property>
+    <property name="eof">pause</property>
+    <property name="resource">bgm/cutting.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">192000</property>
+    <property name="meta.attr.0.stream.encoder.markup">LAME3.100</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2023-12-18T04:33:37</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">21f3a8304c864b26a6664b990377f8a5</property>
+    <property name="shotcut:caption">cutting.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain226" out="00:00:00.680">
+    <property name="length">00:00:00.720</property>
+    <property name="eof">pause</property>
+    <property name="resource">bgm/cut.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">44100</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">192000</property>
+    <property name="meta.attr.0.stream.encoder.markup">LAME3.100</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2023-12-18T01:31:22</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">5f0b9b9f58c550735f8a1906a8873436</property>
+    <property name="shotcut:caption">cut.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain229" out="00:00:01.880">
     <property name="length">00:00:01.920</property>
     <property name="eof">pause</property>
     <property name="resource">voice/Camera-Phone01-mp3/Camera-Phone01-1.mp3</property>
@@ -16278,7 +16141,7 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <property name="shotcut:hash">afe0096e4d211c08c1cbb6e79bb4e0f3</property>
     <property name="shotcut:caption">Camera-Phone01-1.mp3</property>
   </chain>
-  <chain id="chain229" out="00:00:01.880">
+  <chain id="chain234" out="00:00:01.880">
     <property name="length">00:00:01.920</property>
     <property name="eof">pause</property>
     <property name="resource">voice/Camera-Phone01-mp3/Camera-Phone01-1.mp3</property>
@@ -16309,17 +16172,17 @@ https://www.truecable.com/blogs/cable-academy/what-is-an-rj45-connector</propert
     <property name="shotcut:name">BGM</property>
     <property name="shotcut:lock">0</property>
     <blank length="00:01:18.120"/>
-    <entry producer="chain221" in="00:00:00.000" out="00:00:00.680"/>
-    <blank length="00:01:25.120"/>
     <entry producer="chain222" in="00:00:00.000" out="00:00:00.680"/>
+    <blank length="00:01:25.120"/>
+    <entry producer="chain223" in="00:00:00.000" out="00:00:00.680"/>
     <blank length="00:01:24.520"/>
-    <entry producer="chain223" in="00:00:00.000" out="00:00:01.200"/>
+    <entry producer="chain224" in="00:00:00.000" out="00:00:01.200"/>
     <blank length="00:00:49.480"/>
-    <entry producer="chain224" in="00:00:00.000" out="00:00:00.680"/>
+    <entry producer="chain226" in="00:00:00.000" out="00:00:00.680"/>
     <blank length="00:00:26.040"/>
-    <entry producer="chain226" in="00:00:00.000" out="00:00:01.880"/>
-    <blank length="00:00:09.400"/>
     <entry producer="chain229" in="00:00:00.000" out="00:00:01.880"/>
+    <blank length="00:00:09.400"/>
+    <entry producer="chain234" in="00:00:00.000" out="00:00:01.880"/>
   </playlist>
   <tractor id="tractor7" title="Shotcut version 23.11.29" in="00:00:00.000" out="00:14:56.400">
     <property name="shotcut">1</property>
